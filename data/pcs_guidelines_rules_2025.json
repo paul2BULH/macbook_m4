@@ -1,0 +1,356 @@
+{
+  "meta": {
+    "id": "446a7cb4-ba15-49cb-8c5d-1be9d012256d",
+    "source_pdf": "pcs_guidelines_2025.pdf",
+    "version": "2025",
+    "created_utc": "2025-08-09T06:58:08.312602Z",
+    "notes": "Operationalized subset of official PCS guidelines for automated code generation. This file encodes rule effects and decision logic keys. Use alongside icd10pcs_definitions_2025.xml."
+  },
+  "rules": [
+    {
+      "id": "A1-7Chars",
+      "section": "A",
+      "title": "Seven-character completeness",
+      "effect": [
+        "require_7_characters"
+      ],
+      "logic": {
+        "all": [
+          {
+            "var": "candidate.len"
+          },
+          {
+            "eq": 7
+          }
+        ]
+      },
+      "on_fail": {
+        "action": "reject_code",
+        "reason": "Incomplete code length"
+      }
+    },
+    {
+      "id": "A8-InsufficientDocumentation",
+      "section": "A",
+      "title": "Insufficient documentation \u2192 Query",
+      "effect": [
+        "require_documentation_for_all_axes"
+      ],
+      "logic": {
+        "any": [
+          {
+            "missing": "facts.root_operation_objective"
+          },
+          {
+            "missing": "facts.body_part"
+          },
+          {
+            "missing": "facts.approach"
+          },
+          {
+            "and": [
+              {
+                "missing": "facts.device_required"
+              },
+              {
+                "missing": "facts.qualifier_required"
+              }
+            ]
+          }
+        ]
+      },
+      "on_fail": {
+        "action": "emit_query",
+        "reason": "Documentation insufficient for required characters"
+      }
+    },
+    {
+      "id": "A9-SameRowValidity",
+      "section": "A",
+      "title": "Characters 4\u20137 must be same-row valid per table",
+      "effect": [
+        "enforce_same_row_combination"
+      ],
+      "logic": {
+        "var": "tables.row_valid"
+      },
+      "on_fail": {
+        "action": "reject_code",
+        "reason": "Invalid table combination"
+      }
+    },
+    {
+      "id": "B3.1-RootOpByObjective",
+      "section": "B",
+      "title": "Select root operation by objective",
+      "effect": [
+        "map_text_to_root_operation"
+      ],
+      "logic": {
+        "var": "facts.objective"
+      },
+      "resolve": {
+        "use": "definitions.operations"
+      }
+    },
+    {
+      "id": "B3.2-MultipleProcedures",
+      "section": "B",
+      "title": "Multiple procedures coded separately",
+      "effect": [
+        "emit_codes_for_distinct_objectives_or_sites"
+      ],
+      "logic": {
+        "detect": [
+          "multi_sites",
+          "multi_objectives",
+          "separate_incisions"
+        ]
+      }
+    },
+    {
+      "id": "B3.3-Discontinued",
+      "section": "B",
+      "title": "Discontinued procedure coding",
+      "effect": [
+        "code_attempted_approach_if_entered",
+        "do_not_code_if_no_entry"
+      ],
+      "logic": {
+        "detect": [
+          "aborted",
+          "discontinued",
+          "converted"
+        ]
+      }
+    },
+    {
+      "id": "B3.4-BiopsyDiagnostic",
+      "section": "B",
+      "title": "Biopsy \u2192 Diagnostic qualifier; code definitive treatment separately",
+      "effect": [
+        "set_qualifier_Diagnostic",
+        "allow_additional_definitive_code"
+      ],
+      "logic": {
+        "detect": [
+          "biopsy",
+          "diagnostic_sample"
+        ]
+      }
+    },
+    {
+      "id": "B3.7-ControlVsSpecific",
+      "section": "B",
+      "title": "Control vs specific operation",
+      "effect": [
+        "prefer_specific_root_operation_over_Control"
+      ],
+      "logic": {
+        "detect": [
+          "hemostasis",
+          "bleeding_control"
+        ]
+      }
+    },
+    {
+      "id": "B3.8-ExcisionVsResection",
+      "section": "B",
+      "title": "Whole vs part of body part",
+      "effect": [
+        "if_whole_part_use_Resection_else_Excision"
+      ],
+      "logic": {
+        "detect": [
+          "partial",
+          "segmental",
+          "total",
+          "complete"
+        ]
+      }
+    },
+    {
+      "id": "B3.12-OcclusionVsRestriction",
+      "section": "B",
+      "title": "Embolization intent",
+      "effect": [
+        "if_objective_close_use_Occlusion_else_if_narrow_use_Restriction"
+      ],
+      "logic": {
+        "detect": [
+          "embolization",
+          "occlude",
+          "narrow"
+        ]
+      }
+    },
+    {
+      "id": "B3.19-DetachmentLevels",
+      "section": "B",
+      "title": "Amputation levels map to qualifiers",
+      "effect": [
+        "map_level_phrase_to_detachment_qualifier"
+      ],
+      "logic": {
+        "detect": [
+          "amputation",
+          "ray resection",
+          "through knee",
+          "midfoot",
+          "below-knee",
+          "above-knee"
+        ]
+      }
+    },
+    {
+      "id": "B4.1-RegionalPeri",
+      "section": "B",
+      "title": "Regional/peri- mapping for body part",
+      "effect": [
+        "map_regional_terms_to_canonical_body_part"
+      ],
+      "logic": {
+        "detect": [
+          "peri-",
+          "region of",
+          "wall of",
+          "near"
+        ]
+      }
+    },
+    {
+      "id": "B4.2-Branches",
+      "section": "B",
+      "title": "Branch to proximal/general body part",
+      "effect": [
+        "map_branch_to_proximal_or_general"
+      ],
+      "logic": {
+        "detect": [
+          "branch",
+          "segment branch"
+        ]
+      }
+    },
+    {
+      "id": "B4.3-Bilateral",
+      "section": "B",
+      "title": "Bilateral values",
+      "effect": [
+        "use_bilateral_when_available_else_two_codes"
+      ],
+      "logic": {
+        "detect": [
+          "bilateral",
+          "both sides"
+        ]
+      }
+    },
+    {
+      "id": "B4.4-CoronaryNumberSites",
+      "section": "B",
+      "title": "Coronary arteries by number of sites",
+      "effect": [
+        "set_body_part_to_number_of_sites",
+        "split_codes_by_different_device_or_qualifier"
+      ],
+      "logic": {
+        "detect": [
+          "coronary",
+          "LAD",
+          "RCA",
+          "obtuse marginal",
+          "number of sites"
+        ]
+      }
+    },
+    {
+      "id": "B5.2-ApproachHierarchy",
+      "section": "B",
+      "title": "Approach determination hierarchy",
+      "effect": [
+        "open_over_endoscopic_assist",
+        "perc_endoscopic_rules"
+      ],
+      "logic": {
+        "detect": [
+          "converted to open",
+          "endoscopic assistance",
+          "hand-assisted laparoscopy"
+        ]
+      }
+    },
+    {
+      "id": "B5.3-External",
+      "section": "B",
+      "title": "External approach rules",
+      "effect": [
+        "use_External_when_applicable"
+      ],
+      "logic": {
+        "detect": [
+          "external",
+          "skin",
+          "mucous membrane"
+        ]
+      }
+    },
+    {
+      "id": "B5.4-ViaDevice",
+      "section": "B",
+      "title": "Via device approach nuance",
+      "effect": [
+        "allow_via_device_when_access_is_through_device"
+      ],
+      "logic": {
+        "detect": [
+          "via device",
+          "existing access device"
+        ]
+      }
+    },
+    {
+      "id": "B6.1-DeviceRemains",
+      "section": "B",
+      "title": "Only code a device if it remains",
+      "effect": [
+        "set_device_to_NoDevice_if_not_remaining"
+      ],
+      "logic": {
+        "detect": [
+          "removed at end",
+          "no device left"
+        ]
+      }
+    },
+    {
+      "id": "B6.2-DrainageDevice",
+      "section": "B",
+      "title": "Drainage device coding",
+      "effect": [
+        "code_drainage_device_when_left_in_place"
+      ],
+      "logic": {
+        "detect": [
+          "drain placed",
+          "drain left in place"
+        ]
+      }
+    },
+    {
+      "id": "F-PrincipalProcedure",
+      "section": "F",
+      "title": "Principal procedure selection",
+      "effect": [
+        "select_principal_per_guidelines"
+      ],
+      "logic": {
+        "detect": [
+          "principal procedure",
+          "reason for admission",
+          "most related to principal diagnosis"
+        ]
+      }
+    }
+  ]
+}

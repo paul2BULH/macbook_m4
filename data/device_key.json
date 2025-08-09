@@ -1,0 +1,1318 @@
+{
+  "name": "ICD-10-PCS Device Key (Synonym → PCS Device Value)",
+  "version": "2025-08-09",
+  "source_file": "Device Key.md",
+  "count_terms": 407,
+  "data": {
+    "3f (Aortic) Bioprosthesis valve": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "AbioCor(R) Total Replacement Heart": [
+      "Synthetic Substitute"
+    ],
+    "Absolute Pro Vascular (OTW) Self-Expanding Stent System": [
+      "Intraluminal Device"
+    ],
+    "Acculink (RX) Carotid Stent System": [
+      "Intraluminal Device"
+    ],
+    "Acellular Hydrated Dermis": [
+      "Nonautologous Tissue Substitute"
+    ],
+    "Acetabular cup": [
+      "Liner in Lower Joints"
+    ],
+    "Activa PC neurostimulator": [
+      "Stimulator Generator, Multiple Array for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Activa RC neurostimulator": [
+      "Stimulator Generator, Multiple Array Rechargeable for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Activa SC neurostimulator": [
+      "Stimulator Generator, Single Array for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "ACUITY(tm) Steerable Lead": [
+      "Cardiac Lead, Pacemaker for Insertion in Heart and Great Vessels",
+      "Cardiac Lead, Defibrillator for Insertion in Heart and Great Vessels"
+    ],
+    "Advisa (MRI)": [
+      "Pacemaker, Dual Chamber for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "AFX(R) Endovascular AAA System": [
+      "Intraluminal Device"
+    ],
+    "Alfapump(R) system": [
+      "Other Device"
+    ],
+    "AMPLATZER(R) Muscular VSD Occluder": [
+      "Synthetic Substitute"
+    ],
+    "AMS 800(R) Urinary Control System": [
+      "Artificial Sphincter in Urinary System"
+    ],
+    "AneuRx(R) AAA Advantage(R)": [
+      "Intraluminal Device"
+    ],
+    "Ankle Truss System(tm) (ATS)": [
+      "Internal Fixation Device, Open-truss Design in New Technology"
+    ],
+    "Annuloplasty ring": [
+      "Synthetic Substitute"
+    ],
+    "Aortix(tm) System": [
+      "Short-term External Heart Assist System in Heart and Great Vessels"
+    ],
+    "ApiFix(R) Minimally Invasive Deformity Correction (MID-C) System": [
+      "Posterior (Dynamic) Distraction Device in New Technology"
+    ],
+    "aprevo(tm)": [
+      "Interbody Fusion Device, Custom-Made Anatomically Designed in New Technology"
+    ],
+    "Articulating Spacer (Antibiotic)": [
+      "Articulating Spacer in Lower Joints"
+    ],
+    "Artificial anal sphincter (AAS)": [
+      "Artificial Sphincter in Gastrointestinal System"
+    ],
+    "Artificial bowel sphincter (neosphincter)": [
+      "Artificial Sphincter in Gastrointestinal System"
+    ],
+    "Artificial urinary sphincter (AUS)": [
+      "Artificial Sphincter in Urinary System"
+    ],
+    "Ascenda Intrathecal Catheter": [
+      "Infusion Device"
+    ],
+    "Assurant (Cobalt) stent": [
+      "Intraluminal Device"
+    ],
+    "AtriClip LAA Exclusion System": [
+      "Extraluminal Device"
+    ],
+    "Attain Ability(R) lead": [
+      "Cardiac Lead, Pacemaker for Insertion in Heart and Great Vessels",
+      "Cardiac Lead, Defibrillator for Insertion in Heart and Great Vessels"
+    ],
+    "Attain StarFix(R) (OTW) lead": [
+      "Cardiac Lead, Pacemaker for Insertion in Heart and Great Vessels",
+      "Cardiac Lead, Defibrillator for Insertion in Heart and Great Vessels"
+    ],
+    "Autograft": [
+      "Autologous Tissue Substitute"
+    ],
+    "Autologous artery graft": [
+      "Autologous Arterial Tissue in Heart and Great Vessels",
+      "Autologous Arterial Tissue in Upper Arteries",
+      "Autologous Arterial Tissue in Lower Arteries",
+      "Autologous Arterial Tissue in Upper Veins",
+      "Autologous Arterial Tissue in Lower Veins"
+    ],
+    "Autologous vein graft": [
+      "Autologous Venous Tissue in Heart and Great Vessels",
+      "Autologous Venous Tissue in Upper Arteries",
+      "Autologous Venous Tissue in Lower Arteries",
+      "Autologous Venous Tissue in Upper Veins",
+      "Autologous Venous Tissue in Lower Veins"
+    ],
+    "Aveir(tm) AR, as dual chamber": [
+      "Intracardiac Pacemaker, Dual-Chamber in New Technology"
+    ],
+    "Aveir(tm) DR, dual chamber": [
+      "Intracardiac Pacemaker, Dual-Chamber in New Technology"
+    ],
+    "Aveir(tm) VR, as single chamber": [
+      "Intracardiac Pacemaker in Heart and Great Vessels"
+    ],
+    "Axial Lumbar Interbody Fusion System": [
+      "Interbody Fusion Device in Lower Joints"
+    ],
+    "AxiaLIF(R) System": [
+      "Interbody Fusion Device in Lower Joints"
+    ],
+    "BAK/C(R) Interbody Cervical Fusion System": [
+      "Interbody Fusion Device in Upper Joints"
+    ],
+    "Bard(R) Composix(R) $(E/X)(LP)$ mesh": [
+      "Synthetic Substitute"
+    ],
+    "Bard(R) Composix(R) Kugel(R) patch": [
+      "Synthetic Substitute"
+    ],
+    "Bard(R) Dulex(tm) mesh": [
+      "Synthetic Substitute"
+    ],
+    "Bard(R) Ventralex(tm) hernia patch": [
+      "Synthetic Substitute"
+    ],
+    "Baroreflex Activation Therapy(R) (BAT(R))": [
+      "Stimulator Lead in Upper Arteries",
+      "Stimulator Generator in Subcutaneous Tissue and Fascia"
+    ],
+    "Barricaid(R) Annular Closure Device (ACD)": [
+      "Synthetic Substitute"
+    ],
+    "Berlin Heart Ventricular Assist Device": [
+      "Implantable Heart Assist System in Heart and Great Vessels"
+    ],
+    "Bioactive embolization coil(s)": [
+      "Intraluminal Device, Bioactive in Upper Arteries"
+    ],
+    "Biventricular external heart assist system": [
+      "Short-term External Heart Assist System in Heart and Great Vessels"
+    ],
+    "BlackArmor(R) Carbon/PEEK fixation system": [
+      "Carbon/PEEK Spinal Stabilization Device, Pedicle Based in New Technology"
+    ],
+    "Blood glucose monitoring system": [
+      "Monitoring Device"
+    ],
+    "Bone anchored hearing device": [
+      "Hearing Device, Bone Conduction for Insertion in Ear, Nose, Sinus",
+      "Hearing Device in Head and Facial Bones"
+    ],
+    "Bone bank bone graft": [
+      "Nonautologous Tissue Substitute"
+    ],
+    "Bone screw (interlocking) (lag) (pedicle)(recessed)": [
+      "Internal Fixation Device in Head and Facial Bones",
+      "Internal Fixation Device in Upper Bones",
+      "Internal Fixation Device in Lower Bones"
+    ],
+    "Bovine pericardial valve": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "Bovine pericardium graft": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "Brachytherapy seeds": [
+      "Radioactive Element"
+    ],
+    "BRYAN(R) Cervical Disc System": [
+      "Synthetic Substitute"
+    ],
+    "BVS 5000 Ventricular Assist Device": [
+      "Short-term External Heart Assist System in Heart and Great Vessels"
+    ],
+    "Canturio(tm) te (Tibial Extension)": [
+      "Tibial Extension with Motion Sensors in New Technology"
+    ],
+    "Cardiac contractility modulation lead": [
+      "Cardiac Lead in Heart and Great Vessels"
+    ],
+    "Cardiac event recorder": [
+      "Monitoring Device"
+    ],
+    "Cardiac resynchronization therapy (CRT) lead": [
+      "Cardiac Lead, Pacemaker for Insertion in Heart and Great Vessels",
+      "Cardiac Lead, Defibrillator for Insertion in Heart and Great Vessels"
+    ],
+    "CardioMEMS(R) pressure sensor": [
+      "Monitoring Device, Pressure Sensor for Insertion in Heart and Great Vessels"
+    ],
+    "Carmat total artificial heart (TAH)": [
+      "Biologic with Synthetic Substitute, Autoregulated Electrohydraulic for Replacement in Heart and Great Vessels"
+    ],
+    "Carotid (artery) sinus (baroreceptor) lead": [
+      "Stimulator Lead in Upper Arteries"
+    ],
+    "Carotid WALLSTENT(R) Monorail(R) Endoprosthesis": [
+      "Intraluminal Device"
+    ],
+    "Centrimag(R) Blood Pump": [
+      "Short-term External Heart Assist System in Heart and Great Vessels"
+    ],
+    "Ceramic on ceramic bearing surface": [
+      "Synthetic Substitute, Ceramic for Replacement in Lower Joints"
+    ],
+    "Cesium-131 Collagen Implant": [
+      "Radioactive Element, Cesium-131 Collagen Implant for Insertion in Central Nervous System and Cranial Nerves"
+    ],
+    "CivaSheet(R)": [
+      "Radioactive Element"
+    ],
+    "Clamp and rod internal fixation system (CRIF)": [
+      "Internal Fixation Device in Upper Bones",
+      "Internal Fixation Device in Lower Bones"
+    ],
+    "COALESCE(R) radiolucent interbody fusion device": [
+      "Interbody Fusion Device in Upper Joints",
+      "Interbody Fusion Device in Lower Joints"
+    ],
+    "CoAxia NeuroFlo catheter": [
+      "Intraluminal Device"
+    ],
+    "Cobalt/chromium head and polyethylene socket": [
+      "Synthetic Substitute, Metal on Polyethylene for Replacement in Lower Joints"
+    ],
+    "Cobalt/chromium head and socket": [
+      "Synthetic Substitute, Metal for Replacement in Lower Joints"
+    ],
+    "Cochlear implant (CI), multiple channel (electrode)": [
+      "Hearing Device, Multiple Channel Cochlear Prosthesis for Insertion in Ear, Nose, Sinus"
+    ],
+    "Cochlear implant (CI), single channel (electrode)": [
+      "Hearing Device, Single Channel Cochlear Prosthesis for Insertion in Ear, Nose, Sinus"
+    ],
+    "COGNIS(R) CRT-D": [
+      "Cardiac Resynchronization Defibrillator Pulse Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "COHERE(R) radiolucent interbody fusion device": [
+      "Interbody Fusion Device in Upper Joints",
+      "Interbody Fusion Device in Lower Joints"
+    ],
+    "Colonic Z-Stent(R)": [
+      "Intraluminal Device"
+    ],
+    "Complete (SE) stent": [
+      "Intraluminal Device"
+    ],
+    "Concerto II CRT-D": [
+      "Cardiac Resynchronization Defibrillator Pulse Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "CONSERVE(R) PLUS Total Resurfacing Hip System": [
+      "Resurfacing Device in Lower Joints"
+    ],
+    "Consulta CRT-D": [
+      "Cardiac Resynchronization Defibrillator Pulse Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Consulta CRT-P": [
+      "Cardiac Resynchronization Pacemaker Pulse Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "CONTAK RENEWAL(R) 3 RF (HE) CRT-D": [
+      "Cardiac Resynchronization Defibrillator Pulse Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Contegra Pulmonary Valved Conduit": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "Continuous Glucose Monitoring (CGM) device": [
+      "Monitoring Device"
+    ],
+    "Cook Biodesign(R) Fistula Plug(s)": [
+      "Nonautologous Tissue Substitute"
+    ],
+    "Cook Biodesign(R) Hernia Graft(s)": [
+      "Nonautologous Tissue Substitute"
+    ],
+    "Cook Biodesign(R) Layered Graft(s)": [
+      "Nonautologous Tissue Substitute"
+    ],
+    "Cook Zenapro(tm) Layered Graft(s)": [
+      "Nonautologous Tissue Substitute"
+    ],
+    "Cook Zenith AAA Endovascular Graft": [
+      "Intraluminal Device"
+    ],
+    "Cook Zenith(R) Fenestrated AAA Endovascular Graft": [
+      "Intraluminal Device, Branched or Fenestrated, One or Two Arteries for Restriction in Lower Arteries",
+      "Intraluminal Device, Branched or Fenestrated, Three or More Arteries for Restriction in Lower Arteries"
+    ],
+    "CoreValve transcatheter aortic valve": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "Cormet Hip Resurfacing System": [
+      "Resurfacing Device in Lower Joints"
+    ],
+    "CoRoent(R) XL": [
+      "Interbody Fusion Device in Lower Joints"
+    ],
+    "Corox (OTW) Bipolar Lead": [
+      "Cardiac Lead, Pacemaker for Insertion in Heart and Great Vessels",
+      "Cardiac Lead, Defibrillator for Insertion in Heart and Great Vessels"
+    ],
+    "Cortical strip neurostimulator lead": [
+      "Neurostimulator Lead in Central Nervous System and Cranial Nerves"
+    ],
+    "Corvia IASD(R)": [
+      "Synthetic Substitute"
+    ],
+    "Cultured epidermal cell autograft": [
+      "Autologous Tissue Substitute"
+    ],
+    "CYPHER(R) Stent": [
+      "Intraluminal Device, Drug-eluting in Heart and Great Vessels"
+    ],
+    "Cystostomy tube": [
+      "Drainage Device"
+    ],
+    "DBS lead": [
+      "Neurostimulator Lead in Central Nervous System and Cranial Nerves"
+    ],
+    "DeBakey Left Ventricular Assist Device": [
+      "Implantable Heart Assist System in Heart and Great Vessels"
+    ],
+    "Deep brain neurostimulator lead": [
+      "Neurostimulator Lead in Central Nervous System and Cranial Nerves"
+    ],
+    "Delta frame external fixator": [
+      "External Fixation Device, Hybrid for Insertion in Upper Bones",
+      "External Fixation Device, Hybrid for Reposition in Upper Bones",
+      "External Fixation Device, Hybrid for Insertion in Lower Bones",
+      "External Fixation Device, Hybrid for Reposition in Lower Bones"
+    ],
+    "Delta III Reverse shoulder prosthesis": [
+      "Synthetic Substitute, Reverse Ball and Socket for Replacement in Upper Joints"
+    ],
+    "DETOUR(R) System": [
+      "Conduit through Femoral Vein to Superficial Femoral Artery in New Technology",
+      "Conduit through Femoral Vein to Popliteal Artery in New Technology"
+    ],
+    "Diaphragmatic pacemaker generator": [
+      "Stimulator Generator in Subcutaneous Tissue and Fascia"
+    ],
+    "Direct Lateral Interbody Fusion (DLIF) device": [
+      "Interbody Fusion Device in Lower Joints"
+    ],
+    "Driver stent (RX) (OTW)": [
+      "Intraluminal Device"
+    ],
+    "Drug-eluting resorbable scaffold intraluminal device": [
+      "Intraluminal Device, Everolimus-eluting Resorbable Scaffold(s) in New Technology"
+    ],
+    "DuraHeart Left Ventricular Assist System": [
+      "Implantable Heart Assist System in Heart and Great Vessels"
+    ],
+    "Durata (R) Defibrillation Lead": [
+      "Cardiac Lead, Defibrillator for Insertion in Heart and Great Vessels"
+    ],
+    "DynaClip(R) (Delta) (Forte) (Quattro)": [
+      "Internal Fixation Device, Sustained Compression for Fusion in Upper Joints",
+      "Internal Fixation Device, Sustained Compression for Fusion in Lower Joints"
+    ],
+    "DynaNail(R) (Helix) (Hybrid) (Mini)": [
+      "Internal Fixation Device, Sustained Compression for Fusion in Upper Joints",
+      "Internal Fixation Device, Sustained Compression for Fusion in Lower Joints"
+    ],
+    "Dynesys(R) Dynamic Stabilization System": [
+      "Spinal Stabilization Device, Pedicle-Based for Insertion in Upper Joints",
+      "Spinal Stabilization Device, Pedicle-Based for Insertion in Lower Joints"
+    ],
+    "E-Luminexx(tm) (Biliary) (Vascular) Stent": [
+      "Intraluminal Device"
+    ],
+    "EB-101 gene-corrected autologous cell therapy": [
+      "Prademagene Zamikeracel, Genetically Engineered Autologous Cell Therapy in New Technology"
+    ],
+    "EB-101 gene-corrected keratinocyte sheets": [
+      "Prademagene Zamikeracel, Genetically Engineered Autologous Cell Therapy in New Technology"
+    ],
+    "Edwards EVOQUE tricuspid valve replacement system": [
+      "Multi-plane Flex Technology Bioprosthetic Valve in New Technology"
+    ],
+    "Electrical bone growth stimulator (EBGS)": [
+      "Bone Growth Stimulator in Head and Facial Bones",
+      "Bone Growth Stimulator in Upper Bones",
+      "Bone Growth Stimulator in Lower Bones"
+    ],
+    "Electrical muscle stimulation (EMS) lead": [
+      "Stimulator Lead in Muscles"
+    ],
+    "Electronic muscle stimulator lead": [
+      "Stimulator Lead in Muscles"
+    ],
+    "Eluvia(tm) Drug-Eluting Vascular Stent System": [
+      "Intraluminal Device, Drug-eluting in Lower Arteries",
+      "Intraluminal Device, Drug-eluting, Two in Lower Arteries",
+      "Intraluminal Device, Drug-eluting, Three in Lower Arteries",
+      "Intraluminal Device, Drug-eluting, Four or More in Lower Arteries"
+    ],
+    "Embolization coil(s)": [
+      "Intraluminal Device"
+    ],
+    "Endeavor(R) (III)(IV) (Sprint) Zotarolimus-eluting Coronary Stent System": [
+      "Intraluminal Device, Drug-eluting in Heart and Great Vessels"
+    ],
+    "Endologix AFX(R) Endovascular AAA System": [
+      "Intraluminal Device"
+    ],
+    "EndoSure(R) sensor": [
+      "Monitoring Device, Pressure Sensor for Insertion in Heart and Great Vessels"
+    ],
+    "ENDOTAK RELIANCE(R) Defibrillation Lead": [
+      "Cardiac Lead, Defibrillator for Insertion in Heart and Great Vessels"
+    ],
+    "Endotracheal tube (cuffed) (double-lumen)": [
+      "Intraluminal Device, Endotracheal Airway in Respiratory System"
+    ],
+    "Endurant(R) Endovascular Stent Graft": [
+      "Intraluminal Device"
+    ],
+    "Endurant(R) II AAA stent graft system": [
+      "Intraluminal Device"
+    ],
+    "EnRhythm": [
+      "Pacemaker, Dual Chamber for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Enterra gastric neurostimulator": [
+      "Stimulator Generator, Multiple Array for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Epic(tm) Stented Tissue Valve (aortic)": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "Epicel(R) cultured epidermal autograft": [
+      "Autologous Tissue Substitute"
+    ],
+    "Esophageal obturator airway (EOA)": [
+      "Intraluminal Device, Airway in Gastrointestinal System"
+    ],
+    "Esprit(tm) BTK (scaffold) (stent)": [
+      "Intraluminal Device, Everolimus-eluting Resorbable Scaffold(s) in New Technology"
+    ],
+    "Esteem(R) implantable hearing system": [
+      "Hearing Device in Ear, Nose, Sinus"
+    ],
+    "EV ICD System (Extravascular implantable defibrillator lead)": [
+      "Defibrillator Lead in Anatomical Regions, General"
+    ],
+    "Evera (XT)(S)(DR/VR)": [
+      "Defibrillator Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Everolimus Eluting Resorbable Scaffold System": [
+      "Intraluminal Device, Everolimus-eluting Resorbable Scaffold(s) in New Technology"
+    ],
+    "Everolimus-eluting coronary stent": [
+      "Intraluminal Device, Drug-eluting in Heart and Great Vessels"
+    ],
+    "Ex-PRESS(tm) mini glaucoma shunt": [
+      "Synthetic Substitute"
+    ],
+    "EXCLUDER(R) AAA Endoprosthesis": [
+      "Intraluminal Device, Branched or Fenestrated, One or Two Arteries for Restriction in Lower Arteries",
+      "Intraluminal Device, Branched or Fenestrated, Three or More Arteries for Restriction in Lower Arteries",
+      "Intraluminal Device"
+    ],
+    "EXCLUDER(R) IBE Endoprosthesis": [
+      "Intraluminal Device, Branched or Fenestrated, One or Two Arteries for Restriction in Lower Arteries"
+    ],
+    "Express(R) (LD) Premounted Stent System": [
+      "Intraluminal Device"
+    ],
+    "Express(R) Biliary SD Monorail(R) Premounted Stent System": [
+      "Intraluminal Device"
+    ],
+    "Express(R) SD Renal Monorail(R) Premounted Stent System": [
+      "Intraluminal Device"
+    ],
+    "External fixator": [
+      "External Fixation Device in Head and Facial Bones",
+      "External Fixation Device in Upper Bones",
+      "External Fixation Device in Lower Bones",
+      "External Fixation Device in Upper Joints",
+      "External Fixation Device in Lower Joints"
+    ],
+    "EXtreme Lateral Interbody Fusion (XLIF) device": [
+      "Interbody Fusion Device in Lower Joints"
+    ],
+    "Facet Fixation implant": [
+      "Facet Joint Fusion Device, Paired Titanium Cages in New Technology"
+    ],
+    "Facet replacement spinal stabilization device": [
+      "Spinal Stabilization Device, Facet Replacement for Insertion in Upper Joints",
+      "Spinal Stabilization Device, Facet Replacement for Insertion in Lower Joints"
+    ],
+    "FFX(R) (Facet Fixation) implant": [
+      "Facet Joint Fusion Device, Paired Titanium Cages in New Technology"
+    ],
+    "Fish skin": [
+      "Nonautologous Tissue Substitute"
+    ],
+    "FLAIR(R) Endovascular Stent Graft": [
+      "Intraluminal Device"
+    ],
+    "Flexible Composite Mesh": [
+      "Synthetic Substitute"
+    ],
+    "Flourish(R) Pediatric Esophageal Atresia Device": [
+      "Magnetic Lengthening Device in Gastrointestinal System"
+    ],
+    "Flow Diverter embolization device": [
+      "Intraluminal Device, Flow Diverter for Restriction in Upper Arteries"
+    ],
+    "Foley catheter": [
+      "Drainage Device"
+    ],
+    "Formula(tm) Balloon-Expandable Renal Stent System": [
+      "Intraluminal Device"
+    ],
+    "Freestyle (Stentless) Aortic Root Bioprosthesis": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "Fusion screw (compression) (lag) (locking)": [
+      "Internal Fixation Device in Upper Joints",
+      "Internal Fixation Device in Lower Joints"
+    ],
+    "Gamma Tile(tm)": [
+      "Radioactive Element, Cesium-131 Collagen Implant for Insertion in Central Nervous System and Cranial Nerves",
+      "Radioactive Element, Palladium-103 Collagen Implant for Insertion in Central Nervous System and Cranial Nerves"
+    ],
+    "Gastric electrical stimulation (GES) lead": [
+      "Stimulator Lead in Gastrointestinal System"
+    ],
+    "Gastric pacemaker lead": [
+      "Stimulator Lead in Gastrointestinal System"
+    ],
+    "GORE EXCLUDER(R) AAA Endoprosthesis": [
+      "Intraluminal Device, Branched or Fenestrated, One or Two Arteries for Restriction in Lower Arteries",
+      "Intraluminal Device, Branched or Fenestrated, Three or More Arteries for Restriction in Lower Arteries",
+      "Intraluminal Device"
+    ],
+    "GORE EXCLUDER(R) IBE Endoprosthesis": [
+      "Intraluminal Device, Branched or Fenestrated, One or Two Arteries for Restriction in Lower Arteries"
+    ],
+    "GORE TAG(R) Thoracic Endoprosthesis": [
+      "Intraluminal Device"
+    ],
+    "GORE(R) DUALMESH(R)": [
+      "Synthetic Substitute"
+    ],
+    "GORE(R) EXCLUDER(R) TAMBE Device (Thoracoabdominal Branch Endoprosthesis)": [
+      "Branched Intraluminal Device, Manufactured Integrated System, Four or More Arteries in New Technology"
+    ],
+    "Guedel airway": [
+      "Intraluminal Device, Airway in Mouth and Throat"
+    ],
+    "Hancock Bioprosthesis (aortic) (mitral) valve": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "Hancock Bioprosthetic Valved Conduit": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "HAV(tm) (Human Acellular Vessel)": [
+      "Bioengineered Human Acellular Vessel in New Technology"
+    ],
+    "HeartMate 3(tm) LVAS": [
+      "Implantable Heart Assist System in Heart and Great Vessels"
+    ],
+    "HeartMate II(R) Left Ventricular Assist Device (LVAD)": [
+      "Implantable Heart Assist System in Heart and Great Vessels"
+    ],
+    "HeartMate XVE(R) Left Ventricular Assist Device (LVAD)": [
+      "Implantable Heart Assist System in Heart and Great Vessels"
+    ],
+    "Herculink (RX) Elite Renal Stent System": [
+      "Intraluminal Device"
+    ],
+    "Hip (joint) liner": [
+      "Liner in Lower Joints"
+    ],
+    "Holter valve ventricular shunt": [
+      "Synthetic Substitute"
+    ],
+    "Human Acellular Vessel(tm) (HAV)": [
+      "Bioengineered Human Acellular Vessel in New Technology"
+    ],
+    "IASD(R) (InterAtrial Shunt Device), Corvia": [
+      "Synthetic Substitute"
+    ],
+    "iFuse Bedrock(tm) Granite Implant System": [
+      "Internal Fixation Device with Tulip Connector in New Technology"
+    ],
+    "Ilizarov external fixator": [
+      "External Fixation Device, Ring for Insertion in Upper Bones",
+      "External Fixation Device, Ring for Reposition in Upper Bones",
+      "External Fixation Device, Ring for Insertion in Lower Bones",
+      "External Fixation Device, Ring for Reposition in Lower Bones"
+    ],
+    "Ilizarov-Vecklich device": [
+      "External Fixation Device, Limb Lengthening for Insertion in Upper Bones",
+      "External Fixation Device, Limb Lengthening for Insertion in Lower Bones"
+    ],
+    "Impella(R) 5.5 with SmartAssist(R) System": [
+      "Conduit to Short-term External Heart Assist System in New Technology"
+    ],
+    "Impella(R) heart pump": [
+      "Short-term External Heart Assist System in Heart and Great Vessels"
+    ],
+    "Implantable cardioverter-defibrillator (ICD)": [
+      "Defibrillator Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Implantable drug infusion pump (anti-spasmodic)(chemotherapy) (pain)": [
+      "Infusion Device, Pump in Subcutaneous Tissue and Fascia"
+    ],
+    "Implantable glucose monitoring device": [
+      "Monitoring Device"
+    ],
+    "Implantable hemodynamic monitor (IHM)": [
+      "Monitoring Device, Hemodynamic for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Implantable hemodynamic monitoring system (IHMS)": [
+      "Monitoring Device, Hemodynamic for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Implantable Miniature Telescope(tm) (IMT)": [
+      "Synthetic Substitute, Intraocular Telescope for Replacement in Eye"
+    ],
+    "Implanted (venous) (access) port": [
+      "Vascular Access Device, Totally Implantable in Subcutaneous Tissue and Fascia"
+    ],
+    "InDura, intrathecal catheter (1P) (spinal)": [
+      "Infusion Device"
+    ],
+    "Injection reservoir, port": [
+      "Vascular Access Device, Totally Implantable in Subcutaneous Tissue and Fascia"
+    ],
+    "Injection reservoir, pump": [
+      "Infusion Device, Pump in Subcutaneous Tissue and Fascia"
+    ],
+    "Innova(tm) stent": [
+      "Intraluminal Device"
+    ],
+    "Inspiris Resilia valve": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "Intellis(tm) neurostimulator": [
+      "Stimulator Generator, Multiple Array Rechargeable for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "InterAtrial Shunt Device IASD(R), Corvia": [
+      "Synthetic Substitute"
+    ],
+    "Interbody fusion (spine) cage": [
+      "Interbody Fusion Device in Upper Joints",
+      "Interbody Fusion Device in Lower Joints"
+    ],
+    "Interspinous process spinal stabilization device": [
+      "Spinal Stabilization Device, Interspinous Process for Insertion in Upper Joints",
+      "Spinal Stabilization Device, Interspinous Process for Insertion in Lower Joints"
+    ],
+    "InterStim(R) Therapy lead": [
+      "Neurostimulator Lead in Peripheral Nervous System"
+    ],
+    "InterStim(tm) II Therapy neurostimulator": [
+      "Stimulator Generator, Single Array for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "InterStim(tm) Micro Therapy neurostimulator": [
+      "Stimulator Generator, Single Array Rechargeable for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Intramedullary (IM) rod (nail)": [
+      "Internal Fixation Device, Intramedullary in Upper Bones",
+      "Internal Fixation Device, Intramedullary in Lower Bones"
+    ],
+    "Intramedullary skeletal kinetic distractor (ISKD)": [
+      "Internal Fixation Device, Intramedullary in Upper Bones",
+      "Internal Fixation Device, Intramedullary in Lower Bones"
+    ],
+    "Intrauterine device (IUD)": [
+      "Contraceptive Device in Female Reproductive System"
+    ],
+    "Ischemic Stroke System (ISS500)": [
+      "Neurostimulator Lead in New Technology"
+    ],
+    "ISS500 (Ischemic Stroke System)": [
+      "Neurostimulator Lead in New Technology"
+    ],
+    "Itrel (3)(4) neurostimulator": [
+      "Stimulator Generator, Single Array for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Joint fixation plate": [
+      "Internal Fixation Device in Upper Joints",
+      "Internal Fixation Device in Lower Joints"
+    ],
+    "Joint liner (insert)": [
+      "Liner in Lower Joints"
+    ],
+    "Joint spacer (antibiotic)": [
+      "Spacer in Upper Joints",
+      "Spacer in Lower Joints"
+    ],
+    "Kappa": [
+      "Pacemaker, Dual Chamber for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Kerecis(R) (GraftGuide) (MariGen) (SurgiBind) (SurgiClose)": [
+      "Nonautologous Tissue Substitute"
+    ],
+    "Kirschner wire (K-wire)": [
+      "Internal Fixation Device in Head and Facial Bones",
+      "Internal Fixation Device in Upper Bones",
+      "Internal Fixation Device in Lower Bones",
+      "Internal Fixation Device in Upper Joints",
+      "Internal Fixation Device in Lower Joints"
+    ],
+    "Knee (implant) insert": [
+      "Liner in Lower Joints"
+    ],
+    "Kuntscher nail": [
+      "Internal Fixation Device, Intramedullary in Upper Bones",
+      "Internal Fixation Device, Intramedullary in Lower Bones"
+    ],
+    "LAP-BAND(R) adjustable gastric banding system": [
+      "Extraluminal Device"
+    ],
+    "LifeStent(R) (Flexstar) (XL) Stent System Vascular": [
+      "Intraluminal Device"
+    ],
+    "LigaPASS 2.0(tm) PJK Prevention System": [
+      "Posterior Vertebral Tether in New Technology"
+    ],
+    "LimFlow(tm) Transcatheter Arterialization of the Deep Veins (TADV) System": [
+      "Synthetic Substitute"
+    ],
+    "LIVIAN(tm) CRT-D": [
+      "Cardiac Resynchronization Defibrillator Pulse Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Longeviti ClearFit(R) Cranial Implant": [
+      "Synthetic Substitute, Ultrasound Penetrable in New Technology"
+    ],
+    "Longeviti ClearFit(R) OTS Cranial Implant": [
+      "Synthetic Substitute, Ultrasound Penetrable in New Technology"
+    ],
+    "Loop recorder, implantable": [
+      "Monitoring Device"
+    ],
+    "LZRSE-COL7A1 engineered autologous epidermal sheets": [
+      "Prademagene Zamikeracel, Genetically Engineered Autologous Cell Therapy in New Technology"
+    ],
+    "MAGEC(R) Spinal Bracing and Distraction System": [
+      "Magnetically Controlled Growth Rod(s) in New Technology"
+    ],
+    "Mark IV Breathing Pacemaker System": [
+      "Stimulator Generator in Subcutaneous Tissue and Fascia"
+    ],
+    "Maximo II DR (VR)": [
+      "Defibrillator Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Maximo II DR CRT-D": [
+      "Cardiac Resynchronization Defibrillator Pulse Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Medtronic Endurant(R) II AAA stent graft system": [
+      "Intraluminal Device"
+    ],
+    "Melody(R) transcatheter pulmonary valve": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "Metal on metal bearing surface": [
+      "Synthetic Substitute, Metal for Replacement in Lower Joints"
+    ],
+    "Micro-Driver stent (RX) (OTW)": [
+      "Intraluminal Device"
+    ],
+    "MicroMed HeartAssist": [
+      "Implantable Heart Assist System in Heart and Great Vessels"
+    ],
+    "Micrus CERECYTE microcoil": [
+      "Intraluminal Device, Bioactive in Upper Arteries"
+    ],
+    "MIRODERM(tm) Biologic Wound Matrix": [
+      "Nonautologous Tissue Substitute"
+    ],
+    "MitraClip valve repair system": [
+      "Synthetic Substitute"
+    ],
+    "Mitroflow(R) Aortic Pericardial Heart Valve": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "Mosaic Bioprosthesis (aortic) (mitral) valve": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "MULTI-LINK (VISION) (MINI-VISION) (ULTRA) Coronary Stent System": [
+      "Intraluminal Device"
+    ],
+    "nanoLOCK(tm) interbody fusion device": [
+      "Interbody Fusion Device in Upper Joints",
+      "Interbody Fusion Device in Lower Joints"
+    ],
+    "Nasopharyngeal airway (NPA)": [
+      "Intraluminal Device, Airway in Ear, Nose, Sinus"
+    ],
+    "Neovasc Reducer(tm)": [
+      "Reduction Device in New Technology"
+    ],
+    "Neuromuscular electrical stimulation (NEMS) lead": [
+      "Stimulator Lead in Muscles"
+    ],
+    "Neurostimulator generator, multiple channel": [
+      "Stimulator Generator, Multiple Array for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Neurostimulator generator, multiple channel rechargeable": [
+      "Stimulator Generator, Multiple Array Rechargeable for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Neurostimulator generator, single channel": [
+      "Stimulator Generator, Single Array for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Neurostimulator generator, single channel rechargeable": [
+      "Stimulator Generator, Single Array Rechargeable for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Neutralization plate": [
+      "Internal Fixation Device in Head and Facial Bones",
+      "Internal Fixation Device in Upper Bones",
+      "Internal Fixation Device in Lower Bones"
+    ],
+    "Nitinol framed polymer mesh": [
+      "Synthetic Substitute"
+    ],
+    "Non-tunneled central venous catheter": [
+      "Infusion Device"
+    ],
+    "Novation (Articulation Hip System)": [
+      "Synthetic Substitute, Ceramic for Replacement in Lower Joints"
+    ],
+    "NUsurface (R) Meniscus Implant": [
+      "Synthetic Substitute, Lateral Meniscus in New Technology",
+      "Synthetic Substitute, Medial Meniscus in New Technology"
+    ],
+    "Novacor Left Ventricular Assist Device": [
+      "Implantable Heart Assist System in Heart and Great Vessels"
+    ],
+    "Omnilink Elite Vascular Balloon Expandable Stent System": [
+      "Intraluminal Device"
+    ],
+    "Open Pivot (mechanical) valve": [
+      "Synthetic Substitute"
+    ],
+    "Open Pivot Aortic Valve Graft (AVG)": [
+      "Synthetic Substitute"
+    ],
+    "Optimizer(tm) III implantable pulse generator": [
+      "Contractility Modulation Device for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Oropharyngeal airway (OPA)": [
+      "Intraluminal Device, Airway in Mouth and Throat"
+    ],
+    "Ovatio(tm) CRT-D": [
+      "Cardiac Resynchronization Defibrillator Pulse Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "OXINIUM": [
+      "Synthetic Substitute, Oxidized Zirconium on Polyethylene for Replacement in Lower Joints"
+    ],
+    "Paclitaxel-eluting coronary stent": [
+      "Intraluminal Device, Drug-eluting in Heart and Great Vessels"
+    ],
+    "Paclitaxel-eluting peripheral stent": [
+      "Intraluminal Device, Drug-eluting in Upper Arteries",
+      "Intraluminal Device, Drug-eluting in Lower Arteries"
+    ],
+    "Palladium-103 Collagen Implant": [
+      "Radioactive Element, Palladium-103 Collagen Implant for Insertion in Central Nervous System and Cranial Nerves"
+    ],
+    "Partially absorbable mesh": [
+      "Synthetic Substitute"
+    ],
+    "Pedicle-based dynamic stabilization device": [
+      "Spinal Stabilization Device, Pedicle-Based for Insertion in Upper Joints",
+      "Spinal Stabilization Device, Pedicle-Based for Insertion in Lower Joints"
+    ],
+    "PERCEPT(tm) PC neurostimulator": [
+      "Stimulator Generator, Multiple Array for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Percutaneous endoscopic gastrojejunostomy (PEG/J) tube": [
+      "Feeding Device in Gastrointestinal System"
+    ],
+    "Percutaneous endoscopic gastrostomy (PEG) tube": [
+      "Feeding Device in Gastrointestinal System"
+    ],
+    "Percutaneous nephrostomy catheter": [
+      "Drainage Device"
+    ],
+    "Peripherally inserted central catheter (PICC)": [
+      "Infusion Device"
+    ],
+    "Pessary ring": [
+      "Intraluminal Device, Pessary in Female Reproductive System"
+    ],
+    "Phrenic nerve stimulator generator": [
+      "Stimulator Generator in Subcutaneous Tissue and Fascia"
+    ],
+    "Phrenic nerve stimulator lead": [
+      "Diaphragmatic Pacemaker Lead in Respiratory System"
+    ],
+    "PHYSIOMESH(tm) Flexible Composite Mesh": [
+      "Synthetic Substitute"
+    ],
+    "Pipeline(tm) (Flex) embolization device": [
+      "Intraluminal Device, Flow Diverter for Restriction in Upper Arteries"
+    ],
+    "Piscine skin": [
+      "Nonautologous Tissue Substitute"
+    ],
+    "Polyethylene socket": [
+      "Synthetic Substitute, Polyethylene for Replacement in Lower Joints"
+    ],
+    "Polymethylmethacrylate (PMMA)": [
+      "Synthetic Substitute"
+    ],
+    "Polypropylene mesh": [
+      "Synthetic Substitute"
+    ],
+    "Porcine (bioprosthetic) valve": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "PRECICE intramedullary limb lengthening system": [
+      "Internal Fixation Device, Intramedullary Limb Lengthening for Insertion in Upper Bones",
+      "Internal Fixation Device, Intramedullary Limb Lengthening for Insertion in Lower Bones"
+    ],
+    "PRESTIGE(R) Cervical Disc": [
+      "Synthetic Substitute"
+    ],
+    "PrimeAdvanced neurostimulator (SureScan) (MRI Safe)": [
+      "Stimulator Generator, Multiple Array for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "PROCEED(tm) Ventral Patch": [
+      "Synthetic Substitute"
+    ],
+    "Prodisc-C": [
+      "Synthetic Substitute"
+    ],
+    "ProdiscL-": [
+      "Synthetic Substitute"
+    ],
+    "PROLENE Polypropylene Hernia System (PHS)": [
+      "Synthetic Substitute"
+    ],
+    "Protecta XT CRT-D": [
+      "Cardiac Resynchronization Defibrillator Pulse Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Protecta XT DR (XT VR)": [
+      "Defibrillator Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Protege(R) RX Carotid Stent System": [
+      "Intraluminal Device"
+    ],
+    "Pump reservoir": [
+      "Infusion Device, Pump in Subcutaneous Tissue and Fascia"
+    ],
+    "pz-cel": [
+      "Prademagene Zamikeracel, Genetically Engineered Autologous Cell Therapy in New Technology"
+    ],
+    "REALIZE(R) Adjustable Gastric Band": [
+      "Extraluminal Device"
+    ],
+    "Rebound HRD(R) (Hernia Repair Device)": [
+      "Synthetic Substitute"
+    ],
+    "Reducer(tm) System": [
+      "Reduction Device in New Technology"
+    ],
+    "restor3d TIDAL(tm) Fusion Cage": [
+      "Internal Fixation Device, Gyroid-Sheet Lattice Design in New Technology"
+    ],
+    "Restore Advanced neurostimulator (SureScan) (MRI Safe)": [
+      "Stimulator Generator, Multiple Array Rechargeable for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Restore Sensor neurostimulator (SureScan) (MRI Safe)": [
+      "Stimulator Generator, Multiple Array Rechargeable for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Restore Ultra neurostimulator (SureScan) (MRI Safe)": [
+      "Stimulator Generator, Multiple Array Rechargeable for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Reveal (LINQ)(DX)(XT)": [
+      "Monitoring Device"
+    ],
+    "Reverse(R) Shoulder Prosthesis": [
+      "Synthetic Substitute, Reverse Ball and Socket for Replacement in Upper Joints"
+    ],
+    "Revo MRI(tm) SureScan(R) pacemaker": [
+      "Pacemaker, Dual Chamber for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Rheos(R) System device": [
+      "Stimulator Generator in Subcutaneous Tissue and Fascia"
+    ],
+    "Rheos(R) System lead": [
+      "Stimulator Lead in Upper Arteries"
+    ],
+    "RNS System lead": [
+      "Neurostimulator Lead in Central Nervous System and Cranial Nerves"
+    ],
+    "RNS system neurostimulator generator": [
+      "Neurostimulator Generator in Head and Facial Bones"
+    ],
+    "S-ICD(tm) lead": [
+      "Subcutaneous Defibrillator Lead in Subcutaneous Tissue and Fascia"
+    ],
+    "Sacral nerve modulation (SNM) lead": [
+      "Stimulator Lead in Urinary System"
+    ],
+    "Sacral neuromodulation lead": [
+      "Stimulator Lead in Urinary System"
+    ],
+    "SAPIEN transcatheter aortic valve": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "SAVAL below-the-knee (BTK) drug-eluting stent system": [
+      "Intraluminal Device, Drug-eluting in Lower Arteries",
+      "Intraluminal Device, Drug-eluting, Two in Lower Arteries",
+      "Intraluminal Device, Drug-eluting, Three in Lower Arteries",
+      "Intraluminal Device, Drug-eluting, Four or More in Lower Arteries"
+    ],
+    "Secura (DR) (VR)": [
+      "Defibrillator Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Sheffield hybrid external fixator": [
+      "External Fixation Device, Hybrid for Insertion in Upper Bones",
+      "External Fixation Device, Hybrid for Reposition in Upper Bones",
+      "External Fixation Device, Hybrid for Insertion in Lower Bones",
+      "External Fixation Device, Hybrid for Reposition in Lower Bones"
+    ],
+    "Sheffield ring external fixator": [
+      "External Fixation Device, Ring for Insertion in Upper Bones",
+      "External Fixation Device, Ring for Reposition in Upper Bones",
+      "External Fixation Device, Ring for Insertion in Lower Bones",
+      "External Fixation Device, Ring for Reposition in Lower Bones"
+    ],
+    "Single lead pacemaker (atrium)(ventricle)": [
+      "Pacemaker, Single Chamber for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Single lead rate responsive pacemaker (atrium) (ventricle)": [
+      "Pacemaker, Single Chamber Rate Responsive for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Sirolimus-eluting coronary stent": [
+      "Intraluminal Device, Drug-eluting in Heart and Great Vessels"
+    ],
+    "SJM Biocor(R) Stented Valve System": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "Spacer, Articulating (Antibiotic)": [
+      "Articulating Spacer in Lower Joints"
+    ],
+    "Spacer, Static (Antibiotic)": [
+      "Spacer in Lower Joints"
+    ],
+    "Spinal cord neurostimulator lead": [
+      "Neurostimulator Lead in Central Nervous System and Cranial Nerves"
+    ],
+    "Spinal growth rods, magnetically controlled": [
+      "Magnetically Controlled Growth Rod(s) in New Technology"
+    ],
+    "SpineJack(R) system": [
+      "Synthetic Substitute, Mechanically Expandable (Paired) in New Technology"
+    ],
+    "Spiration IBV(tm) Valve System": [
+      "Intraluminal Device, Endobronchial Valve in Respiratory System"
+    ],
+    "Static Spacer (Antibiotic)": [
+      "Spacer in Lower Joints"
+    ],
+    "Stent, intraluminal (cardiovascular)(gastrointestinal) (hepatobiliary) (urinary)": [
+      "Intraluminal Device"
+    ],
+    "Stented tissue valve": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "Stratos LV": [
+      "Cardiac Resynchronization Pacemaker Pulse Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Subcutaneous injection reservoir, port": [
+      "Vascular Access Device, Totally Implantable in Subcutaneous Tissue and Fascia"
+    ],
+    "Subcutaneous injection reservoir, pump": [
+      "Infusion Device, Pump in Subcutaneous Tissue and Fascia"
+    ],
+    "Subdermal progesterone implant": [
+      "Contraceptive Device in Subcutaneous Tissue and Fascia"
+    ],
+    "Surpass Streamline(tm) Flow Diverter": [
+      "Intraluminal Device, Flow Diverter for Restriction in Upper Arteries"
+    ],
+    "SynCardia (temporary) total artificial heart (TAH)": [
+      "Synthetic Substitute, Pneumatic for Replacement in Heart and Great Vessels"
+    ],
+    "SynCardia Total Artificial Heart": [
+      "Synthetic Substitute"
+    ],
+    "SynchroMed pump": [
+      "Infusion Device, Pump in Subcutaneous Tissue and Fascia"
+    ],
+    "Syncra CRT-P": [
+      "Cardiac Resynchronization Pacemaker Pulse Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Talent(R) Converter": [
+      "Intraluminal Device"
+    ],
+    "Talent(R) Occluder": [
+      "Intraluminal Device"
+    ],
+    "Talent(R) Stent Graft (abdominal) (thoracic)": [
+      "Intraluminal Device"
+    ],
+    "TAMBE Device (Thoracoabdominal Branch Endoprosthesis), GORE(R) EXCLUDER(R)": [
+      "Branched Intraluminal Device, Manufactured Integrated System, Four or More Arteries in New Technology"
+    ],
+    "TandemHeart(R) System": [
+      "Short-term External Heart Assist System in Heart and Great Vessels"
+    ],
+    "TAXUS(R) Liberte(R) Paclitaxel-eluting Coronary Stent System": [
+      "Intraluminal Device, Drug-eluting in Heart and Great Vessels"
+    ],
+    "Therapeutic occlusion coil(s)": [
+      "Intraluminal Device"
+    ],
+    "Thoracostomy tube": [
+      "Drainage Device"
+    ],
+    "Thoraflex(tm) Hybrid device": [
+      "Branched Synthetic Substitute with Intraluminal Device in New Technology"
+    ],
+    "Thoratec IVAD (Implantable Ventricular Assist Device)": [
+      "Implantable Heart Assist System in Heart and Great Vessels"
+    ],
+    "Thoratec Paracorporeal Ventricular Assist Device": [
+      "Short-term External Heart Assist System in Heart and Great Vessels"
+    ],
+    "Tibial insert": [
+      "Liner in Lower Joints"
+    ],
+    "Tissue bank graft": [
+      "Nonautologous Tissue Substitute"
+    ],
+    "Tissue expander (inflatable) (injectable)": [
+      "Tissue Expander in Skin and Breast",
+      "Tissue Expander in Subcutaneous Tissue and Fascia"
+    ],
+    "Titan Endoskeleton(tm)": [
+      "Interbody Fusion Device in Upper Joints",
+      "Interbody Fusion Device in Lower Joints"
+    ],
+    "Titanium Sternal Fixation System (TSFS)": [
+      "Internal Fixation Device, Rigid Plate for Insertion in Upper Bones",
+      "Internal Fixation Device, Rigid Plate for Reposition in Upper Bones"
+    ],
+    "TOPS(tm) System": [
+      "Posterior Spinal Motion Preservation Device in New Technology"
+    ],
+    "Total Ankle Talar Replacement(tm) (TATR)": [
+      "Synthetic Substitute, Talar Prosthesis in New Technology"
+    ],
+    "Total artificial (replacement) heart": [
+      "Synthetic Substitute"
+    ],
+    "Tracheostomy tube": [
+      "Tracheostomy Device in Respiratory System"
+    ],
+    "TricValve(R) Transcatheter Bicaval Valve System": [
+      "Intraluminal Device, Bioprosthetic Valve in New Technology"
+    ],
+    "Trifecta(tm) Valve (aortic)": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "Tunneled central venous catheter": [
+      "Vascular Access Device, Tunneled in Subcutaneous Tissue and Fascia"
+    ],
+    "Tunneled spinal (intrathecal) catheter": [
+      "Infusion Device"
+    ],
+    "Two lead pacemaker": [
+      "Pacemaker, Dual Chamber for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Ultraflex(tm) Precision Colonic Stent System": [
+      "Intraluminal Device"
+    ],
+    "ULTRAPRO Hernia System (UHS)": [
+      "Synthetic Substitute"
+    ],
+    "ULTRAPRO Partially Absorbable Lightweight Mesh": [
+      "Synthetic Substitute"
+    ],
+    "ULTRAPRO Plug": [
+      "Synthetic Substitute"
+    ],
+    "Ultrasonic osteogenic stimulator": [
+      "Bone Growth Stimulator in Head and Facial Bones",
+      "Bone Growth Stimulator in Upper Bones",
+      "Bone Growth Stimulator in Lower Bones"
+    ],
+    "Ultrasound bone healing system": [
+      "Bone Growth Stimulator in Head and Facial Bones",
+      "Bone Growth Stimulator in Upper Bones",
+      "Bone Growth Stimulator in Lower Bones"
+    ],
+    "Uniplanar external fixator": [
+      "External Fixation Device, Monoplanar for Insertion in Upper Bones",
+      "External Fixation Device, Monoplanar for Reposition in Upper Bones",
+      "External Fixation Device, Monoplanar for Insertion in Lower Bones",
+      "External Fixation Device, Monoplanar for Reposition in Lower Bones"
+    ],
+    "Urinary incontinence stimulator lead": [
+      "Stimulator Lead in Urinary System"
+    ],
+    "V-Wave Interatrial Shunt System": [
+      "Synthetic Substitute"
+    ],
+    "VADER(R) Pedicle System": [
+      "Carbon/PEEK Spinal Stabilization Device, Pedicle Based in New Technology"
+    ],
+    "Vaginal pessary": [
+      "Intraluminal Device, Pessary in Female Reproductive System"
+    ],
+    "Valiant Thoracic Stent Graft": [
+      "Intraluminal Device"
+    ],
+    "Vanta(tm) PC neurostimulator": [
+      "Stimulator Generator, Multiple Array for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "VasQ(tm) External Support device": [
+      "Synthetic Substitute, Extraluminal Support Device in New Technology"
+    ],
+    "Vectra(R) Vascular Access Graft": [
+      "Vascular Access Device, Tunneled in Subcutaneous Tissue and Fascia"
+    ],
+    "VenoValve(R)": [
+      "Intraluminal Device, Bioprosthetic Valve in New Technology"
+    ],
+    "Ventrio(tm) Hernia Patch": [
+      "Synthetic Substitute"
+    ],
+    "Versa": [
+      "Pacemaker, Dual Chamber for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "VEST(tm) Venous External Support device": [
+      "Vein Graft Extraluminal Support Device(s) in New Technology"
+    ],
+    "Virtuoso (II) (DR) (VR)": [
+      "Defibrillator Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Viva (XT)(S)": [
+      "Cardiac Resynchronization Defibrillator Pulse Generator for Insertion in Subcutaneous Tissue and Fascia"
+    ],
+    "Vivistim(R) Paired VNS System Lead": [
+      "Neurostimulator Lead with Paired Stimulation System in New Technology"
+    ],
+    "WALLSTENT(R) Endoprosthesis": [
+      "Intraluminal Device"
+    ],
+    "X-Spine Axle Cage": [
+      "Spinal Stabilization Device, Interspinous Process for Insertion in Upper Joints",
+      "Spinal Stabilization Device, Interspinous Process for Insertion in Lower Joints"
+    ],
+    "X-STOP(R) Spacer": [
+      "Spinal Stabilization Device, Interspinous Process for Insertion in Upper Joints",
+      "Spinal Stabilization Device, Interspinous Process for Insertion in Lower Joints"
+    ],
+    "Xact Carotid Stent System": [
+      "Intraluminal Device"
+    ],
+    "Xenograft": [
+      "Zooplastic Tissue in Heart and Great Vessels"
+    ],
+    "XIENCE Everolimus Eluting Coronary Stent System": [
+      "Intraluminal Device, Drug-eluting in Heart and Great Vessels"
+    ],
+    "XLIF(R) System": [
+      "Interbody Fusion Device in Lower Joints"
+    ],
+    "Zenith AAA Endovascular Graft": [
+      "Intraluminal Device"
+    ],
+    "Zenith Flex(R) AAA Endovascular Graft": [
+      "Intraluminal Device"
+    ],
+    "Zenith TX2(R) TAA Endovascular Graft": [
+      "Intraluminal Device"
+    ],
+    "Zenith(R) Fenestrated AAA Endovascular Graft": [
+      "Intraluminal Device, Branched or Fenestrated, One or Two Arteries for Restriction in Lower Arteries",
+      "Intraluminal Device, Branched or Fenestrated, Three or More Arteries for Restriction in Lower Arteries"
+    ],
+    "Zenith(R) Renu(tm) AAA Ancillary Graft": [
+      "Intraluminal Device"
+    ],
+    "Zilver(R) PTX(R) (paclitaxel) Drug-Eluting Peripheral Stent": [
+      "Intraluminal Device, Drug-eluting in Upper Arteries",
+      "Intraluminal Device, Drug-eluting in Lower Arteries"
+    ],
+    "Zimmer(R) NexGen (R) LPS Mobile Bearing Knee": [
+      "Synthetic Substitute"
+    ],
+    "Zimmer(R) NexGen(R) LPS-Flex Mobile Knee": [
+      "Synthetic Substitute"
+    ],
+    "Zotarolimus-eluting coronary stent": [
+      "Intraluminal Device, Drug-eluting in Heart and Great Vessels"
+    ]
+  }
+}

@@ -1,0 +1,721 @@
+{
+  "debridement_procedure_coding_reference": {
+    "overview": "Step-by-step guide for coders to analyze operative report documentation for debridement procedures and accurately assign all seven characters of the ICD-10-PCS code",
+    "character_1_section": {
+      "value": "0",
+      "description": "Medical and Surgical",
+      "applies_to": "All debridement procedures (Excision or Extraction of skin, subcutaneous tissue, muscle, tendon, bursae, ligaments, or bone)"
+    },
+    "character_2_body_system": {
+      "determination_rule": "Determine the primary Body System where the debridement was performed. This is typically the deepest layer reached by the debridement.",
+      "options": {
+        "H": "Skin and Breast",
+        "J": "Subcutaneous Tissue and Fascia",
+        "K": "Muscles",
+        "L": "Tendons",
+        "M": "Bursae and Ligaments",
+        "N": "Head and Facial Bones",
+        "P": "Upper Bones",
+        "Q": "Lower Bones"
+      },
+      "supporting_documentation": "Identify the anatomical site and the deepest tissue layer involved in the debridement"
+    },
+    "character_3_root_operation": {
+      "excision_b": {
+        "definition": "Cutting out or off, without replacement, a portion of a body part",
+        "objective": "To remove a portion of a body part without replacing it",
+        "determination": {
+          "question": "Determine if Excisional Debridement is indicated by explicit documentation or by meeting the root operation definition of 'Excision'",
+          "documented_terms": [
+            "excisional",
+            "excise",
+            "cut out or off",
+            "scalpel to remove devitalized tissue"
+          ],
+          "logic": "If any of the above terms are documented, confirm Root Operation is B (Excision)"
+        }
+      },
+      "extraction_d": {
+        "definition": "Pulling or stripping out or off all or a portion of a body part by the use of force",
+        "objective": "To remove all or a portion of a body part using force, such as pulling or stripping",
+        "determination": {
+          "question": "Is 'Non-Excisional' identified by the method/description, primarily for the removal of devitalized tissue?",
+          "documented_methods": [
+            "Brushing of devitalized tissue",
+            "Irrigating of devitalized tissue",
+            "Scrubbing of devitalized tissue",
+            "Washing of devitalized tissue",
+            "Pulse lavage",
+            "Versajet",
+            "Tenex",
+            "Mechanical irrigation",
+            "High-pressure irrigation",
+            "Maggot therapy"
+          ],
+          "logic": "If any of the above methods are documented, confirm Root Operation is D (Extraction)"
+        }
+      },
+      "type_hierarchy": {
+        "rule": "If both excisional and non-excisional debridement techniques are performed at the same site, only the excisional debridement will be reported",
+        "priority": "Excisional debridement takes priority over non-excisional when both are performed at the same site"
+      }
+    },
+    "character_4_body_part": {
+      "deepest_layer_determination": {
+        "rule": "When debridement extends through multiple layers at the same anatomical site, code to the deepest layer reached",
+        "hierarchy_layers": [
+          {
+            "layer": "Skin",
+            "note": "Most superficial layer"
+          },
+          {
+            "layer": "Subcutaneous tissue (fat)",
+            "note": "When fat tissue is debrided, the depth is considered as subcutaneous tissue"
+          },
+          {
+            "layer": "Muscle",
+            "note": "Deeper than subcutaneous tissue"
+          },
+          {
+            "layer": "Tendon",
+            "note": "Deeper than muscle"
+          },
+          {
+            "layer": "Bursae and Ligaments",
+            "note": "Deep connective tissue structures"
+          },
+          {
+            "layer": "Bone (includes periosteum)",
+            "note": "When periosteum is debrided, the depth is considered as bone - deepest layer"
+          }
+        ]
+      },
+      "body_part_values": {
+        "excision_b": {
+          "body_system_h_skin_breast": {
+            "skin": {
+              "0": "Skin, Scalp",
+              "1": "Skin, Face",
+              "2": "Skin, Right Ear",
+              "3": "Skin, Left Ear",
+              "4": "Skin, Neck",
+              "5": "Skin, Chest",
+              "6": "Skin, Back",
+              "7": "Skin, Abdomen",
+              "8": "Skin, Buttock",
+              "9": "Skin, Perineum",
+              "A": "Skin, Inguinal",
+              "B": "Skin, Right Upper Arm",
+              "C": "Skin, Left Upper Arm",
+              "D": "Skin, Right Lower Arm",
+              "E": "Skin, Left Lower Arm",
+              "F": "Skin, Right Hand",
+              "G": "Skin, Left Hand",
+              "H": "Skin, Right Upper Leg",
+              "J": "Skin, Left Upper Leg",
+              "K": "Skin, Right Lower Leg",
+              "L": "Skin, Left Lower Leg",
+              "M": "Skin, Right Foot",
+              "N": "Skin, Left Foot"
+            },
+            "nails": {
+              "Q": "Finger Nail",
+              "R": "Toe Nail"
+            },
+            "breast": {
+              "T": "Breast, Right",
+              "U": "Breast, Left",
+              "V": "Breast, Bilateral",
+              "Y": "Supernumerary Breast"
+            },
+            "nipple": {
+              "W": "Nipple, Right",
+              "X": "Nipple, Left"
+            }
+          },
+          "body_system_j_subcutaneous": {
+            "0": "Scalp",
+            "1": "Face",
+            "4": "Right Neck",
+            "5": "Left Neck",
+            "6": "Chest",
+            "7": "Back",
+            "8": "Abdomen",
+            "9": "Buttock",
+            "B": "Perineum",
+            "C": "Pelvic Region",
+            "D": "Right Upper Arm",
+            "F": "Left Upper Arm",
+            "G": "Right Lower Arm",
+            "H": "Left Lower Arm",
+            "J": "Right Hand",
+            "K": "Left Hand",
+            "L": "Right Upper Leg",
+            "M": "Left Upper Leg",
+            "N": "Right Lower Leg",
+            "P": "Left Lower Leg",
+            "Q": "Right Foot",
+            "R": "Left Foot"
+          },
+          "body_system_k_muscles": {
+            "0": "Head Muscle",
+            "1": "Facial Muscle",
+            "2": "Neck Muscle, Right",
+            "3": "Neck Muscle, Left",
+            "4": "Tongue, Palate, Pharynx Muscle",
+            "5": "Shoulder Muscle, Right",
+            "6": "Shoulder Muscle, Left",
+            "7": "Upper Arm Muscle, Right",
+            "8": "Upper Arm Muscle, Left",
+            "9": "Lower Arm and Wrist Muscle, Right",
+            "B": "Lower Arm and Wrist Muscle, Left",
+            "C": "Hand Muscle, Right",
+            "D": "Hand Muscle, Left",
+            "F": "Trunk Muscle, Right",
+            "G": "Trunk Muscle, Left",
+            "H": "Thorax Muscle, Right",
+            "J": "Thorax Muscle, Left",
+            "K": "Abdomen Muscle, Right",
+            "L": "Abdomen Muscle, Left",
+            "M": "Perineum Muscle",
+            "N": "Hip Muscle, Right",
+            "P": "Hip Muscle, Left",
+            "Q": "Upper Leg Muscle, Right",
+            "R": "Upper Leg Muscle, Left",
+            "S": "Lower Leg Muscle, Right",
+            "T": "Lower Leg Muscle, Left",
+            "V": "Foot Muscle, Right",
+            "W": "Foot Muscle, Left"
+          },
+          "body_system_l_tendons": {
+            "0": "Head and Neck Tendon",
+            "1": "Shoulder Tendon, Right",
+            "2": "Shoulder Tendon, Left",
+            "3": "Upper Arm Tendon, Right",
+            "4": "Upper Arm Tendon, Left",
+            "5": "Lower Arm and Wrist Tendon, Right",
+            "6": "Lower Arm and Wrist Tendon, Left",
+            "7": "Hand Tendon, Right",
+            "8": "Hand Tendon, Left",
+            "9": "Trunk Tendon, Right",
+            "B": "Trunk Tendon, Left",
+            "C": "Thorax Tendon, Right",
+            "D": "Thorax Tendon, Left",
+            "F": "Abdomen Tendon, Right",
+            "G": "Abdomen Tendon, Left",
+            "H": "Perineum Tendon",
+            "J": "Hip Tendon, Right",
+            "K": "Hip Tendon, Left",
+            "L": "Upper Leg Tendon, Right",
+            "M": "Upper Leg Tendon, Left",
+            "N": "Lower Leg Tendon, Right",
+            "P": "Lower Leg Tendon, Left",
+            "Q": "Knee Tendon, Right",
+            "R": "Knee Tendon, Left",
+            "S": "Ankle Tendon, Right",
+            "T": "Ankle Tendon, Left",
+            "V": "Foot Tendon, Right",
+            "W": "Foot Tendon, Left"
+          },
+          "body_system_n_head_facial_bones": {
+            "0": "Skull",
+            "1": "Frontal Bone",
+            "3": "Parietal Bone, Right",
+            "4": "Parietal Bone, Left",
+            "5": "Temporal Bone, Right",
+            "6": "Temporal Bone, Left",
+            "7": "Occipital Bone",
+            "B": "Nasal Bone",
+            "C": "Sphenoid Bone",
+            "F": "Ethmoid Bone, Right",
+            "G": "Ethmoid Bone, Left",
+            "H": "Lacrimal Bone, Right",
+            "J": "Lacrimal Bone, Left",
+            "K": "Palatine Bone, Right",
+            "L": "Palatine Bone, Left",
+            "M": "Zygomatic Bone, Right",
+            "N": "Zygomatic Bone, Left",
+            "P": "Orbit, Right",
+            "Q": "Orbit, Left",
+            "R": "Maxilla",
+            "T": "Mandible, Right",
+            "V": "Mandible, Left",
+            "X": "Hyoid Bone"
+          },
+          "body_system_p_upper_bones": {
+            "0": "Sternum",
+            "1": "Ribs, 1 to 2",
+            "2": "Ribs, 3 or More",
+            "3": "Cervical Vertebra",
+            "4": "Thoracic Vertebra",
+            "5": "Scapula, Right",
+            "6": "Scapula, Left",
+            "7": "Glenoid Cavity, Right",
+            "8": "Glenoid Cavity, Left",
+            "9": "Clavicle, Right",
+            "B": "Clavicle, Left",
+            "C": "Humeral Head, Right",
+            "D": "Humeral Head, Left",
+            "F": "Humeral Shaft, Right",
+            "G": "Humeral Shaft, Left",
+            "H": "Radius, Right",
+            "J": "Radius, Left",
+            "K": "Ulna, Right",
+            "L": "Ulna, Left",
+            "M": "Carpal, Right",
+            "N": "Carpal, Left",
+            "P": "Metacarpal, Right",
+            "Q": "Metacarpal, Left",
+            "R": "Thumb Phalanx, Right",
+            "S": "Thumb Phalanx, Left",
+            "T": "Finger Phalanx, Right",
+            "V": "Finger Phalanx, Left"
+          },
+          "body_system_q_lower_bones": {
+            "0": "Lumbar Vertebra",
+            "1": "Sacrum",
+            "2": "Pelvic Bone, Right",
+            "3": "Pelvic Bone, Left",
+            "4": "Acetabulum, Right",
+            "5": "Acetabulum, Left",
+            "6": "Upper Femur, Right",
+            "7": "Upper Femur, Left",
+            "8": "Femoral Shaft, Right",
+            "9": "Femoral Shaft, Left",
+            "B": "Lower Femur, Right",
+            "C": "Lower Femur, Left",
+            "D": "Patella, Right",
+            "F": "Patella, Left",
+            "G": "Tibia, Right",
+            "H": "Tibia, Left",
+            "J": "Fibula, Right",
+            "K": "Fibula, Left",
+            "L": "Tarsal, Right",
+            "M": "Tarsal, Left",
+            "N": "Metatarsal, Right",
+            "P": "Metatarsal, Left",
+            "Q": "Toe Phalanx, Right",
+            "R": "Toe Phalanx, Left",
+            "S": "Coccyx",
+            "2": "Sesamoid Bone(s) 1st Toe"
+          }
+        },
+        "extraction_d": {
+          "body_system_h_skin_breast": {
+            "skin": {
+              "0": "Skin, Scalp",
+              "1": "Skin, Face",
+              "2": "Skin, Right Ear",
+              "3": "Skin, Left Ear",
+              "4": "Skin, Neck",
+              "5": "Skin, Chest",
+              "6": "Skin, Back",
+              "7": "Skin, Abdomen",
+              "8": "Skin, Buttock",
+              "9": "Skin, Perineum",
+              "A": "Skin, Inguinal",
+              "B": "Skin, Right Upper Arm",
+              "C": "Skin, Left Upper Arm",
+              "D": "Skin, Right Lower Arm",
+              "E": "Skin, Left Lower Arm",
+              "F": "Skin, Right Hand",
+              "G": "Skin, Left Hand",
+              "H": "Skin, Right Upper Leg",
+              "J": "Skin, Left Upper Leg",
+              "K": "Skin, Right Lower Leg",
+              "L": "Skin, Left Lower Leg",
+              "M": "Skin, Right Foot",
+              "N": "Skin, Left Foot"
+            },
+            "nails": {
+              "Q": "Finger Nail",
+              "R": "Toe Nail"
+            },
+            "hair": {
+              "S": "Hair"
+            },
+            "breast": {
+              "T": "Breast, Right",
+              "U": "Breast, Left",
+              "V": "Breast, Bilateral",
+              "Y": "Supernumerary Breast"
+            }
+          },
+          "body_system_j_subcutaneous": {
+            "0": "Scalp",
+            "1": "Face",
+            "4": "Right Neck",
+            "5": "Left Neck",
+            "6": "Chest",
+            "7": "Back",
+            "8": "Abdomen",
+            "9": "Buttock",
+            "B": "Perineum",
+            "C": "Pelvic Region",
+            "D": "Right Upper Arm",
+            "F": "Left Upper Arm",
+            "G": "Right Lower Arm",
+            "H": "Left Lower Arm",
+            "J": "Right Hand",
+            "K": "Left Hand",
+            "L": "Right Upper Leg",
+            "M": "Left Upper Leg",
+            "N": "Right Lower Leg",
+            "P": "Left Lower Leg",
+            "Q": "Right Foot",
+            "R": "Left Foot"
+          },
+          "body_system_k_muscles": {
+            "0": "Head Muscle",
+            "1": "Facial Muscle",
+            "2": "Neck Muscle, Right",
+            "3": "Neck Muscle, Left",
+            "4": "Tongue, Palate, Pharynx Muscle",
+            "5": "Shoulder Muscle, Right",
+            "6": "Shoulder Muscle, Left",
+            "7": "Upper Arm Muscle, Right",
+            "8": "Upper Arm Muscle, Left",
+            "9": "Lower Arm and Wrist Muscle, Right",
+            "B": "Lower Arm and Wrist Muscle, Left",
+            "C": "Hand Muscle, Right",
+            "D": "Hand Muscle, Left",
+            "F": "Trunk Muscle, Right",
+            "G": "Trunk Muscle, Left",
+            "H": "Thorax Muscle, Right",
+            "J": "Thorax Muscle, Left",
+            "K": "Abdomen Muscle, Right",
+            "L": "Abdomen Muscle, Left",
+            "M": "Perineum Muscle",
+            "N": "Hip Muscle, Right",
+            "P": "Hip Muscle, Left",
+            "Q": "Upper Leg Muscle, Right",
+            "R": "Upper Leg Muscle, Left",
+            "S": "Lower Leg Muscle, Right",
+            "T": "Lower Leg Muscle, Left",
+            "V": "Foot Muscle, Right",
+            "W": "Foot Muscle, Left"
+          },
+          "body_system_l_tendons": {
+            "0": "Head and Neck Tendon",
+            "1": "Shoulder Tendon, Right",
+            "2": "Shoulder Tendon, Left",
+            "3": "Upper Arm Tendon, Right",
+            "4": "Upper Arm Tendon, Left",
+            "5": "Lower Arm and Wrist Tendon, Right",
+            "6": "Lower Arm and Wrist Tendon, Left",
+            "7": "Hand Tendon, Right",
+            "8": "Hand Tendon, Left",
+            "9": "Trunk Tendon, Right",
+            "B": "Trunk Tendon, Left",
+            "C": "Thorax Tendon, Right",
+            "D": "Thorax Tendon, Left",
+            "F": "Abdomen Tendon, Right",
+            "G": "Abdomen Tendon, Left",
+            "H": "Perineum Tendon",
+            "J": "Hip Tendon, Right",
+            "K": "Hip Tendon, Left",
+            "L": "Upper Leg Tendon, Right",
+            "M": "Upper Leg Tendon, Left",
+            "N": "Lower Leg Tendon, Right",
+            "P": "Lower Leg Tendon, Left",
+            "Q": "Knee Tendon, Right",
+            "R": "Knee Tendon, Left",
+            "S": "Ankle Tendon, Right",
+            "T": "Ankle Tendon, Left",
+            "V": "Foot Tendon, Right",
+            "W": "Foot Tendon, Left"
+          },
+          "body_system_m_bursae_ligaments": {
+            "0": "Head and Neck Bursa and Ligament",
+            "1": "Shoulder Bursa and Ligament, Right",
+            "2": "Shoulder Bursa and Ligament, Left",
+            "3": "Elbow Bursa and Ligament, Right",
+            "4": "Elbow Bursa and Ligament, Left",
+            "5": "Wrist Bursa and Ligament, Right",
+            "6": "Wrist Bursa and Ligament, Left",
+            "7": "Hand Bursa and Ligament, Right",
+            "8": "Hand Bursa and Ligament, Left",
+            "9": "Upper Extremity Bursa and Ligament, Right",
+            "B": "Upper Extremity Bursa and Ligament, Left",
+            "C": "Upper Spine Bursa and Ligament",
+            "D": "Lower Spine Bursa and Ligament",
+            "F": "Sternum Bursa and Ligament",
+            "G": "Rib(s) Bursa and Ligament",
+            "H": "Abdomen Bursa and Ligament, Right",
+            "J": "Abdomen Bursa and Ligament, Left",
+            "K": "Perineum Bursa and Ligament",
+            "L": "Hip Bursa and Ligament, Right",
+            "M": "Hip Bursa and Ligament, Left",
+            "N": "Knee Bursa and Ligament, Right",
+            "P": "Knee Bursa and Ligament, Left",
+            "Q": "Ankle Bursa and Ligament, Right",
+            "R": "Ankle Bursa and Ligament, Left",
+            "S": "Foot Bursa and Ligament, Right",
+            "T": "Foot Bursa and Ligament, Left",
+            "V": "Lower Extremity Bursa and Ligament, Right",
+            "W": "Lower Extremity Bursa and Ligament, Left"
+          },
+          "body_system_n_head_facial_bones": {
+            "0": "Skull",
+            "1": "Frontal Bone",
+            "3": "Parietal Bone, Right",
+            "4": "Parietal Bone, Left",
+            "5": "Temporal Bone, Right",
+            "6": "Temporal Bone, Left",
+            "7": "Occipital Bone",
+            "B": "Nasal Bone",
+            "C": "Sphenoid Bone",
+            "F": "Ethmoid Bone, Right",
+            "G": "Ethmoid Bone, Left",
+            "H": "Lacrimal Bone, Right",
+            "J": "Lacrimal Bone, Left",
+            "K": "Palatine Bone, Right",
+            "L": "Palatine Bone, Left",
+            "M": "Zygomatic Bone, Right",
+            "N": "Zygomatic Bone, Left",
+            "P": "Orbit, Right",
+            "Q": "Orbit, Left",
+            "R": "Maxilla",
+            "T": "Mandible, Right",
+            "V": "Mandible, Left",
+            "X": "Hyoid Bone"
+          },
+          "body_system_p_upper_bones": {
+            "0": "Sternum",
+            "1": "Ribs, 1 to 2",
+            "2": "Ribs, 3 or More",
+            "3": "Cervical Vertebra",
+            "4": "Thoracic Vertebra",
+            "5": "Scapula, Right",
+            "6": "Scapula, Left",
+            "7": "Glenoid Cavity, Right",
+            "8": "Glenoid Cavity, Left",
+            "9": "Clavicle, Right",
+            "B": "Clavicle, Left",
+            "C": "Humeral Head, Right",
+            "D": "Humeral Head, Left",
+            "F": "Humeral Shaft, Right",
+            "G": "Humeral Shaft, Left",
+            "H": "Radius, Right",
+            "J": "Radius, Left",
+            "K": "Ulna, Right",
+            "L": "Ulna, Left",
+            "M": "Carpal, Right",
+            "N": "Carpal, Left",
+            "P": "Metacarpal, Right",
+            "Q": "Metacarpal, Left",
+            "R": "Thumb Phalanx, Right",
+            "S": "Thumb Phalanx, Left",
+            "T": "Finger Phalanx, Right",
+            "V": "Finger Phalanx, Left"
+          },
+          "body_system_q_lower_bones": {
+            "0": "Lumbar Vertebra",
+            "1": "Sacrum",
+            "2": "Pelvic Bone, Right",
+            "3": "Pelvic Bone, Left",
+            "4": "Acetabulum, Right",
+            "5": "Acetabulum, Left",
+            "6": "Upper Femur, Right",
+            "7": "Upper Femur, Left",
+            "8": "Femoral Shaft, Right",
+            "9": "Femoral Shaft, Left",
+            "B": "Lower Femur, Right",
+            "C": "Lower Femur, Left",
+            "D": "Patella, Right",
+            "F": "Patella, Left",
+            "G": "Tibia, Right",
+            "H": "Tibia, Left",
+            "J": "Fibula, Right",
+            "K": "Fibula, Left",
+            "L": "Tarsal, Right",
+            "M": "Tarsal, Left",
+            "N": "Metatarsal, Right",
+            "P": "Metatarsal, Left",
+            "Q": "Toe Phalanx, Right",
+            "R": "Toe Phalanx, Left",
+            "S": "Coccyx",
+            "2": "Sesamoid Bone(s) 1st Toe"
+          }
+        }
+      }
+    },
+    "character_5_approach": {
+      "excision_b": {
+        "body_system_h_skin_breast": {
+          "breast_nipple": {
+            "0": "Open - Body part exposed by incision through skin and other layers",
+            "3": "Percutaneous - Entry by puncture or minor incision",
+            "7": "Via Natural or Artificial Opening - Entry through external opening",
+            "8": "Via Natural or Artificial Opening Endoscopic - Entry through external opening with scope visualization"
+          },
+          "skin_nails": {
+            "X": "External - Procedures performed directly on the skin or mucous membrane and not involving incision or puncture"
+          }
+        },
+        "body_system_j_subcutaneous": {
+          "0": "Open - Body part exposed by incision through skin and other layers",
+          "3": "Percutaneous - Entry by puncture or minor incision"
+        },
+        "body_system_k_muscles": {
+          "0": "Open - Body part exposed by incision through skin and other layers",
+          "3": "Percutaneous - Entry by puncture or minor incision",
+          "4": "Percutaneous Endoscopic - Percutaneous entry with visualization using a scope"
+        },
+        "body_system_l_tendons": {
+          "0": "Open - Body part exposed by incision through skin and other layers",
+          "3": "Percutaneous - Entry by puncture or minor incision",
+          "4": "Percutaneous Endoscopic - Percutaneous entry with visualization using a scope"
+        },
+        "body_system_n_head_facial_bones": {
+          "0": "Open - Body part exposed by incision through skin and other layers",
+          "3": "Percutaneous - Entry by puncture or minor incision",
+          "4": "Percutaneous Endoscopic - Percutaneous entry with visualization using a scope"
+        },
+        "body_system_p_upper_bones": {
+          "0": "Open - Body part exposed by incision through skin and other layers",
+          "3": "Percutaneous - Entry by puncture or minor incision",
+          "4": "Percutaneous Endoscopic - Percutaneous entry with visualization using a scope"
+        },
+        "body_system_q_lower_bones": {
+          "0": "Open - The body part is exposed by incision through the skin and other layers",
+          "3": "Percutaneous - Entry by puncture or minor incision",
+          "4": "Percutaneous Endoscopic - Percutaneous entry with visualization using a scope"
+        }
+      },
+      "extraction_d": {
+        "body_system_h_skin_breast": {
+          "skin_nails_hair": {
+            "X": "External - Procedures directly on skin or mucous membrane, not involving incision or puncture"
+          },
+          "breast": {
+            "0": "Open - Body part exposed by incision through skin and other layers"
+          }
+        },
+        "body_system_j_subcutaneous": {
+          "0": "Open - Body part exposed by incision through skin and other layers",
+          "3": "Percutaneous - Entry by puncture or minor incision"
+        },
+        "body_system_k_muscles": {
+          "0": "Open - Body part exposed by incision through skin and other layers",
+          "3": "Percutaneous - Entry by puncture or minor incision",
+          "4": "Percutaneous Endoscopic - Percutaneous entry with visualization using a scope"
+        },
+        "body_system_l_tendons": {
+          "0": "Open - Body part exposed by incision through skin and other layers"
+        },
+        "body_system_m_bursae_ligaments": {
+          "0": "Open - Body part exposed by incision through skin and other layers",
+          "3": "Percutaneous - Entry by puncture or minor incision",
+          "4": "Percutaneous Endoscopic - Percutaneous entry with visualization using a scope"
+        },
+        "body_system_n_head_facial_bones": {
+          "0": "Open - Body part exposed by incision through skin and other layers"
+        },
+        "body_system_p_upper_bones": {
+          "0": "Open - Body part exposed by incision through skin and other layers"
+        },
+        "body_system_q_lower_bones": {
+          "0": "Open - The body part is exposed by incision through the skin and other layers"
+        }
+      },
+      "supporting_documentation": "Look for explicit descriptions of the access method (e.g., 'incision,' 'puncture,' 'scope visualization')"
+    },
+    "character_6_device": {
+      "default_value": "Z",
+      "description": "No Device",
+      "rule": "For Excision (Root Operation B) and Extraction (Root Operation D) procedures, the default Device character is 'Z' (No Device)",
+      "supporting_documentation": "Look for explicit statements that no device was left, or absence of documentation of an implanted device",
+      "exception": "If documentation explicitly states a device was left in place, this procedure may not be coded to Excision or Extraction (Requires re-evaluation of Root Operation)"
+    },
+    "character_7_qualifier": {
+      "determination": {
+        "question": "Is the primary purpose of the Excision or Extraction procedure to obtain a tissue sample for diagnostic examination (e.g., a biopsy)?",
+        "documented_diagnostic_intent": [
+          "Procedure primarily for diagnostic purposes (e.g., 'biopsy')"
+        ],
+        "values": {
+          "X": {
+            "description": "Diagnostic",
+            "condition": "If documented as diagnostic"
+          },
+          "Z": {
+            "description": "No Qualifier",
+            "condition": "If not documented as diagnostic"
+          }
+        },
+        "supporting_documentation": "Look for terms like 'biopsy,' 'diagnostic excision,' or explicit statements of intent to obtain a sample for pathology"
+      }
+    },
+    "query_triggers": {
+      "debridement_type_root_operation": {
+        "ambiguous_type_documentation": {
+          "description": "A query is required if the documentation contains any of the following phrases that are unclear regarding the debridement type (Excisional vs. Non-Excisional)",
+          "ambiguous_phrases": [
+            "Debridement of fascia",
+            "Sharp debridement",
+            "Wound debridement",
+            "Debridement of bone",
+            "Removed devitalized tissue"
+          ],
+          "additional_rule": "If the method described does not clearly fit either excisional or non-excisional criteria, and ambiguous phrases are not present, a general query for clarification on the debridement type is needed"
+        }
+      },
+      "debridement_depth_body_part": {
+        "unacceptable_depth_phrases": {
+          "description": "A query is required if the documentation contains any of the following phrases that are considered unacceptable for determining depth",
+          "phrases": [
+            "down to the bone",
+            "down to the muscle",
+            "down to the subcutaneous tissue"
+          ],
+          "purpose": "The omission of 'and including' or 'level of' makes these phrases ambiguous, requiring further information from the provider",
+          "rule": "If any of the unacceptable depth phrases are present, it indicates insufficient documentation, requiring a query for clarification on the deepest level reached"
+        },
+        "general_depth_query": "If the documentation mentions debridement to a certain tissue but doesn't use any of the acceptable or unacceptable phrases, a query is needed to clarify the deepest anatomical layer reached"
+      },
+      "approach_character_5": {
+        "condition": "If the Approach is ambiguous or unspecified"
+      },
+      "device_character_6": {
+        "condition": "If a device was used but its type or intent to remain is unclear (impacting Device character)"
+      },
+      "qualifier_character_7": {
+        "condition": "If the primary intent of the procedure (diagnostic vs. therapeutic) is unclear, impacting the Qualifier"
+      }
+    },
+    "coding_workflow": {
+      "step_1": {
+        "description": "Identify Section (Character 1)",
+        "value": "0 (Medical and Surgical)",
+        "applies_to": "All debridement procedures"
+      },
+      "step_2": {
+        "description": "Identify Body System (Character 2)",
+        "rule": "Determine the primary Body System where the debridement was performed. This is typically the deepest layer reached by the debridement"
+      },
+      "step_3": {
+        "description": "Identify Root Operation (Character 3)",
+        "options": ["B (Excision)", "D (Extraction)"],
+        "hierarchy_rule": "If both excisional and non-excisional debridement techniques are performed at the same site, only the excisional debridement will be reported"
+      },
+      "step_4": {
+        "description": "Identify Body Part (Character 4)",
+        "rule": "Select the most specific anatomical Body Part documented, based on the deepest layer determination"
+      },
+      "step_5": {
+        "description": "Identify Approach (Character 5)",
+        "rule": "Confirm the appropriate Approach documented based on Body System and Root Operation"
+      },
+      "step_6": {
+        "description": "Identify Device (Character 6)",
+        "default": "Z (No Device)"
+      },
+      "step_7": {
+        "description": "Identify Qualifier (Character 7)",
+        "options": ["X (Diagnostic)", "Z (No Qualifier)"],
+        "determination": "Based on primary purpose - diagnostic vs. therapeutic"
+      }
+    }
+  }
+}

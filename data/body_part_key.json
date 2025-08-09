@@ -1,0 +1,3900 @@
+{
+  "name": "ICD-10-PCS Body Part Key (Synonym → Preferred Body Part Name)",
+  "version": "2025-08-09",
+  "source_file": "Body Part Key.md",
+  "description": "Maps anatomical terms/synonyms to preferred ICD-10-PCS body part names for 4th-character resolution.",
+  "count_terms": 1106,
+  "data": {
+    "Abdominal aortic plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Abdominal cavity": [
+      "Peritoneal Cavity"
+    ],
+    "Abdominal esophagus": [
+      "Esophagus, Lower"
+    ],
+    "Abductor hallucis muscle": [
+      "Foot Muscle, Right",
+      "Foot Muscle, Left"
+    ],
+    "Accessory cephalic vein": [
+      "Cephalic Vein, Right",
+      "Cephalic Vein, Left"
+    ],
+    "Accessory obturator nerve": [
+      "Lumbar Plexus"
+    ],
+    "Accessory phrenic nerve": [
+      "Phrenic Nerve"
+    ],
+    "Accessory spleen": [
+      "Spleen"
+    ],
+    "Acetabulofemoral joint": [
+      "Hip Joint, Right",
+      "Hip Joint, Left"
+    ],
+    "Achilles tendon": [
+      "Lower Leg Tendon, Right",
+      "Lower Leg Tendon, Left"
+    ],
+    "Acromioclavicular ligament": [
+      "Shoulder Bursa and Ligament, Right",
+      "Shoulder Bursa and Ligament, Left"
+    ],
+    "Acromion (process)": [
+      "Scapula, Right",
+      "Scapula, Left"
+    ],
+    "Adductor brevis muscle": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Adductor hallucis muscle": [
+      "Foot Muscle, Right",
+      "Foot Muscle, Left"
+    ],
+    "Adductor longus muscle": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Adductor magnus muscle": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Adductor pollicis muscle": [
+      "Hand Muscle, Right",
+      "Hand Muscle, Left"
+    ],
+    "Adenohypophysis": [
+      "Pituitary Gland"
+    ],
+    "Alar ligament of axis": [
+      "Head and Neck Bursa and Ligament"
+    ],
+    "Alveolar process of mandible": [
+      "Mandible, Right",
+      "Mandible, Left"
+    ],
+    "Alveolar process of maxilla": [
+      "Maxilla"
+    ],
+    "Anal orifice": [
+      "Anus"
+    ],
+    "Anatomical snuffbox": [
+      "Lower Arm and Wrist Muscle, Right",
+      "Lower Arm and Wrist Muscle, Left"
+    ],
+    "Anconeus muscle": [
+      "Lower Arm and Wrist Muscle, Right",
+      "Lower Arm and Wrist Muscle, Left"
+    ],
+    "Angular artery": [
+      "Face Artery"
+    ],
+    "Angular vein": [
+      "Face Vein, Right",
+      "Face Vein, Left"
+    ],
+    "Annular ligament": [
+      "Elbow Bursa and Ligament, Right",
+      "Elbow Bursa and Ligament, Left"
+    ],
+    "Anorectal junction": [
+      "Rectum"
+    ],
+    "Ansa cervicalis": [
+      "Cervical Plexus"
+    ],
+    "Antebrachial fascia": [
+      "Subcutaneous Tissue and Fascia, Right Lower Arm",
+      "Subcutaneous Tissue and Fascia, Left Lower Arm"
+    ],
+    "Anterior (pectoral) lymph node": [
+      "Lymphatic, Right Axillary",
+      "Lymphatic, Left Axillary"
+    ],
+    "Anterior cerebral artery": [
+      "Intracranial Artery"
+    ],
+    "Anterior cerebral vein": [
+      "Intracranial Vein"
+    ],
+    "Anterior choroidal artery": [
+      "Intracranial Artery"
+    ],
+    "Anterior circumflex humeral artery": [
+      "Axillary Artery, Right",
+      "Axillary Artery, Left"
+    ],
+    "Anterior communicating artery": [
+      "Intracranial Artery"
+    ],
+    "Anterior cruciate ligament (ACL)": [
+      "Knee Bursa and Ligament, Right",
+      "Knee Bursa and Ligament, Left"
+    ],
+    "Anterior crural nerve": [
+      "Femoral Nerve"
+    ],
+    "Anterior facial vein": [
+      "Face Vein, Right",
+      "Face Vein, Left"
+    ],
+    "Anterior intercostal artery": [
+      "Internal Mammary Artery, Right",
+      "Internal Mammary Artery, Left"
+    ],
+    "Anterior interosseous nerve": [
+      "Median Nerve"
+    ],
+    "Anterior lateral malleolar artery": [
+      "Anterior Tibial Artery, Right",
+      "Anterior Tibial Artery, Left"
+    ],
+    "Anterior lingual gland": [
+      "Minor Salivary Gland"
+    ],
+    "Anterior medial malleolar artery": [
+      "Anterior Tibial Artery, Right",
+      "Anterior Tibial Artery, Left"
+    ],
+    "Anterior spinal artery": [
+      "Vertebral Artery, Right",
+      "Vertebral Artery, Left"
+    ],
+    "Anterior tibial recurrent artery": [
+      "Anterior Tibial Artery, Right",
+      "Anterior Tibial Artery, Left"
+    ],
+    "Anterior ulnar recurrent artery": [
+      "Ulnar Artery, Right",
+      "Ulnar Artery, Left"
+    ],
+    "Anterior vagal trunk": [
+      "Vagus Nerve"
+    ],
+    "Anterior vertebral muscle": [
+      "Neck Muscle, Right",
+      "Neck Muscle, Left"
+    ],
+    "Antihelix": [
+      "External Ear, Right",
+      "External Ear, Left",
+      "External Ear, Bilateral"
+    ],
+    "Antitragus": [
+      "External Ear, Right",
+      "External Ear, Left",
+      "External Ear, Bilateral"
+    ],
+    "Antrum of Highmore": [
+      "Maxillary Sinus, Right",
+      "Maxillary Sinus, Left"
+    ],
+    "Aortic annulus": [
+      "Aortic Valve"
+    ],
+    "Aortic arch": [
+      "Thoracic Aorta, Ascending/Arch"
+    ],
+    "Aortic intercostal artery": [
+      "Upper Artery"
+    ],
+    "Aortic isthmus": [
+      "Thoracic Aorta, Ascending/Arch"
+    ],
+    "Apical (subclavicular) lymph node": [
+      "Lymphatic, Right Axillary",
+      "Lymphatic, Left Axillary"
+    ],
+    "Apneustic center": [
+      "Pons"
+    ],
+    "Appendiceal orifice": [
+      "Appendix"
+    ],
+    "Aqueduct of Sylvius": [
+      "Cerebral Ventricle"
+    ],
+    "Aqueous humour": [
+      "Anterior Chamber, Right",
+      "Anterior Chamber, Left"
+    ],
+    "Arachnoid mater, intracranial": [
+      "Cerebral Meninges"
+    ],
+    "Arachnoid mater, spinal": [
+      "Spinal Meninges"
+    ],
+    "Arcuate artery": [
+      "Foot Artery, Right",
+      "Foot Artery, Left"
+    ],
+    "Areola": [
+      "Nipple, Right",
+      "Nipple, Left"
+    ],
+    "Arterial canal (duct)": [
+      "Pulmonary Artery, Left"
+    ],
+    "Aryepiglottic fold": [
+      "Larynx"
+    ],
+    "Arytenoid cartilage": [
+      "Larynx"
+    ],
+    "Arytenoid muscle": [
+      "Neck Muscle, Right",
+      "Neck Muscle, Left"
+    ],
+    "Ascending aorta": [
+      "Thoracic Aorta, Ascending/Arch"
+    ],
+    "Ascending palatine artery": [
+      "Face Artery"
+    ],
+    "Ascending pharyngeal artery": [
+      "External Carotid Artery, Right",
+      "External Carotid Artery, Left"
+    ],
+    "Atlantoaxial joint": [
+      "Cervical Vertebral Joint"
+    ],
+    "Atrioventricular node": [
+      "Conduction Mechanism"
+    ],
+    "Atrium dextrum cordis": [
+      "Atrium, Right"
+    ],
+    "Atrium pulmonale": [
+      "Atrium, Left"
+    ],
+    "Auditory tube": [
+      "Eustachian Tube, Right",
+      "Eustachian Tube, Left"
+    ],
+    "Auerbach's (myenteric) plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Auricle": [
+      "External Ear, Right",
+      "External Ear, Left",
+      "External Ear, Bilateral"
+    ],
+    "Auricularis muscle": [
+      "Head Muscle"
+    ],
+    "Axillary fascia": [
+      "Subcutaneous Tissue and Fascia, Right Upper Arm",
+      "Subcutaneous Tissue and Fascia, Left Upper Arm"
+    ],
+    "Axillary nerve": [
+      "Brachial Plexus"
+    ],
+    "Bartholin's (greater vestibular) gland": [
+      "Vestibular Gland"
+    ],
+    "Basal (internal) cerebral vein": [
+      "Intracranial Vein"
+    ],
+    "Basal nuclei": [
+      "Basal Ganglia"
+    ],
+    "Base of Tongue": [
+      "Pharynx"
+    ],
+    "Basilar artery": [
+      "Intracranial Artery"
+    ],
+    "Basis pontis": [
+      "Pons"
+    ],
+    "Biceps brachii muscle": [
+      "Upper Arm Muscle, Right",
+      "Upper Arm Muscle, Left"
+    ],
+    "Biceps femoris muscle": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Bicipital aponeurosis": [
+      "Subcutaneous Tissue and Fascia, Right Lower Arm",
+      "Subcutaneous Tissue and Fascia, Left Lower Arm"
+    ],
+    "Bicuspid valve": [
+      "Mitral Valve"
+    ],
+    "Body of femur": [
+      "Femoral Shaft, Right",
+      "Femoral Shaft, Left"
+    ],
+    "Body of fibula": [
+      "Fibula, Right",
+      "Fibula, Left"
+    ],
+    "Bony labyrinth": [
+      "Inner Ear, Right",
+      "Inner Ear, Left"
+    ],
+    "Bony orbit": [
+      "Orbit, Right",
+      "Orbit, Left"
+    ],
+    "Bony vestibule": [
+      "Inner Ear, Right",
+      "Inner Ear, Left"
+    ],
+    "Botallo's duct": [
+      "Pulmonary Artery, Left"
+    ],
+    "Brachial (lateral) lymph node": [
+      "Lymphatic, Right Axillary",
+      "Lymphatic, Left Axillary"
+    ],
+    "Brachialis muscle": [
+      "Upper Arm Muscle, Right",
+      "Upper Arm Muscle, Left"
+    ],
+    "Brachiocephalic artery": [
+      "Innominate Artery"
+    ],
+    "Brachiocephalic trunk": [
+      "Innominate Artery"
+    ],
+    "Brachiocephalic vein": [
+      "Innominate Vein, Right",
+      "Innominate Vein, Left"
+    ],
+    "Brachioradialis muscle": [
+      "Lower Arm and Wrist Muscle, Right",
+      "Lower Arm and Wrist Muscle, Left"
+    ],
+    "Breast procedures, skin only": [
+      "Skin, Chest"
+    ],
+    "Broad ligament": [
+      "Uterine Supporting Structure"
+    ],
+    "Bronchial artery": [
+      "Upper Artery"
+    ],
+    "Bronchus Intermedius": [
+      "Main Bronchus, Right"
+    ],
+    "Buccal gland": [
+      "Buccal Mucosa"
+    ],
+    "Buccinator lymph node": [
+      "Lymphatic, Head"
+    ],
+    "Buccinator muscle": [
+      "Facial Muscle"
+    ],
+    "Bulbospongiosus muscle": [
+      "Perineum Muscle"
+    ],
+    "Bulbourethral (Cowper's) gland": [
+      "Urethra"
+    ],
+    "Bundle of His": [
+      "Conduction Mechanism"
+    ],
+    "Bundle of Kent": [
+      "Conduction Mechanism"
+    ],
+    "Calcaneocuboid joint": [
+      "Tarsal Joint, Right",
+      "Tarsal Joint, Left"
+    ],
+    "Calcaneocuboid ligament": [
+      "Foot Bursa and Ligament, Right",
+      "Foot Bursa and Ligament, Left"
+    ],
+    "Calcaneofibular ligament": [
+      "Ankle Bursa and Ligament, Right",
+      "Ankle Bursa and Ligament, Left"
+    ],
+    "Calcaneus": [
+      "Tarsal, Right",
+      "Tarsal, Left"
+    ],
+    "Capitate bone": [
+      "Carpal, Right",
+      "Carpal, Left"
+    ],
+    "Cardia": [
+      "Esophagogastric Junction"
+    ],
+    "Cardiac plexus": [
+      "Thoracic Sympathetic Nerve"
+    ],
+    "Cardioesophageal junction": [
+      "Esophagogastric Junction"
+    ],
+    "Caroticotympanic artery": [
+      "Internal Carotid Artery, Right",
+      "Internal Carotid Artery, Left"
+    ],
+    "Carotid glomus": [
+      "Carotid Body, Left",
+      "Carotid Body, Right",
+      "Carotid Bodies, Bilateral"
+    ],
+    "Carotid sinus": [
+      "Internal Carotid Artery, Right",
+      "Internal Carotid Artery, Left"
+    ],
+    "Carotid sinus nerve": [
+      "Glossopharyngeal Nerve"
+    ],
+    "Carpometacarpal ligament": [
+      "Hand Bursa and Ligament, Right",
+      "Hand Bursa and Ligament, Left"
+    ],
+    "Cauda equina": [
+      "Lumbar Spinal Cord"
+    ],
+    "Cavernous plexus": [
+      "Head and Neck Sympathetic Nerve"
+    ],
+    "Cavoatrial junction": [
+      "Superior Vena Cava"
+    ],
+    "Celiac (solar) plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Celiac ganglion": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Celiac lymph node": [
+      "Lymphatic, Aortic"
+    ],
+    "Celiac trunk": [
+      "Celiac Artery"
+    ],
+    "Central axillary lymph node": [
+      "Lymphatic, Right Axillary",
+      "Lymphatic, Left Axillary"
+    ],
+    "Cerebral aqueduct (Sylvius)": [
+      "Cerebral Ventricle"
+    ],
+    "Cerebrum": [
+      "Brain"
+    ],
+    "Cervical esophagus": [
+      "Esophagus, Upper"
+    ],
+    "Cervical facet joint": [
+      "Cervical Vertebral Joint",
+      "Cervical Vertebral Joints, 2 or more"
+    ],
+    "Cervical ganglion": [
+      "Head and Neck Sympathetic Nerve"
+    ],
+    "Cervical interspinous ligament": [
+      "Head and Neck Bursa and Ligament"
+    ],
+    "Cervical intertransverse ligament": [
+      "Head and Neck Bursa and Ligament"
+    ],
+    "Cervical ligamentum flavum": [
+      "Head and Neck Bursa and Ligament"
+    ],
+    "Cervical lymph node": [
+      "Lymphatic, Right Neck",
+      "Lymphatic, Left Neck"
+    ],
+    "Cervicothoracic facet joint": [
+      "Cervicothoracic Vertebral Joint"
+    ],
+    "Chin": [
+      "Subcutaneous Tissue and Fascia, Face"
+    ],
+    "Choana": [
+      "Nasopharynx"
+    ],
+    "Chondroglossus muscle": [
+      "Tongue, Palate, Pharynx Muscle"
+    ],
+    "Chorda tympani": [
+      "Facial Nerve"
+    ],
+    "Choroid plexus": [
+      "Cerebral Ventricle"
+    ],
+    "Ciliary body": [
+      "Eye, Right",
+      "Eye, Left"
+    ],
+    "Ciliary ganglion": [
+      "Head and Neck Sympathetic Nerve"
+    ],
+    "Circle of Willis": [
+      "Intracranial Artery"
+    ],
+    "Circumflex iliac artery": [
+      "Femoral Artery, Right",
+      "Femoral Artery, Left"
+    ],
+    "Claustrum": [
+      "Basal Ganglia"
+    ],
+    "Coccygeal body": [
+      "Coccygeal Glomus"
+    ],
+    "Coccygeus muscle": [
+      "Trunk Muscle, Right",
+      "Trunk Muscle, Left"
+    ],
+    "Cochlea": [
+      "Inner Ear, Right",
+      "Inner Ear, Left"
+    ],
+    "Cochlear nerve": [
+      "Acoustic Nerve"
+    ],
+    "Columella": [
+      "Nasal Mucosa and Soft Tissue"
+    ],
+    "Common digital vein": [
+      "Foot Vein, Right",
+      "Foot Vein, Left"
+    ],
+    "Common facial vein": [
+      "Face Vein, Right",
+      "Face Vein, Left"
+    ],
+    "Common fibular nerve": [
+      "Peroneal Nerve"
+    ],
+    "Common hepatic artery": [
+      "Hepatic Artery"
+    ],
+    "Common iliac (subaortic) lymph node": [
+      "Lymphatic, Pelvis"
+    ],
+    "Common interosseous artery": [
+      "Ulnar Artery, Right",
+      "Ulnar Artery, Left"
+    ],
+    "Common peroneal nerve": [
+      "Peroneal Nerve"
+    ],
+    "Condyloid process": [
+      "Mandible, Right",
+      "Mandible, Left"
+    ],
+    "Conus arteriosus": [
+      "Ventricle, Right"
+    ],
+    "Conus medullaris": [
+      "Lumbar Spinal Cord"
+    ],
+    "Coracoacromial ligament": [
+      "Shoulder Bursa and Ligament, Right",
+      "Shoulder Bursa and Ligament, Left"
+    ],
+    "Coracobrachialis muscle": [
+      "Upper Arm Muscle, Right",
+      "Upper Arm Muscle, Left"
+    ],
+    "Coracoclavicular ligament": [
+      "Shoulder Bursa and Ligament, Right",
+      "Shoulder Bursa and Ligament, Left"
+    ],
+    "Coracohumeral ligament": [
+      "Shoulder Bursa and Ligament, Right",
+      "Shoulder Bursa and Ligament, Left"
+    ],
+    "Coracoid process": [
+      "Scapula, Right",
+      "Scapula, Left"
+    ],
+    "Corniculate cartilage": [
+      "Larynx"
+    ],
+    "Corpus callosum": [
+      "Brain"
+    ],
+    "Corpus cavernosum": [
+      "Penis"
+    ],
+    "Corpus spongiosum": [
+      "Penis"
+    ],
+    "Corpus striatum": [
+      "Basal Ganglia"
+    ],
+    "Corrugator supercilii muscle": [
+      "Facial Muscle"
+    ],
+    "Costocervical trunk": [
+      "Subclavian Artery, Right",
+      "Subclavian Artery, Left"
+    ],
+    "Costoclavicular ligament": [
+      "Shoulder Bursa and Ligament, Right",
+      "Shoulder Bursa and Ligament, Left"
+    ],
+    "Costotransverse joint": [
+      "Thoracic Vertebral Joint"
+    ],
+    "Costotransverse ligament": [
+      "Rib(s) Bursa and Ligament"
+    ],
+    "Costovertebral joint": [
+      "Thoracic Vertebral Joint"
+    ],
+    "Costoxiphoid ligament": [
+      "Sternum Bursa and Ligament"
+    ],
+    "Cowper's (bulbourethral) gland": [
+      "Urethra"
+    ],
+    "Cremaster muscle": [
+      "Perineum Muscle"
+    ],
+    "Cribriform plate": [
+      "Ethmoid Bone, Right",
+      "Ethmoid Bone, Left"
+    ],
+    "Cricoid cartilage": [
+      "Trachea"
+    ],
+    "Cricothyroid artery": [
+      "Thyroid Artery, Right",
+      "Thyroid Artery, Left"
+    ],
+    "Cricothyroid muscle": [
+      "Neck Muscle, Right",
+      "Neck Muscle, Left"
+    ],
+    "Crural fascia": [
+      "Subcutaneous Tissue and Fascia, Right Upper Leg",
+      "Subcutaneous Tissue and Fascia, Left Upper Leg"
+    ],
+    "Cubital lymph node": [
+      "Lymphatic, Right Upper Extremity",
+      "Lymphatic, Left Upper Extremity"
+    ],
+    "Cubital nerve": [
+      "Ulnar Nerve"
+    ],
+    "Cuboid bone": [
+      "Tarsal, Right",
+      "Tarsal, Left"
+    ],
+    "Cuboideonavicular joint": [
+      "Tarsal Joint, Right",
+      "Tarsal Joint. Left"
+    ],
+    "Culmen": [
+      "Cerebellum"
+    ],
+    "Cuneiform cartilage": [
+      "Larynx"
+    ],
+    "Cuneonavicular joint": [
+      "Tarsal Joint, Right",
+      "Tarsal Joint, Left"
+    ],
+    "Cuneonavicular ligament": [
+      "Foot Bursa and Ligament, Right",
+      "Foot Bursa and Ligament, Left"
+    ],
+    "Cutaneous (transverse) cervical nerve": [
+      "Cervical Plexus"
+    ],
+    "Deep cervical fascia": [
+      "Subcutaneous Tissue and Fascia, Right Neck",
+      "Subcutaneous Tissue and Fascia, Left Neck"
+    ],
+    "Deep cervical vein": [
+      "Vertebral Vein, Right",
+      "Vertebral Vein, Left"
+    ],
+    "Deep circumflex iliac artery": [
+      "External Iliac Artery, Right",
+      "External Iliac Artery, Left"
+    ],
+    "Deep facial vein": [
+      "Face Vein, Right",
+      "Face Vein, Left"
+    ],
+    "Deep femoral (profunda femoris) vein": [
+      "Femoral Vein, Right",
+      "Femoral Vein, Left"
+    ],
+    "Deep femoral artery": [
+      "Femoral Artery, Right",
+      "Femoral Artery, Left"
+    ],
+    "Deep palmar arch": [
+      "Hand Artery, Right",
+      "Hand Artery, Left"
+    ],
+    "Deep transverse perineal muscle": [
+      "Perineum Muscle"
+    ],
+    "Deferential artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left"
+    ],
+    "Deltoid fascia": [
+      "Subcutaneous Tissue and Fascia, Right Upper Arm",
+      "Subcutaneous Tissue and Fascia, Left Upper Arm"
+    ],
+    "Deltoid ligament": [
+      "Ankle Bursa and Ligament, Right",
+      "Ankle Bursa and Ligament, Left"
+    ],
+    "Deltoid muscle": [
+      "Shoulder Muscle, Right",
+      "Shoulder Muscle, Left"
+    ],
+    "Deltopectoral (infraclavicular) lymph node": [
+      "Lymphatic, Right Upper Extremity",
+      "Lymphatic, Left Upper Extremity"
+    ],
+    "Dens": [
+      "Cervical Vertebra"
+    ],
+    "Denticulate (dentate) ligament": [
+      "Spinal Meninges"
+    ],
+    "Depressor anguli oris muscle": [
+      "Facial Muscle"
+    ],
+    "Depressor labii inferioris muscle": [
+      "Facial Muscle"
+    ],
+    "Depressor septi nasi muscle": [
+      "Facial Muscle"
+    ],
+    "Depressor supercilii muscle": [
+      "Facial Muscle"
+    ],
+    "Dermis": [
+      "Skin"
+    ],
+    "Descending genicular artery": [
+      "Femoral Artery, Right",
+      "Femoral Artery, Left"
+    ],
+    "Diaphragma sellae": [
+      "Dura Mater"
+    ],
+    "Distal humerus": [
+      "Humeral Shaft, Right",
+      "Humeral Shaft, Left"
+    ],
+    "Distal humerus, involving joint": [
+      "Elbow Joint, Right",
+      "Elbow Joint, Left"
+    ],
+    "Distal radioulnar joint": [
+      "Wrist Joint, Right",
+      "Wrist Joint, Left"
+    ],
+    "Dorsal digital nerve": [
+      "Radial Nerve"
+    ],
+    "Dorsal metacarpal vein": [
+      "Hand Vein, Right",
+      "Hand Vein, Left"
+    ],
+    "Dorsal metatarsal artery": [
+      "Foot Artery, Right",
+      "Foot Artery, Left"
+    ],
+    "Dorsal metatarsal vein": [
+      "Foot Vein, Right",
+      "Foot Vein, Left"
+    ],
+    "Dorsal root ganglion": [
+      "Spinal Cord",
+      "Cervical Spinal Cord",
+      "Thoracic Spinal Cord",
+      "Lumbar Spinal Cord"
+    ],
+    "Dorsal scapular artery": [
+      "Subclavian Artery, Right",
+      "Subclavian Artery, Left"
+    ],
+    "Dorsal scapular nerve": [
+      "Brachial Plexus"
+    ],
+    "Dorsal venous arch": [
+      "Foot Vein, Right",
+      "Foot Vein, Left"
+    ],
+    "Dorsalis pedis artery": [
+      "Anterior Tibial Artery, Right",
+      "Anterior Tibial Artery, Left"
+    ],
+    "Duct of Santorini": [
+      "Pancreatic Duct, Accessory"
+    ],
+    "Duct of Wirsung": [
+      "Pancreatic Duct"
+    ],
+    "Ductus deferens": [
+      "Vas Deferens, Right",
+      "Vas Deferens, Left",
+      "Vas Deferens, Bilateral",
+      "Vas Deferens"
+    ],
+    "Duodenal ampulla": [
+      "Ampulla of Vater"
+    ],
+    "Duodenojejunal flexure": [
+      "Jejunum"
+    ],
+    "Dura mater, intracranial": [
+      "Dura Mater"
+    ],
+    "Dura mater, spinal": [
+      "Spinal Meninges"
+    ],
+    "Dural venous sinus": [
+      "Intracranial Vein"
+    ],
+    "Earlobe": [
+      "External Ear, Right",
+      "External Ear, Left",
+      "External Ear, Bilateral"
+    ],
+    "Eighth cranial nerve": [
+      "Acoustic Nerve"
+    ],
+    "Ejaculatory duct": [
+      "Vas Deferens, Right",
+      "Vas Deferens, Left",
+      "Vas Deferens, Bilateral",
+      "Vas Deferens"
+    ],
+    "Eleventh cranial nerve": [
+      "Accessory Nerve"
+    ],
+    "Encephalon": [
+      "Brain"
+    ],
+    "Ependyma": [
+      "Cerebral Ventricle"
+    ],
+    "Epidermis": [
+      "Skin"
+    ],
+    "Epidural space, spinal": [
+      "Spinal Canal"
+    ],
+    "Epiploic foramen": [
+      "Peritoneum"
+    ],
+    "Epithalamus": [
+      "Thalamus"
+    ],
+    "Epitrochlear lymph node": [
+      "Lymphatic, Right Upper Extremity",
+      "Lymphatic, Left Upper Extremity"
+    ],
+    "Erector spinae muscle": [
+      "Trunk Muscle, Right",
+      "Trunk Muscle, Left"
+    ],
+    "Esophageal artery": [
+      "Upper Artery"
+    ],
+    "Esophageal plexus": [
+      "Thoracic Sympathetic Nerve"
+    ],
+    "Ethmoidal air cell": [
+      "Ethmoid Sinus, Right",
+      "Ethmoid Sinus, Left"
+    ],
+    "Extensor carpi radialis muscle": [
+      "Lower Arm and Wrist Muscle, Right",
+      "Lower Arm and Wrist Muscle, Left"
+    ],
+    "Extensor carpi ulnaris muscle": [
+      "Lower Arm and Wrist Muscle, Right",
+      "Lower Arm and Wrist Muscle, Left"
+    ],
+    "Extensor digitorum brevis muscle": [
+      "Foot Muscle, Right",
+      "Foot Muscle, Left"
+    ],
+    "Extensor digitorum longus muscle": [
+      "Lower Leg Muscle, Right",
+      "Lower Leg Muscle, Left"
+    ],
+    "Extensor hallucis brevis muscle": [
+      "Foot Muscle, Right",
+      "Foot Muscle, Left"
+    ],
+    "Extensor hallucis longus muscle": [
+      "Lower Leg Muscle, Right",
+      "Lower Leg Muscle, Left"
+    ],
+    "External anal sphincter": [
+      "Anal Sphincter"
+    ],
+    "External auditory meatus": [
+      "External Auditory Canal, Right",
+      "External Auditory Canal, Left"
+    ],
+    "External maxillary artery": [
+      "Face Artery"
+    ],
+    "External naris": [
+      "Nasal Mucosa and Soft Tissue"
+    ],
+    "External oblique aponeurosis": [
+      "Subcutaneous Tissue and Fascia, Trunk"
+    ],
+    "External oblique muscle": [
+      "Abdomen Muscle, Right",
+      "Abdomen Muscle, Left"
+    ],
+    "External popliteal nerve": [
+      "Peroneal Nerve"
+    ],
+    "External pudendal artery": [
+      "Femoral Artery, Right",
+      "Femoral Artery, Left"
+    ],
+    "External pudendal vein": [
+      "Saphenous Vein, Right",
+      "Saphenous Vein, Left"
+    ],
+    "External urethral sphincter": [
+      "Urethra"
+    ],
+    "Extradural space, intracranial": [
+      "Epidural Space, Intracranial"
+    ],
+    "Extradural space, spinal": [
+      "Spinal Canal"
+    ],
+    "Facial artery": [
+      "Face Artery"
+    ],
+    "False vocal cord": [
+      "Larynx"
+    ],
+    "Falx cerebri": [
+      "Dura Mater"
+    ],
+    "Fascia lata": [
+      "Subcutaneous Tissue and Fascia, Right Upper Leg",
+      "Subcutaneous Tissue and Fascia, Left Upper Leg"
+    ],
+    "Femoral head": [
+      "Upper Femur, Right",
+      "Upper Femur, Left"
+    ],
+    "Femoral lymph node": [
+      "Lymphatic, Right Lower Extremity",
+      "Lymphatic, Left Lower Extremity"
+    ],
+    "Femoropatellar joint": [
+      "Knee Joint, Right",
+      "Knee Joint, Left",
+      "Knee Joint, Femoral Surface, Right",
+      "Knee Joint, Femoral Surface, Left"
+    ],
+    "Femorotibial joint": [
+      "Knee Joint, Right",
+      "Knee Joint, Left",
+      "Knee Joint, Tibial Surface, Right",
+      "Knee Joint, Tibial Surface, Left"
+    ],
+    "Fibular artery": [
+      "Peroneal Artery, Right",
+      "Peroneal Artery, Left"
+    ],
+    "Fibular sesamoid": [
+      "Metatarsal, Right",
+      "Metatarsal, Left"
+    ],
+    "Fibularis brevis muscle": [
+      "Lower Leg Muscle, Right",
+      "Lower Leg Muscle, Left"
+    ],
+    "Fibularis longus muscle": [
+      "Lower Leg Muscle, Right",
+      "Lower Leg Muscle, Left"
+    ],
+    "Fifth cranial nerve": [
+      "Trigeminal Nerve"
+    ],
+    "Filum terminale": [
+      "Spinal Meninges"
+    ],
+    "First cranial nerve": [
+      "Olfactory Nerve"
+    ],
+    "First intercostal nerve": [
+      "Brachial Plexus"
+    ],
+    "Flexor carpi radialis muscle": [
+      "Lower Arm and Wrist Muscle, Right",
+      "Lower Arm and Wrist Muscle, Left"
+    ],
+    "Flexor carpi ulnaris muscle": [
+      "Lower Arm and Wrist Muscle, Right",
+      "Lower Arm and Wrist Muscle, Left"
+    ],
+    "Flexor digitorum brevis muscle": [
+      "Foot Muscle, Right",
+      "Foot Muscle, Left"
+    ],
+    "Flexor digitorum longus muscle": [
+      "Lower Leg Muscle, Right",
+      "Lower Leg Muscle, Left"
+    ],
+    "Flexor hallucis brevis muscle": [
+      "Foot Muscle, Right",
+      "Foot Muscle, Left"
+    ],
+    "Flexor hallucis longus muscle": [
+      "Lower Leg Muscle, Right",
+      "Lower Leg Muscle, Left"
+    ],
+    "Flexor pollicis longus muscle": [
+      "Lower Arm and Wrist Muscle, Right",
+      "Lower Arm and Wrist Muscle, Left"
+    ],
+    "Foramen magnum": [
+      "Occipital Bone"
+    ],
+    "Foramen of Monro (intraventricular)": [
+      "Cerebral Ventricle"
+    ],
+    "Foreskin": [
+      "Prepuce"
+    ],
+    "Fossa of Rosenmuller": [
+      "Nasopharynx"
+    ],
+    "Fourth cranial nerve": [
+      "Trochlear Nerve"
+    ],
+    "Fourth ventricle": [
+      "Cerebral Ventricle"
+    ],
+    "Fovea": [
+      "Retina, Right",
+      "Retina, Left"
+    ],
+    "Frenulum labii inferioris": [
+      "Lower Lip"
+    ],
+    "Frenulum labii superioris": [
+      "Upper Lip"
+    ],
+    "Frenulum linguae": [
+      "Tongue"
+    ],
+    "Frontal lobe": [
+      "Cerebral Hemisphere"
+    ],
+    "Frontal vein": [
+      "Face Vein, Right",
+      "Face Vein, Left"
+    ],
+    "Fundus uteri": [
+      "Uterus"
+    ],
+    "Galea aponeurotica": [
+      "Subcutaneous Tissue and Fascia, Scalp"
+    ],
+    "Ganglion impar (ganglion of Walther)": [
+      "Sacral Sympathetic Nerve"
+    ],
+    "Gasserian ganglion": [
+      "Trigeminal Nerve"
+    ],
+    "Gastric lymph node": [
+      "Lymphatic, Aortic"
+    ],
+    "Gastric plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Gastrocnemius muscle": [
+      "Lower Leg Muscle, Right",
+      "Lower Leg Muscle, Left"
+    ],
+    "Gastrocolic ligament": [
+      "Omentum"
+    ],
+    "Gastrocolic omentum": [
+      "Omentum"
+    ],
+    "Gastroduodenal artery": [
+      "Hepatic Artery"
+    ],
+    "Gastroesophageal (GE) junction": [
+      "Esophagogastric Junction"
+    ],
+    "Gastrohepatic omentum": [
+      "Omentum"
+    ],
+    "Gastrophrenic ligament": [
+      "Omentum"
+    ],
+    "Gastrosplenic ligament": [
+      "Omentum"
+    ],
+    "Gemellus muscle": [
+      "Hip Muscle, Right",
+      "Hip Muscle, Left"
+    ],
+    "Geniculate ganglion": [
+      "Facial Nerve"
+    ],
+    "Geniculate nucleus": [
+      "Thalamus"
+    ],
+    "Genioglossus muscle": [
+      "Tongue, Palate, Pharynx Muscle"
+    ],
+    "Genitofemoral nerve": [
+      "Lumbar Plexus"
+    ],
+    "Glans penis": [
+      "Prepuce"
+    ],
+    "Glenohumeral joint": [
+      "Shoulder Joint, Right",
+      "Shoulder Joint, Left"
+    ],
+    "Glenohumeral ligament": [
+      "Shoulder Bursa and Ligament, Right",
+      "Shoulder Bursa and Ligament, Left"
+    ],
+    "Glenoid fossa (of scapula)": [
+      "Glenoid Cavity, Right",
+      "Glenoid Cavity, Left"
+    ],
+    "Glenoid ligament (labrum)": [
+      "Shoulder Joint, Right",
+      "Shoulder Joint, Left"
+    ],
+    "Globus pallidus": [
+      "Basal Ganglia"
+    ],
+    "Glossoepiglottic fold": [
+      "Epiglottis"
+    ],
+    "Glottis": [
+      "Larynx"
+    ],
+    "Gluteal lymph node": [
+      "Lymphatic, Pelvis"
+    ],
+    "Gluteal vein": [
+      "Hypogastric Vein, Right",
+      "Hypogastric Vein, Left"
+    ],
+    "Gluteus maximus muscle": [
+      "Hip Muscle, Right",
+      "Hip Muscle, Left"
+    ],
+    "Gluteus medius muscle": [
+      "Hip Muscle, Right",
+      "Hip Muscle, Left"
+    ],
+    "Gluteus minimus muscle": [
+      "Hip Muscle, Right",
+      "Hip Muscle, Left"
+    ],
+    "Gracilis muscle": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Great auricular nerve": [
+      "Cervical Plexus"
+    ],
+    "Great cerebral vein": [
+      "Intracranial Vein"
+    ],
+    "Great(er) saphenous vein": [
+      "Saphenous Vein, Right",
+      "Saphenous Vein, Left"
+    ],
+    "Greater alar cartilage": [
+      "Nasal Mucosa and Soft Tissue"
+    ],
+    "Greater occipital nerve": [
+      "Cervical Nerve"
+    ],
+    "Greater Omentum": [
+      "Omentum"
+    ],
+    "Greater splanchnic nerve": [
+      "Thoracic Sympathetic Nerve"
+    ],
+    "Greater superficial petrosal nerve": [
+      "Facial Nerve"
+    ],
+    "Greater trochanter": [
+      "Upper Femur, Right",
+      "Upper Femur, Left"
+    ],
+    "Greater tuberosity": [
+      "Humeral Head, Right",
+      "Humeral Head, Left"
+    ],
+    "Greater vestibular (Bartholin's) gland": [
+      "Vestibular Gland"
+    ],
+    "Greater wing": [
+      "Sphenoid Bone"
+    ],
+    "Hallux": [
+      "1st Toe, Right",
+      "1st Toe. Left"
+    ],
+    "Hamate bone": [
+      "Carpal, Right",
+      "Carpal, Left"
+    ],
+    "Hamstring muscle": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Head of fibula": [
+      "Fibula, Right",
+      "Fibula, Left"
+    ],
+    "Helix": [
+      "External Ear, Right",
+      "External Ear, Left",
+      "External Ear, Bilateral"
+    ],
+    "Hepatic artery proper": [
+      "Hepatic Artery"
+    ],
+    "Hepatic flexure": [
+      "Transverse Colon"
+    ],
+    "Hepatic lymph node": [
+      "Lymphatic, Aortic"
+    ],
+    "Hepatic plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Hepatic portal vein": [
+      "Portal Vein"
+    ],
+    "Hepatogastric ligament": [
+      "Omentum"
+    ],
+    "Hepatopancreatic ampulla": [
+      "Ampulla of Vater"
+    ],
+    "Humeroradial joint": [
+      "Elbow Joint, Right",
+      "Elbow Joint, Left"
+    ],
+    "Humeroulnar joint": [
+      "Elbow Joint, Right",
+      "Elbow Joint, Left"
+    ],
+    "Humerus, distal": [
+      "Humeral Shaft, Right",
+      "Humeral Shaft, Left"
+    ],
+    "Hyoglossus muscle": [
+      "Tongue, Palate, Pharynx Muscle"
+    ],
+    "Hyoid artery": [
+      "Thyroid Artery, Right",
+      "Thyroid Artery, Left"
+    ],
+    "Hypogastric artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left"
+    ],
+    "Hypopharynx": [
+      "Pharynx"
+    ],
+    "Hypophysis": [
+      "Pituitary Gland"
+    ],
+    "Hypothenar muscle": [
+      "Hand Muscle, Right",
+      "Hand Muscle, Left"
+    ],
+    "Ileal artery": [
+      "Superior Mesenteric Artery"
+    ],
+    "Ileocolic artery": [
+      "Superior Mesenteric Artery"
+    ],
+    "Ileocolic vein": [
+      "Colic Vein"
+    ],
+    "Iliac crest": [
+      "Pelvic Bone, Right",
+      "Pelvic Bone, Left"
+    ],
+    "Iliac fascia": [
+      "Subcutaneous Tissue and Fascia, Right Upper Leg",
+      "Subcutaneous Tissue and Fascia, Left Upper Leg"
+    ],
+    "Iliac lymph node": [
+      "Lymphatic, Pelvis"
+    ],
+    "Iliacus muscle": [
+      "Hip Muscle, Right",
+      "Hip Muscle, Left"
+    ],
+    "Iliofemoral ligament": [
+      "Hip Bursa and Ligament, Right",
+      "Hip Bursa and Ligament, Left"
+    ],
+    "Iliohypogastric nerve": [
+      "Lumbar Plexus"
+    ],
+    "Ilioinguinal nerve": [
+      "Lumbar Plexus"
+    ],
+    "Iliolumbar artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left"
+    ],
+    "Iliolumbar ligament": [
+      "Lower Spine Bursa and Ligament"
+    ],
+    "Iliopsoas muscle": [
+      "Hip Muscle, Right",
+      "Hip Muscle, Left"
+    ],
+    "Iliotibial tract (band)": [
+      "Subcutaneous Tissue and Fascia, Right Upper Leg",
+      "Subcutaneous Tissue and Fascia, Left Upper Leg"
+    ],
+    "Ilium": [
+      "Pelvic Bone, Right",
+      "Pelvic Bone, Left"
+    ],
+    "Incus": [
+      "Auditory Ossicle, Right",
+      "Auditory Ossicle, Left"
+    ],
+    "Inferior cardiac nerve": [
+      "Thoracic Sympathetic Nerve"
+    ],
+    "Inferior cerebellar vein": [
+      "Intracranial Vein"
+    ],
+    "Inferior cerebral vein": [
+      "Intracranial Vein"
+    ],
+    "Inferior epigastric artery": [
+      "External Iliac Artery, Right",
+      "External Iliac Artery, Left"
+    ],
+    "Inferior epigastric lymph node": [
+      "Lymphatic, Pelvis"
+    ],
+    "Inferior genicular artery": [
+      "Popliteal Artery, Right",
+      "Popliteal Artery, Left"
+    ],
+    "Inferior gluteal artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left"
+    ],
+    "Inferior gluteal nerve": [
+      "Sacral Plexus"
+    ],
+    "Inferior hypogastric plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Inferior labial artery": [
+      "Face Artery"
+    ],
+    "Inferior longitudinal muscle": [
+      "Tongue, Palate, Pharynx Muscle"
+    ],
+    "Inferior mesenteric ganglion": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Inferior mesenteric lymph node": [
+      "Lymphatic, Mesenteric"
+    ],
+    "Inferior mesenteric plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Inferior oblique muscle": [
+      "Extraocular Muscle, Right",
+      "Extraocular Muscle, Left"
+    ],
+    "Inferior pancreaticoduodenal artery": [
+      "Superior Mesenteric Artery"
+    ],
+    "Inferior phrenic artery": [
+      "Abdominal Aorta"
+    ],
+    "Inferior rectus muscle": [
+      "Extraocular Muscle, Right",
+      "Extraocular Muscle, Left"
+    ],
+    "Inferior suprarenal artery": [
+      "Renal Artery, Right",
+      "Renal Artery, Left"
+    ],
+    "Inferior tarsal plate": [
+      "Lower Eyelid, Right",
+      "Lower Eyelid, Left"
+    ],
+    "Inferior thyroid vein": [
+      "Innominate Vein, Right",
+      "Innominate Vein, Left"
+    ],
+    "Inferior tibiofibular joint": [
+      "Ankle Joint, Right",
+      "Ankle Joint, Left"
+    ],
+    "Inferior turbinate": [
+      "Nasal Turbinate"
+    ],
+    "Inferior ulnar collateral artery": [
+      "Brachial Artery, Right",
+      "Brachial Artery, Left"
+    ],
+    "Inferior vesical artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left"
+    ],
+    "Infraauricular lymph node": [
+      "Lymphatic, Head"
+    ],
+    "Infraclavicular (deltopectoral) lymph node": [
+      "Lymphatic, Right Upper Extremity",
+      "Lymphatic, Left Upper Extremity"
+    ],
+    "Infrahyoid muscle": [
+      "Neck Muscle, Right",
+      "Neck Muscle, Left"
+    ],
+    "Infraparotid lymph node": [
+      "Lymphatic, Head"
+    ],
+    "Infraspinatus fascia": [
+      "Subcutaneous Tissue and Fascia, Right Upper Arm",
+      "Subcutaneous Tissue and Fascia, Left Upper Arm"
+    ],
+    "Infraspinatus muscle": [
+      "Shoulder Muscle, Right",
+      "Shoulder Muscle, Left"
+    ],
+    "Infundibulopelvic ligament": [
+      "Uterine Supporting Structure"
+    ],
+    "Inguinal canal": [
+      "Inguinal Region, Right"
+    ],
+    "Inguinal triangle": [
+      "Inguinal Region, Left",
+      "Inguinal Region, Bilateral"
+    ],
+    "Interatrial septum": [
+      "Atrial Septum"
+    ],
+    "Intercarpal joint": [
+      "Carpal Joint, Right",
+      "Carpal Joint, Left"
+    ],
+    "Intercarpal ligament": [
+      "Hand Bursa and Ligament, Right",
+      "Hand Bursa and Ligament, Left"
+    ],
+    "Interclavicular ligament": [
+      "Shoulder Bursa and Ligament, Right",
+      "Shoulder Bursa and Ligament, Left"
+    ],
+    "Intercostal lymph node": [
+      "Lymphatic, Thorax"
+    ],
+    "Intercostal muscle": [
+      "Thorax Muscle, Right",
+      "Thorax Muscle, Left"
+    ],
+    "Intercostal nerve": [
+      "Thoracic Nerve"
+    ],
+    "Intercostobrachial nerve": [
+      "Thoracic Nerve"
+    ],
+    "Intercuneiform joint": [
+      "Tarsal Joint, Right",
+      "Tarsal Joint, Left"
+    ],
+    "Intercuneiform ligament": [
+      "Foot Bursa and Ligament, Right",
+      "Foot Bursa and Ligament, Left"
+    ],
+    "Intermediate bronchus": [
+      "Main Bronchus, Right"
+    ],
+    "Intermediate cuneiform bone": [
+      "Tarsal, Right",
+      "Tarsal, Left"
+    ],
+    "Internal (basal) cerebral vein": [
+      "Intracranial Vein"
+    ],
+    "Internal anal sphincter": [
+      "Anal Sphincter"
+    ],
+    "Internal carotid artery, intracranial portion": [
+      "Intracranial Artery"
+    ],
+    "Internal carotid plexus": [
+      "Head and Neck Sympathetic Nerve"
+    ],
+    "Internal iliac vein": [
+      "Hypogastric Vein, Right",
+      "Hypogastric Vein, Left"
+    ],
+    "Internal maxillary artery": [
+      "External Carotid Artery, Right",
+      "External Carotid Artery, Left"
+    ],
+    "Internal naris": [
+      "Nasal Mucosa and Soft Tissue"
+    ],
+    "Internal oblique muscle": [
+      "Abdomen Muscle, Right",
+      "Abdomen Muscle, Left"
+    ],
+    "Internal pudendal artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left"
+    ],
+    "Internal pudendal vein": [
+      "Hypogastric Vein, Right",
+      "Hypogastric Vein, Left"
+    ],
+    "Internal thoracic artery": [
+      "Internal Mammary Artery, Right",
+      "Internal Mammary Artery, Left",
+      "Subclavian Artery, Right",
+      "Subclavian Artery, Left"
+    ],
+    "Internal urethral sphincter": [
+      "Urethra"
+    ],
+    "Interphalangeal (IP) joint": [
+      "Finger Phalangeal Joint, Right",
+      "Finger Phalangeal Joint, Left",
+      "Toe Phalangeal Joint, Right",
+      "Toe Phalangeal Joint, Left"
+    ],
+    "Interphalangeal ligament": [
+      "Hand Bursa and Ligament, Right",
+      "Hand Bursa and Ligament, Left",
+      "Foot Bursa and Ligament, Right",
+      "Foot Bursa and Ligament, Left"
+    ],
+    "Interspinalis muscle": [
+      "Trunk Muscle, Right",
+      "Trunk Muscle, Left"
+    ],
+    "Interspinous ligament, cervical": [
+      "Head and Neck Bursa and Ligament"
+    ],
+    "Interspinous ligament, lumbar": [
+      "Lower Spine Bursa and Ligament"
+    ],
+    "Interspinous ligament, thoracic": [
+      "Upper Spine Bursa and Ligament"
+    ],
+    "Intertransversarius muscle": [
+      "Trunk Muscle, Right",
+      "Trunk Muscle, Left"
+    ],
+    "Intertransverse ligament, cervical": [
+      "Head and Neck Bursa and Ligament"
+    ],
+    "Intertransverse ligament, lumbar": [
+      "Lower Spine Bursa and Ligament"
+    ],
+    "Intertransverse ligament, thoracic": [
+      "Upper Spine Bursa and Ligament"
+    ],
+    "Interventricular foramen (Monro)": [
+      "Cerebral Ventricle"
+    ],
+    "Interventricular septum": [
+      "Ventricular Septum"
+    ],
+    "Intestinal lymphatic trunk": [
+      "Cisterna Chyli"
+    ],
+    "Ischiatic nerve": [
+      "Sciatic Nerve"
+    ],
+    "Ischiocavernosus muscle": [
+      "Perineum Muscle"
+    ],
+    "Ischiofemoral ligament": [
+      "Hip Bursa and Ligament, Right",
+      "Hip Bursa and Ligament, Left"
+    ],
+    "Ischium": [
+      "Pelvic Bone, Right",
+      "Pelvic Bone, Left"
+    ],
+    "Jejunal artery": [
+      "Superior Mesenteric Artery"
+    ],
+    "Jugular body": [
+      "Glomus Jugulare"
+    ],
+    "Jugular lymph node": [
+      "Lymphatic, Right Neck",
+      "Lymphatic, Left Neck"
+    ],
+    "Juxtaductal aorta": [
+      "Thoracic Aorta, Ascending/Arch"
+    ],
+    "Labia majora": [
+      "Vulva"
+    ],
+    "Labia minora": [
+      "Vulva"
+    ],
+    "Labial gland": [
+      "Upper Lip",
+      "Lower Lip"
+    ],
+    "Lacrimal canaliculus": [
+      "Lacrimal Duct, Right",
+      "Lacrimal Duct, Left"
+    ],
+    "Lacrimal punctum": [
+      "Lacrimal Duct, Right",
+      "Lacrimal Duct, Left"
+    ],
+    "Lacrimal sac": [
+      "Lacrimal Duct, Right",
+      "Lacrimal Duct, Left"
+    ],
+    "Laryngopharynx": [
+      "Pharynx"
+    ],
+    "Lateral (brachial) lymph node": [
+      "Lymphatic, Right Axillary",
+      "Lymphatic, Left Axillary"
+    ],
+    "Lateral canthus": [
+      "Upper Eyelid, Right",
+      "Upper Eyelid, Left"
+    ],
+    "Lateral collateral ligament (LCL)": [
+      "Knee Bursa and Ligament, Right",
+      "Knee Bursa and Ligament, Left"
+    ],
+    "Lateral condyle of femur": [
+      "Lower Femur, Right",
+      "Lower Femur, Left"
+    ],
+    "Lateral condyle of tibia": [
+      "Tibia, Right",
+      "Tibia, Left"
+    ],
+    "Lateral cuneiform bone": [
+      "Tarsal, Right",
+      "Tarsal, Left"
+    ],
+    "Lateral epicondyle of femur": [
+      "Lower Femur, Right",
+      "Lower Femur, Left"
+    ],
+    "Lateral epicondyle of humerus": [
+      "Humeral Shaft, Right",
+      "Humeral Shaft, Left"
+    ],
+    "Lateral femoral cutaneous nerve": [
+      "Lumbar Plexus"
+    ],
+    "Lateral malleolus": [
+      "Fibula, Right",
+      "Fibula, Left"
+    ],
+    "Lateral meniscus": [
+      "Knee Joint, Right",
+      "Knee Joint, Left"
+    ],
+    "Lateral nasal cartilage": [
+      "Nasal Mucosa and Soft Tissue"
+    ],
+    "Lateral plantar artery": [
+      "Foot Artery, Right",
+      "Foot Artery, Left"
+    ],
+    "Lateral plantar nerve": [
+      "Tibial Nerve"
+    ],
+    "Lateral rectus muscle": [
+      "Extraocular Muscle, Right",
+      "Extraocular Muscle, Left"
+    ],
+    "Lateral sacral artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left"
+    ],
+    "Lateral sacral vein": [
+      "Hypogastric Vein, Right",
+      "Hypogastric Vein, Left"
+    ],
+    "Lateral sural cutaneous nerve": [
+      "Peroneal Nerve"
+    ],
+    "Lateral tarsal artery": [
+      "Foot Artery, Right",
+      "Foot Artery, Left"
+    ],
+    "Lateral temporomandibular ligament": [
+      "Head and Neck Bursa and Ligament"
+    ],
+    "Lateral thoracic artery": [
+      "Axillary Artery, Right",
+      "Axillary Artery, Left"
+    ],
+    "Latissimus dorsi muscle": [
+      "Trunk Muscle, Right",
+      "Trunk Muscle, Left"
+    ],
+    "Least splanchnic nerve": [
+      "Thoracic Sympathetic Nerve"
+    ],
+    "Left ascending lumbar vein": [
+      "Hemiazygos Vein"
+    ],
+    "Left atrioventricular valve": [
+      "Mitral Valve"
+    ],
+    "Left auricular appendix": [
+      "Atrium, Left"
+    ],
+    "Left colic vein": [
+      "Colic Vein"
+    ],
+    "Left coronary sulcus": [
+      "Heart, Left"
+    ],
+    "Left gastric artery": [
+      "Gastric Artery"
+    ],
+    "Left gastroepiploic artery": [
+      "Splenic Artery"
+    ],
+    "Left gastroepiploic vein": [
+      "Splenic Vein"
+    ],
+    "Left inferior phrenic vein": [
+      "Renal Vein, Left"
+    ],
+    "Left inferior pulmonary vein": [
+      "Pulmonary Vein, Left"
+    ],
+    "Left jugular trunk": [
+      "Thoracic Duct"
+    ],
+    "Left lateral ventricle": [
+      "Cerebral Ventricle"
+    ],
+    "Left ovarian vein": [
+      "Renal Vein, Left"
+    ],
+    "Left second lumbar vein": [
+      "Renal Vein, Left"
+    ],
+    "Left subclavian trunk": [
+      "Thoracic Duct"
+    ],
+    "Left subcostal vein": [
+      "Hemiazygos Vein"
+    ],
+    "Left superior pulmonary vein": [
+      "Pulmonary Vein, Left"
+    ],
+    "Left suprarenal vein": [
+      "Renal Vein, Left"
+    ],
+    "Left testicular vein": [
+      "Renal Vein, Left"
+    ],
+    "Leptomeninges, intracranial": [
+      "Cerebral Meninges"
+    ],
+    "Leptomeninges, spinal": [
+      "Spinal Meninges"
+    ],
+    "Lesser alar cartilage": [
+      "Nasal Mucosa and Soft Tissue"
+    ],
+    "Lesser occipital nerve": [
+      "Cervical Plexus"
+    ],
+    "Lesser Omentum": [
+      "Omentum"
+    ],
+    "Lesser saphenous vein": [
+      "Saphenous Vein, Right",
+      "Saphenous Vein, Left"
+    ],
+    "Lesser splanchnic nerve": [
+      "Thoracic Sympathetic Nerve"
+    ],
+    "Lesser trochanter": [
+      "Upper Femur, Right",
+      "Upper Femur, Left"
+    ],
+    "Lesser tuberosity": [
+      "Humeral Head, Right",
+      "Humeral Head, Left"
+    ],
+    "Lesser wing": [
+      "Sphenoid Bone"
+    ],
+    "Levator anguli oris muscle": [
+      "Facial Muscle"
+    ],
+    "Levator ani muscle": [
+      "Perineum Muscle"
+    ],
+    "Levator labii superioris alaeque nasi muscle": [
+      "Facial Muscle"
+    ],
+    "Levator labii superioris muscle": [
+      "Facial Muscle"
+    ],
+    "Levator palpebrae superioris muscle": [
+      "Upper Eyelid, Right",
+      "Upper Eyelid, Left"
+    ],
+    "Levator scapulae muscle": [
+      "Neck Muscle, Right",
+      "Neck Muscle, Left"
+    ],
+    "Levator veli palatini muscle": [
+      "Tongue, Palate, Pharynx Muscle"
+    ],
+    "Levatores costarum muscle": [
+      "Thorax Muscle, Right",
+      "Thorax Muscle, Left"
+    ],
+    "Ligament of head of fibula": [
+      "Knee Bursa and Ligament, Right",
+      "Knee Bursa and Ligament, Left"
+    ],
+    "Ligament of the lateral malleolus": [
+      "Ankle Bursa and Ligament, Right",
+      "Ankle Bursa and Ligament, Left"
+    ],
+    "Ligamentum flavum, cervical": [
+      "Head and Neck Bursa and Ligament"
+    ],
+    "Ligamentum flavum, lumbar": [
+      "Lower Spine Bursa and Ligament"
+    ],
+    "Ligamentum flavum, thoracic": [
+      "Upper Spine Bursa and Ligament"
+    ],
+    "Lingual artery": [
+      "External Carotid Artery, Right",
+      "External Carotid Artery, Left"
+    ],
+    "Lingual tonsil": [
+      "Pharynx"
+    ],
+    "Locus ceruleus": [
+      "Pons"
+    ],
+    "Long thoracic nerve": [
+      "Brachial Plexus"
+    ],
+    "Lumbar artery": [
+      "Abdominal Aorta"
+    ],
+    "Lumbar facet joint": [
+      "Lumbar Vertebral Joint"
+    ],
+    "Lumbar ganglion": [
+      "Lumbar Sympathetic Nerve"
+    ],
+    "Lumbar lymph node": [
+      "Lymphatic, Aortic"
+    ],
+    "Lumbar lymphatic trunk": [
+      "Cisterna Chyli"
+    ],
+    "Lumbar splanchnic nerve": [
+      "Lumbar Sympathetic Nerve"
+    ],
+    "Lumbosacral facet joint": [
+      "Lumbosacral Joint"
+    ],
+    "Lumbosacral trunk": [
+      "Lumbar Nerve"
+    ],
+    "Lunate bone": [
+      "Carpal, Right",
+      "Carpal, Left"
+    ],
+    "Lunotriquetral ligament": [
+      "Hand Bursa and Ligament, Right",
+      "Hand Bursa and Ligament, Left"
+    ],
+    "Macula": [
+      "Retina, Right",
+      "Retina, Left"
+    ],
+    "Malleus": [
+      "Auditory Ossicle, Right",
+      "Auditory Ossicle, Left"
+    ],
+    "Mammary duct": [
+      "Breast, Right",
+      "Breast, Left",
+      "Breast, Bilateral"
+    ],
+    "Mammary gland": [
+      "Breast, Right",
+      "Breast, Left",
+      "Breast, Bilateral"
+    ],
+    "Mammillary body": [
+      "Hypothalamus"
+    ],
+    "Mandibular nerve": [
+      "Trigeminal Nerve"
+    ],
+    "Mandibular notch": [
+      "Mandible, Right",
+      "Mandible, Left"
+    ],
+    "Manubrium": [
+      "Sternum"
+    ],
+    "Masseter muscle": [
+      "Head Muscle"
+    ],
+    "Masseteric fascia": [
+      "Subcutaneous Tissue and Fascia, Face"
+    ],
+    "Mastoid (postauricular) lymph node": [
+      "Lymphatic, Right Neck",
+      "Lymphatic, Left Neck"
+    ],
+    "Mastoid air cells": [
+      "Mastoid Sinus, Right",
+      "Mastoid Sinus, Left"
+    ],
+    "Mastoid process": [
+      "Temporal Bone, Right",
+      "Temporal Bone, Left"
+    ],
+    "Maxillary artery": [
+      "External Carotid Artery, Right",
+      "External Carotid Artery, Left"
+    ],
+    "Maxillary nerve": [
+      "Trigeminal Nerve"
+    ],
+    "Medial canthus": [
+      "Lower Eyelid, Right",
+      "Lower Eyelid, Left"
+    ],
+    "Medial collateral ligament (MCL)": [
+      "Knee Bursa and Ligament, Right",
+      "Knee Bursa and Ligament, Left"
+    ],
+    "Medial condyle of femur": [
+      "Lower Femur, Right",
+      "Lower Femur, Left"
+    ],
+    "Medial condyle of tibia": [
+      "Tibia, Right",
+      "Tibia, Left"
+    ],
+    "Medial cuneiform bone": [
+      "Tarsal, Right",
+      "Tarsal, Left"
+    ],
+    "Medial epicondyle of femur": [
+      "Lower Femur, Right",
+      "Lower Femur, Left"
+    ],
+    "Medial epicondyle of humerus": [
+      "Humeral Shaft, Right",
+      "Humeral Shaft, Left"
+    ],
+    "Medial malleolus": [
+      "Tibia, Right",
+      "Tibia, Left"
+    ],
+    "Medial meniscus": [
+      "Knee Joint, Right",
+      "Knee Joint, Left"
+    ],
+    "Medial plantar artery": [
+      "Foot Artery, Right",
+      "Foot Artery, Left"
+    ],
+    "Medial plantar nerve": [
+      "Tibial Nerve"
+    ],
+    "Medial popliteal nerve": [
+      "Tibial Nerve"
+    ],
+    "Medial rectus muscle": [
+      "Extraocular Muscle, Right",
+      "Extraocular Muscle, Left"
+    ],
+    "Medial sural cutaneous nerve": [
+      "Tibial Nerve"
+    ],
+    "Median antebrachial vein": [
+      "Basilic Vein, Right",
+      "Basilic Vein, Left"
+    ],
+    "Median cubital vein": [
+      "Basilic Vein, Right",
+      "Basilic Vein, Left"
+    ],
+    "Median sacral artery": [
+      "Abdominal Aorta"
+    ],
+    "Mediastinal cavity": [
+      "Mediastinum"
+    ],
+    "Mediastinal lymph node": [
+      "Lymphatic, Thorax"
+    ],
+    "Mediastinal space": [
+      "Mediastinum"
+    ],
+    "Meissner's (submucous) plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Membranous urethra": [
+      "Urethra"
+    ],
+    "Mental foramen": [
+      "Mandible, Right",
+      "Mandible, Left"
+    ],
+    "Mentalis muscle": [
+      "Facial Muscle"
+    ],
+    "Mesoappendix": [
+      "Mesentery"
+    ],
+    "Mesocolon": [
+      "Mesentery"
+    ],
+    "Metacarpal ligament": [
+      "Hand Bursa and Ligament, Right",
+      "Hand Bursa and Ligament, Left"
+    ],
+    "Metacarpophalangeal ligament": [
+      "Hand Bursa and Ligament, Right",
+      "Hand Bursa and Ligament, Left"
+    ],
+    "Metatarsal ligament": [
+      "Foot Bursa and Ligament, Right",
+      "Foot Bursa and Ligament, Left"
+    ],
+    "Metatarsophalangeal (MTP) joint": [
+      "Metatarsal-Phalangeal Joint, Right",
+      "Metatarsal-Phalangeal Joint, Left"
+    ],
+    "Metatarsophalangeal ligament": [
+      "Foot Bursa and Ligament, Right",
+      "Foot Bursa and Ligament, Left"
+    ],
+    "Metathalamus": [
+      "Thalamus"
+    ],
+    "Midcarpal joint": [
+      "Carpal Joint, Right",
+      "Carpal Joint, Left"
+    ],
+    "Middle cardiac nerve": [
+      "Thoracic Sympathetic Nerve"
+    ],
+    "Middle cerebral artery": [
+      "Intracranial Artery"
+    ],
+    "Middle cerebral vein": [
+      "Intracranial Vein"
+    ],
+    "Middle colic vein": [
+      "Colic Vein"
+    ],
+    "Middle genicular artery": [
+      "Popliteal Artery, Right",
+      "Popliteal Artery, Left"
+    ],
+    "Middle hemorrhoidal vein": [
+      "Hypogastric Vein, Right",
+      "Hypogastric Vein, Left"
+    ],
+    "Middle meningeal artery, intracranial portion": [
+      "Intracranial Artery"
+    ],
+    "Middle rectal artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left"
+    ],
+    "Middle suprarenal artery": [
+      "Abdominal Aorta"
+    ],
+    "Middle temporal artery": [
+      "Temporal Artery, Right",
+      "Temporal Artery, Left"
+    ],
+    "Middle turbinate": [
+      "Nasal Turbinate"
+    ],
+    "Mitral annulus": [
+      "Mitral Valve"
+    ],
+    "Molar gland": [
+      "Buccal Mucosa"
+    ],
+    "Musculocutaneous nerve": [
+      "Brachial Plexus"
+    ],
+    "Musculophrenic artery": [
+      "Internal Mammary Artery, Right",
+      "Internal Mammary Artery, Left"
+    ],
+    "Musculospiral nerve": [
+      "Radial Nerve"
+    ],
+    "Myelencephalon": [
+      "Medulla Oblongata"
+    ],
+    "Myenteric (Auerbach's) plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Myometrium": [
+      "Uterus"
+    ],
+    "Nail bed": [
+      "Finger Nail",
+      "Toe Nail"
+    ],
+    "Nail plate": [
+      "Finger Nail",
+      "Toe Nail"
+    ],
+    "Nasal cavity": [
+      "Nasal Mucosa and Soft Tissue"
+    ],
+    "Nasal concha": [
+      "Nasal Turbinate"
+    ],
+    "Nasalis muscle": [
+      "Facial Muscle"
+    ],
+    "Nasolacrimal duct": [
+      "Lacrimal Duct, Right",
+      "Lacrimal Duct, Left"
+    ],
+    "Navicular bone": [
+      "Tarsal, Right",
+      "Tarsal, Left"
+    ],
+    "Neck of femur": [
+      "Upper Femur, Right",
+      "Upper Femur, Left"
+    ],
+    "Neck of humerus (anatomical) (surgical)": [
+      "Humeral Head, Right",
+      "Humeral Head, Left"
+    ],
+    "Nerve to the stapedius": [
+      "Facial Nerve"
+    ],
+    "Neurohypophysis": [
+      "Pituitary Gland"
+    ],
+    "Ninth cranial nerve": [
+      "Glossopharyngeal Nerve"
+    ],
+    "Nostril": [
+      "Nasal Mucosa and Soft Tissue"
+    ],
+    "Obturator artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left"
+    ],
+    "Obturator lymph node": [
+      "Lymphatic, Pelvis"
+    ],
+    "Obturator muscle": [
+      "Hip Muscle, Right",
+      "Hip Muscle, Left"
+    ],
+    "Obturator nerve": [
+      "Lumbar Plexus"
+    ],
+    "Obturator vein": [
+      "Hypogastric Vein, Right",
+      "Hypogastric Vein, Left"
+    ],
+    "Obtuse margin": [
+      "Heart, Left"
+    ],
+    "Occipital artery": [
+      "External Carotid Artery, Right",
+      "External Carotid Artery, Left"
+    ],
+    "Occipital lobe": [
+      "Cerebral Hemisphere"
+    ],
+    "Occipital lymph node": [
+      "Lymphatic, Right Neck",
+      "Lymphatic, Left Neck"
+    ],
+    "Occipitofrontalis muscle": [
+      "Facial Muscle"
+    ],
+    "Odontoid process": [
+      "Cervical Vertebra"
+    ],
+    "Olecranon bursa": [
+      "Elbow Bursa and Ligament, Right",
+      "Elbow Bursa and Ligament, Left"
+    ],
+    "Olecranon process": [
+      "Ulna, Right",
+      "Ulna, Left"
+    ],
+    "Olfactory bulb": [
+      "Olfactory Nerve"
+    ],
+    "Ophthalmic artery": [
+      "Intracranial Artery"
+    ],
+    "Ophthalmic nerve": [
+      "Trigeminal Nerve"
+    ],
+    "Ophthalmic vein": [
+      "Intracranial Vein"
+    ],
+    "Optic chiasma": [
+      "Optic Nerve"
+    ],
+    "Optic disc": [
+      "Retina, Right",
+      "Retina, Left"
+    ],
+    "Optic foramen": [
+      "Sphenoid Bone"
+    ],
+    "Orbicularis oculi muscle": [
+      "Upper Eyelid, Right",
+      "Upper Eyelid, Left"
+    ],
+    "Orbicularis oris muscle": [
+      "Facial Muscle"
+    ],
+    "Orbital fascia": [
+      "Subcutaneous Tissue and Fascia, Face"
+    ],
+    "Orbital portion of ethmoid bone": [
+      "Orbit, Right",
+      "Orbit, Left"
+    ],
+    "Orbital portion of frontal bone": [
+      "Orbit, Right",
+      "Orbit, Left"
+    ],
+    "Orbital portion of lacrimal bone": [
+      "Orbit, Right",
+      "Orbit, Left"
+    ],
+    "Orbital portion of maxilla": [
+      "Orbit, Right",
+      "Orbit, Left"
+    ],
+    "Orbital portion of palatine bone": [
+      "Orbit, Right",
+      "Orbit, Left"
+    ],
+    "Orbital portion of sphenoid bone": [
+      "Orbit, Right",
+      "Orbit, Left"
+    ],
+    "Orbital portion of zygomatic bone": [
+      "Orbit, Right",
+      "Orbit, Left"
+    ],
+    "Oropharynx": [
+      "Pharynx"
+    ],
+    "Otic ganglion": [
+      "Head and Neck Sympathetic Nerve"
+    ],
+    "Oval window": [
+      "Middle Ear, Right",
+      "Middle Ear, Left"
+    ],
+    "Ovarian artery": [
+      "Abdominal Aorta"
+    ],
+    "Ovarian ligament": [
+      "Uterine Supporting Structure"
+    ],
+    "Oviduct": [
+      "Fallopian Tube, Right",
+      "Fallopian Tube, Left"
+    ],
+    "Palatine gland": [
+      "Buccal Mucosa"
+    ],
+    "Palatine tonsil": [
+      "Tonsils"
+    ],
+    "Palatine uvula": [
+      "Uvula"
+    ],
+    "Palatoglossal muscle": [
+      "Tongue, Palate, Pharynx Muscle"
+    ],
+    "Palatopharyngeal muscle": [
+      "Tongue, Palate, Pharynx Muscle"
+    ],
+    "Palmar (volar) digital vein": [
+      "Hand Vein, Right",
+      "Hand Vein, Left"
+    ],
+    "Palmar (volar) metacarpal vein": [
+      "Hand Vein, Right",
+      "Hand Vein, Left"
+    ],
+    "Palmar cutaneous nerve": [
+      "Median Nerve",
+      "Radial Nerve"
+    ],
+    "Palmar fascia (aponeurosis)": [
+      "Subcutaneous Tissue and Fascia, Right Hand",
+      "Subcutaneous Tissue and Fascia, Left Hand"
+    ],
+    "Palmar interosseous muscle": [
+      "Hand Muscle, Right",
+      "Hand Muscle, Left"
+    ],
+    "Palmar ulnocarpal ligament": [
+      "Wrist Bursa and Ligament, Right",
+      "Wrist Bursa and Ligament, Left"
+    ],
+    "Palmaris longus muscle": [
+      "Lower Arm and Wrist Muscle, Right",
+      "Lower Arm and Wrist Muscle, Left"
+    ],
+    "Pancreatic artery": [
+      "Splenic Artery"
+    ],
+    "Pancreatic plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Pancreatic vein": [
+      "Splenic Vein"
+    ],
+    "Pancreaticosplenic lymph node": [
+      "Lymphatic, Aortic"
+    ],
+    "Paraaortic lymph node": [
+      "Lymphatic, Aortic"
+    ],
+    "Parapharyngeal space": [
+      "Neck"
+    ],
+    "Pararectal lymph node": [
+      "Lymphatic, Mesenteric"
+    ],
+    "Parasternal lymph node": [
+      "Lymphatic, Thorax"
+    ],
+    "Paratracheal lymph node": [
+      "Lymphatic, Thorax"
+    ],
+    "Paraurethral (Skene's) gland": [
+      "Vestibular Gland"
+    ],
+    "Parietal lobe": [
+      "Cerebral Hemisphere"
+    ],
+    "Parotid lymph node": [
+      "Lymphatic, Head"
+    ],
+    "Parotid plexus": [
+      "Facial Nerve"
+    ],
+    "Pars flaccida": [
+      "Tympanic Membrane, Right",
+      "Tympanic Membrane, Left"
+    ],
+    "Patellar ligament": [
+      "Knee Bursa and Ligament, Right",
+      "Knee Bursa and Ligament, Left"
+    ],
+    "Patellar tendon": [
+      "Knee Tendon, Right",
+      "Knee Tendon, Left"
+    ],
+    "Patellofemoral joint": [
+      "Knee Joint, Right",
+      "Knee Joint, Left",
+      "Knee Joint, Femoral Surface, Right",
+      "Knee Joint, Femoral Surface, Left"
+    ],
+    "Pectineus muscle": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Pectoral (anterior) lymph node": [
+      "Lymphatic, Right Axillary",
+      "Lymphatic, Left Axillary"
+    ],
+    "Pectoral fascia": [
+      "Subcutaneous Tissue and Fascia, Chest"
+    ],
+    "Pectoralis major muscle": [
+      "Thorax Muscle, Right",
+      "Thorax Muscle, Left"
+    ],
+    "Pectoralis minor muscle": [
+      "Thorax Muscle, Right",
+      "Thorax Muscle, Left"
+    ],
+    "Pelvic splanchnic nerve": [
+      "Abdominal Sympathetic Nerve",
+      "Sacral Sympathetic Nerve"
+    ],
+    "Penile urethra": [
+      "Urethra"
+    ],
+    "Perianal skin": [
+      "Skin, Perineum"
+    ],
+    "Pericardiophrenic artery": [
+      "Internal Mammary Artery, Right",
+      "Internal Mammary Artery, Left"
+    ],
+    "Perimetrium": [
+      "Uterus"
+    ],
+    "Peroneus brevis muscle": [
+      "Lower Leg Muscle, Right",
+      "Lower Leg Muscle, Left"
+    ],
+    "Peroneus longus muscle": [
+      "Lower Leg Muscle, Right",
+      "Lower Leg Muscle, Left"
+    ],
+    "Petrous part of temporal bone": [
+      "Temporal Bone, Right",
+      "Temporal Bone, Left"
+    ],
+    "Pharyngeal constrictor muscle": [
+      "Tongue, Palate, Pharynx Muscle"
+    ],
+    "Pharyngeal plexus": [
+      "Vagus Nerve"
+    ],
+    "Pharyngeal recess": [
+      "Nasopharynx"
+    ],
+    "Pharyngeal tonsil": [
+      "Adenoids"
+    ],
+    "Pharyngotympanic tube": [
+      "Eustachian Tube, Right",
+      "Eustachian Tube, Left"
+    ],
+    "Pia mater, intracranial": [
+      "Cerebral Meninges"
+    ],
+    "Pia mater, spinal": [
+      "Spinal Meninges"
+    ],
+    "Pinna": [
+      "External Ear, Right",
+      "External Ear, Left",
+      "External Ear, Bilateral"
+    ],
+    "Piriform recess (sinus)": [
+      "Pharynx"
+    ],
+    "Piriformis muscle": [
+      "Hip Muscle, Right",
+      "Hip Muscle, Left"
+    ],
+    "Pisiform bone": [
+      "Carpal, Right",
+      "Carpal, Left"
+    ],
+    "Pisohamate ligament": [
+      "Hand Bursa and Ligament, Right",
+      "Hand Bursa and Ligament, Left"
+    ],
+    "Pisometacarpal ligament": [
+      "Hand Bursa and Ligament, Right",
+      "Hand Bursa and Ligament, Left"
+    ],
+    "Plantar digital vein": [
+      "Foot Vein, Right",
+      "Foot Vein, Left"
+    ],
+    "Plantar fascia (aponeurosis)": [
+      "Subcutaneous Tissue and Fascia, Right Foot",
+      "Subcutaneous Tissue and Fascia, Left Foot"
+    ],
+    "Plantar metatarsal vein": [
+      "Foot Vein, Right",
+      "Foot Vein, Left"
+    ],
+    "Plantar venous arch": [
+      "Foot Vein, Right",
+      "Foot Vein, Left"
+    ],
+    "Plantaris muscle": [
+      "Lower Leg Muscle, Right",
+      "Lower Leg Muscle, Left"
+    ],
+    "Platysma muscle": [
+      "Neck Muscle, Right",
+      "Neck Muscle, Left"
+    ],
+    "Plica semilunaris": [
+      "Conjunctiva, Right",
+      "Conjunctiva, Left"
+    ],
+    "Pneumogastric nerve": [
+      "Vagus Nerve"
+    ],
+    "Pneumotaxic center": [
+      "Pons"
+    ],
+    "Pontine tegmentum": [
+      "Pons"
+    ],
+    "Popliteal fossa": [
+      "Knee Region, Right",
+      "Knee Region, Left"
+    ],
+    "Popliteal ligament": [
+      "Knee Bursa and Ligament, Right",
+      "Knee Bursa and Ligament, Left"
+    ],
+    "Popliteal lymph node": [
+      "Lymphatic, Right Lower Extremity",
+      "Lymphatic, Left Lower Extremity"
+    ],
+    "Popliteal vein": [
+      "Femoral Vein, Right",
+      "Femoral Vein, Left"
+    ],
+    "Popliteus muscle": [
+      "Lower Leg Muscle, Right",
+      "Lower Leg Muscle, Left"
+    ],
+    "Postauricular (mastoid) lymph node": [
+      "Lymphatic, Right Neck",
+      "Lymphatic, Left Neck"
+    ],
+    "Postcava": [
+      "Inferior Vena Cava"
+    ],
+    "Posterior (subscapular) lymph node": [
+      "Lymphatic, Right Axillary",
+      "Lymphatic, Left Axillary"
+    ],
+    "Posterior auricular artery": [
+      "External Carotid Artery, Right",
+      "External Carotid Artery, Left"
+    ],
+    "Posterior auricular nerve": [
+      "Facial Nerve"
+    ],
+    "Posterior auricular vein": [
+      "External Jugular Vein, Right",
+      "External Jugular Vein, Left"
+    ],
+    "Posterior cerebral artery": [
+      "Intracranial Artery"
+    ],
+    "Posterior chamber": [
+      "Eye, Right",
+      "Eye, Left"
+    ],
+    "Posterior circumflex humeral artery": [
+      "Axillary Artery, Right",
+      "Axillary Artery, Left"
+    ],
+    "Posterior communicating artery": [
+      "Intracranial Artery"
+    ],
+    "Posterior cruciate ligament (PCL)": [
+      "Knee Bursa and Ligament, Right",
+      "Knee Bursa and Ligament, Left"
+    ],
+    "Posterior facial (retromandibular) vein": [
+      "Face Vein, Right",
+      "Face Vein, Left"
+    ],
+    "Posterior femoral cutaneous nerve": [
+      "Sacral Plexus"
+    ],
+    "Posterior inferior cerebellar artery (PICA)": [
+      "Intracranial Artery"
+    ],
+    "Posterior interosseous nerve": [
+      "Radial Nerve"
+    ],
+    "Posterior labial nerve": [
+      "Pudendal Nerve"
+    ],
+    "Posterior scrotal nerve": [
+      "Pudendal Nerve"
+    ],
+    "Posterior spinal artery": [
+      "Vertebral Artery, Right",
+      "Vertebral Artery, Left"
+    ],
+    "Posterior tibial recurrent artery": [
+      "Anterior Tibial Artery, Right",
+      "Anterior Tibial Artery, Left"
+    ],
+    "Posterior ulnar recurrent artery": [
+      "Ulnar Artery, Right",
+      "Ulnar Artery, Left"
+    ],
+    "Posterior vagal trunk": [
+      "Vagus Nerve"
+    ],
+    "Preauricular lymph node": [
+      "Lymphatic, Head"
+    ],
+    "Precava": [
+      "Superior Vena Cava"
+    ],
+    "Prepatellar bursa": [
+      "Knee Bursa and Ligament, Right",
+      "Knee Bursa and Ligament, Left"
+    ],
+    "Pretracheal fascia": [
+      "Subcutaneous Tissue and Fascia, Right Neck",
+      "Subcutaneous Tissue and Fascia, Left Neck"
+    ],
+    "Prevertebral fascia": [
+      "Subcutaneous Tissue and Fascia, Right Neck",
+      "Subcutaneous Tissue and Fascia, Left Neck"
+    ],
+    "Prevesical space": [
+      "Pelvic Cavity"
+    ],
+    "Princeps pollicis artery": [
+      "Hand Artery, Right",
+      "Hand Artery, Left"
+    ],
+    "Procerus muscle": [
+      "Facial Muscle"
+    ],
+    "Profunda brachii": [
+      "Brachial Artery, Right",
+      "Brachial Artery, Left"
+    ],
+    "Profunda femoris (deep femoral) vein": [
+      "Femoral Vein, Right",
+      "Femoral Vein, Left"
+    ],
+    "Pronator quadratus muscle": [
+      "Lower Arm and Wrist Muscle, Right",
+      "Lower Arm and Wrist Muscle, Left"
+    ],
+    "Pronator teres muscle": [
+      "Lower Arm and Wrist Muscle, Right",
+      "Lower Arm and Wrist Muscle, Left"
+    ],
+    "Prostatic artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left"
+    ],
+    "Prostatic urethra": [
+      "Urethra"
+    ],
+    "Proximal radioulnar joint": [
+      "Elbow Joint, Right",
+      "Elbow Joint, Left"
+    ],
+    "Psoas muscle": [
+      "Hip Muscle, Right",
+      "Hip Muscle, Left"
+    ],
+    "Pterygoid muscle": [
+      "Head Muscle"
+    ],
+    "Pterygoid process": [
+      "Sphenoid Bone"
+    ],
+    "Pterygopalatine (sphenopalatine) ganglion": [
+      "Head and Neck Sympathetic Nerve"
+    ],
+    "Pubis": [
+      "Pelvic Bone, Right",
+      "Pelvic Bone, Left"
+    ],
+    "Pubofemoral ligament": [
+      "Hip Bursa and Ligament, Right",
+      "Hip Bursa and Ligament, Left"
+    ],
+    "Pudendal nerve": [
+      "Sacral Plexus"
+    ],
+    "Pulmoaortic canal": [
+      "Pulmonary Artery, Left"
+    ],
+    "Pulmonary annulus": [
+      "Pulmonary Valve"
+    ],
+    "Pulmonary plexus": [
+      "Vagus Nerve",
+      "Thoracic Sympathetic Nerve"
+    ],
+    "Pulmonic valve": [
+      "Pulmonary Valve"
+    ],
+    "Pulvinar": [
+      "Thalamus"
+    ],
+    "Pyloric antrum": [
+      "Stomach, Pylorus"
+    ],
+    "Pyloric canal": [
+      "Stomach, Pylorus"
+    ],
+    "Pyloric sphincter": [
+      "Stomach, Pylorus"
+    ],
+    "Pyramidalis muscle": [
+      "Abdomen Muscle, Right",
+      "Abdomen Muscle, Left"
+    ],
+    "Quadrangular cartilage": [
+      "Nasal Septum"
+    ],
+    "Quadrate lobe": [
+      "Liver"
+    ],
+    "Quadratus femoris muscle": [
+      "Hip Muscle, Right",
+      "Hip Muscle, Left"
+    ],
+    "Quadratus lumborum muscle": [
+      "Trunk Muscle, Right",
+      "Trunk Muscle, Left"
+    ],
+    "Quadratus plantae muscle": [
+      "Foot Muscle, Right",
+      "Foot Muscle, Left"
+    ],
+    "Quadriceps (femoris)": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Radial collateral carpal ligament": [
+      "Wrist Bursa and Ligament, Right",
+      "Wrist Bursa and Ligament, Left"
+    ],
+    "Radial collateral ligament": [
+      "Elbow Bursa and Ligament, Right",
+      "Elbow Bursa and Ligament, Left"
+    ],
+    "Radial notch": [
+      "Ulna, Right",
+      "Ulna, Left"
+    ],
+    "Radial recurrent artery": [
+      "Radial Artery, Right",
+      "Radial Artery, Left"
+    ],
+    "Radial vein": [
+      "Brachial Vein, Right",
+      "Brachial Vein, Left"
+    ],
+    "Radialis indicis": [
+      "Hand Artery, Right",
+      "Hand Artery, Left"
+    ],
+    "Radiocarpal joint": [
+      "Wrist Joint, Right",
+      "Wrist Joint, Left"
+    ],
+    "Radiocarpal ligament": [
+      "Wrist Bursa and Ligament, Right",
+      "Wrist Bursa and Ligament, Left"
+    ],
+    "Radioulnar ligament": [
+      "Wrist Bursa and Ligament, Right",
+      "Wrist Bursa and Ligament, Left"
+    ],
+    "Rectosigmoid junction": [
+      "Sigmoid Colon"
+    ],
+    "Rectus abdominis muscle": [
+      "Abdomen Muscle, Right",
+      "Abdomen Muscle, Left"
+    ],
+    "Rectus femoris muscle": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Recurrent laryngeal nerve": [
+      "Vagus Nerve"
+    ],
+    "Renal calyx": [
+      "Kidney, Right",
+      "Kidney, Left",
+      "Kidneys, Bilateral",
+      "Kidney"
+    ],
+    "Renal capsule": [
+      "Kidney, Right",
+      "Kidney, Left",
+      "Kidneys, Bilateral",
+      "Kidney"
+    ],
+    "Renal cortex": [
+      "Kidney, Right",
+      "Kidney, Left",
+      "Kidneys, Bilateral",
+      "Kidney"
+    ],
+    "Renal nerve": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Renal plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Renal segment": [
+      "Kidney, Right",
+      "Kidney, Left",
+      "Kidneys, Bilateral",
+      "Kidney"
+    ],
+    "Renal segmental artery": [
+      "Renal Artery, Right",
+      "Renal Artery, Left"
+    ],
+    "Retroperitoneal cavity": [
+      "Retroperitoneum"
+    ],
+    "Retroperitoneal lymph node": [
+      "Lymphatic, Aortic"
+    ],
+    "Retroperitoneal space": [
+      "Retroperitoneum"
+    ],
+    "Retropharyngeal lymph node": [
+      "Lymphatic, Right Neck",
+      "Lymphatic, Left Neck"
+    ],
+    "Retropharyngeal space": [
+      "Neck"
+    ],
+    "Retropubic space": [
+      "Pelvic Cavity"
+    ],
+    "Rhinopharynx": [
+      "Nasopharynx"
+    ],
+    "Rhomboid major muscle": [
+      "Trunk Muscle, Right",
+      "Trunk Muscle, Left"
+    ],
+    "Rhomboid minor muscle": [
+      "Trunk Muscle, Right",
+      "Trunk Muscle, Left"
+    ],
+    "Right ascending lumbar vein": [
+      "Azygos Vein"
+    ],
+    "Right atrioventricular valve": [
+      "Tricuspid Valve"
+    ],
+    "Right auricular appendix": [
+      "Atrium, Right"
+    ],
+    "Right colic vein": [
+      "Colic Vein"
+    ],
+    "Right coronary sulcus": [
+      "Heart, Right"
+    ],
+    "Right gastric artery": [
+      "Gastric Artery"
+    ],
+    "Right gastroepiploic vein": [
+      "Superior Mesenteric Vein"
+    ],
+    "Right inferior phrenic vein": [
+      "Inferior Vena Cava"
+    ],
+    "Right inferior pulmonary vein": [
+      "Pulmonary Vein, Right"
+    ],
+    "Right jugular trunk": [
+      "Lymphatic, Right Neck"
+    ],
+    "Right lateral ventricle": [
+      "Cerebral Ventricle"
+    ],
+    "Right lymphatic duct": [
+      "Lymphatic, Right Neck"
+    ],
+    "Right ovarian vein": [
+      "Inferior Vena Cava"
+    ],
+    "Right second lumbar vein": [
+      "Inferior Vena Cava"
+    ],
+    "Right subclavian trunk": [
+      "Lymphatic, Right Neck"
+    ],
+    "Right subcostal vein": [
+      "Azygos Vein"
+    ],
+    "Right superior pulmonary vein": [
+      "Pulmonary Vein, Right"
+    ],
+    "Right suprarenal vein": [
+      "Inferior Vena Cava"
+    ],
+    "Right testicular vein": [
+      "Inferior Vena Cava"
+    ],
+    "Rima glottidis": [
+      "Larynx"
+    ],
+    "Risorius muscle": [
+      "Facial Muscle"
+    ],
+    "Round ligament of uterus": [
+      "Uterine Supporting Structure"
+    ],
+    "Round window": [
+      "Inner Ear, Right",
+      "Inner Ear, Left"
+    ],
+    "Sacral ganglion": [
+      "Sacral Sympathetic Nerve"
+    ],
+    "Sacral lymph node": [
+      "Lymphatic, Pelvis"
+    ],
+    "Sacral splanchnic nerve": [
+      "Sacral Sympathetic Nerve"
+    ],
+    "Sacrococcygeal ligament": [
+      "Lower Spine Bursa and Ligament"
+    ],
+    "Sacrococcygeal symphysis": [
+      "Sacrococcygeal Joint"
+    ],
+    "Sacroiliac ligament": [
+      "Lower Spine Bursa and Ligament"
+    ],
+    "Sacrospinous ligament": [
+      "Lower Spine Bursa and Ligament"
+    ],
+    "Sacrotuberous ligament": [
+      "Lower Spine Bursa and Ligament"
+    ],
+    "Salpingopharyngeus muscle": [
+      "Tongue, Palate, Pharynx Muscle"
+    ],
+    "Salpinx": [
+      "Fallopian Tube, Right",
+      "Fallopian Tube, Left"
+    ],
+    "Saphenous nerve": [
+      "Femoral Nerve"
+    ],
+    "Sartorius muscle": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Scalene muscle": [
+      "Neck Muscle, Right",
+      "Neck Muscle, Left"
+    ],
+    "Scaphoid bone": [
+      "Carpal, Right",
+      "Carpal, Left"
+    ],
+    "Scapholunate ligament": [
+      "Wrist Bursa and Ligament, Right",
+      "Wrist Bursa and Ligament, Left"
+    ],
+    "Scaphotrapezium ligament": [
+      "Hand Bursa and Ligament, Right",
+      "Hand Bursa and Ligament, Left"
+    ],
+    "Scarpa's (vestibular) ganglion": [
+      "Acoustic Nerve"
+    ],
+    "Sebaceous gland": [
+      "Skin"
+    ],
+    "Second cranial nerve": [
+      "Optic Nerve"
+    ],
+    "Sella turcica": [
+      "Sphenoid Bone"
+    ],
+    "Semicircular canal": [
+      "Inner Ear, Right",
+      "Inner Ear, Left"
+    ],
+    "Semimembranosus muscle": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Semitendinosus muscle": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Septal cartilage": [
+      "Nasal Septum"
+    ],
+    "Serratus anterior muscle": [
+      "Thorax Muscle, Right",
+      "Thorax Muscle, Left"
+    ],
+    "Serratus posterior muscle": [
+      "Trunk Muscle, Right",
+      "Trunk Muscle, Left"
+    ],
+    "Seventh cranial nerve": [
+      "Facial Nerve"
+    ],
+    "Short gastric artery": [
+      "Splenic Artery"
+    ],
+    "Sigmoid artery": [
+      "Inferior Mesenteric Artery"
+    ],
+    "Sigmoid flexure": [
+      "Sigmoid Colon"
+    ],
+    "Sigmoid vein": [
+      "Inferior Mesenteric Vein"
+    ],
+    "Sinoatrial node": [
+      "Conduction Mechanism"
+    ],
+    "Sinus venosus": [
+      "Atrium, Right"
+    ],
+    "Sixth cranial nerve": [
+      "Abducens Nerve"
+    ],
+    "Skene's (paraurethral) gland": [
+      "Vestibular Gland"
+    ],
+    "Small saphenous vein": [
+      "Saphenous Vein, Right",
+      "Saphenous Vein, Left"
+    ],
+    "Solar (celiac) plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Soleus muscle": [
+      "Lower Leg Muscle, Right",
+      "Lower Leg Muscle, Left"
+    ],
+    "Space of Retzius": [
+      "Pelvic Cavity"
+    ],
+    "Sphenomandibular ligament": [
+      "Head and Neck Bursa and Ligament"
+    ],
+    "Sphenopalatine (pterygopalatine) ganglion": [
+      "Head and Neck Sympathetic Nerve"
+    ],
+    "Spinal nerve, cervical": [
+      "Cervical Nerve"
+    ],
+    "Spinal nerve, lumbar": [
+      "Lumbar Nerve"
+    ],
+    "Spinal nerve, sacral": [
+      "Sacral Nerve"
+    ],
+    "Spinal nerve, thoracic": [
+      "Thoracic Nerve"
+    ],
+    "Spinous process": [
+      "Cervical Vertebra",
+      "Thoracic Vertebra",
+      "Lumbar Vertebra"
+    ],
+    "Spiral ganglion": [
+      "Acoustic Nerve"
+    ],
+    "Splenic flexure": [
+      "Transverse Colon"
+    ],
+    "Splenic plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Splenius capitis muscle": [
+      "Head Muscle"
+    ],
+    "Splenius cervicis muscle": [
+      "Neck Muscle, Right",
+      "Neck Muscle, Left"
+    ],
+    "Stapes": [
+      "Auditory Ossicle, Right",
+      "Auditory Ossicle, Left"
+    ],
+    "Stellate ganglion": [
+      "Head and Neck Sympathetic Nerve"
+    ],
+    "Stensen's duct": [
+      "Parotid Duct, Right",
+      "Parotid Duct, Left"
+    ],
+    "Sternoclavicular ligament": [
+      "Shoulder Bursa and Ligament, Right",
+      "Shoulder Bursa and Ligament, Left"
+    ],
+    "Sternocleidomastoid artery": [
+      "Thyroid Artery, Right",
+      "Thyroid Artery, Left"
+    ],
+    "Sternocleidomastoid muscle": [
+      "Neck Muscle, Right",
+      "Neck Muscle, Left"
+    ],
+    "Sternocostal ligament": [
+      "Sternum Bursa and Ligament"
+    ],
+    "Styloglossus muscle": [
+      "Tongue, Palate, Pharynx Muscle"
+    ],
+    "Stylomandibular ligament": [
+      "Head and Neck Bursa and Ligament"
+    ],
+    "Stylopharyngeus muscle": [
+      "Tongue, Palate, Pharynx Muscle"
+    ],
+    "Subacromial bursa": [
+      "Shoulder Bursa and Ligament, Right",
+      "Shoulder Bursa and Ligament, Left"
+    ],
+    "Subaortic (common iliac) lymph node": [
+      "Lymphatic, Pelvis"
+    ],
+    "Subarachnoid space, spinal": [
+      "Spinal Canal"
+    ],
+    "Subclavicular (apical) lymph node": [
+      "Lymphatic, Right Axillary",
+      "Lymphatic, Left Axillary"
+    ],
+    "Subclavius muscle": [
+      "Thorax Muscle, Right",
+      "Thorax Muscle, Left"
+    ],
+    "Subclavius nerve": [
+      "Brachial Plexus"
+    ],
+    "Subcostal artery": [
+      "Upper Artery"
+    ],
+    "Subcostal muscle": [
+      "Thorax Muscle, Right",
+      "Thorax Muscle, Left"
+    ],
+    "Subcostal nerve": [
+      "Thoracic Nerve"
+    ],
+    "Subdural space, spinal": [
+      "Spinal Canal"
+    ],
+    "Submandibular ganglion": [
+      "Facial Nerve",
+      "Head and Neck Sympathetic Nerve"
+    ],
+    "Submandibular gland": [
+      "Submaxillary Gland, Right",
+      "Submaxillary Gland, Left"
+    ],
+    "Submandibular lymph node": [
+      "Lymphatic, Head"
+    ],
+    "Submandibular space": [
+      "Subcutaneous Tissue and Fascia, Face"
+    ],
+    "Submaxillary ganglion": [
+      "Head and Neck Sympathetic Nerve"
+    ],
+    "Submaxillary lymph node": [
+      "Lymphatic, Head"
+    ],
+    "Submental artery": [
+      "Face Artery"
+    ],
+    "Submental lymph node": [
+      "Lymphatic, Head"
+    ],
+    "Submucous (Meissner's) plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Suboccipital nerve": [
+      "Cervical Nerve"
+    ],
+    "Suboccipital venous plexus": [
+      "Vertebral Vein, Right",
+      "Vertebral Vein, Left"
+    ],
+    "Subparotid lymph node": [
+      "Lymphatic, Head"
+    ],
+    "Subscapular (posterior) lymph node": [
+      "Lymphatic, Right Axillary",
+      "Lymphatic, Left Axillary"
+    ],
+    "Subscapular aponeurosis": [
+      "Subcutaneous Tissue and Fascia, Right Upper Arm",
+      "Subcutaneous Tissue and Fascia, Left Upper Arm"
+    ],
+    "Subscapular artery": [
+      "Axillary Artery, Right",
+      "Axillary Artery, Left"
+    ],
+    "Subscapularis muscle": [
+      "Shoulder Muscle, Right",
+      "Shoulder Muscle, Left"
+    ],
+    "Substantia nigra": [
+      "Basal Ganglia"
+    ],
+    "Subtalar (talocalcaneal) joint": [
+      "Tarsal Joint, Right",
+      "Tarsal Joint, Left"
+    ],
+    "Subtalar ligament": [
+      "Foot Bursa and Ligament, Right",
+      "Foot Bursa and Ligament, Left"
+    ],
+    "Subthalamic nucleus": [
+      "Basal Ganglia"
+    ],
+    "Superficial circumflex iliac vein": [
+      "Saphenous Vein, Right",
+      "Saphenous Vein, Left"
+    ],
+    "Superficial epigastric artery": [
+      "Femoral Artery, Right",
+      "Femoral Artery, Left"
+    ],
+    "Superficial epigastric vein": [
+      "Saphenous Vein, Right",
+      "Saphenous Vein, Left"
+    ],
+    "Superficial palmar arch": [
+      "Hand Artery, Right",
+      "Hand Artery, Left"
+    ],
+    "Superficial palmar venous arch": [
+      "Hand Vein, Right",
+      "Hand Vein, Left"
+    ],
+    "Superficial temporal artery": [
+      "Temporal Artery, Right",
+      "Temporal Artery, Left"
+    ],
+    "Superficial transverse perineal muscle": [
+      "Perineum Muscle"
+    ],
+    "Superior cardiac nerve": [
+      "Thoracic Sympathetic Nerve"
+    ],
+    "Superior cerebellar vein": [
+      "Intracranial Vein"
+    ],
+    "Superior cerebral vein": [
+      "Intracranial Vein"
+    ],
+    "Superior clunic (cluneal) nerve": [
+      "Lumbar Nerve"
+    ],
+    "Superior epigastric artery": [
+      "Internal Mammary Artery, Right",
+      "Internal Mammary Artery, Left"
+    ],
+    "Superior genicular artery": [
+      "Popliteal Artery, Right",
+      "Popliteal Artery, Left"
+    ],
+    "Superior gluteal artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left"
+    ],
+    "Superior gluteal nerve": [
+      "Lumbar Plexus"
+    ],
+    "Superior hypogastric plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Superior labial artery": [
+      "Face Artery"
+    ],
+    "Superior laryngeal artery": [
+      "Thyroid Artery, Right",
+      "Thyroid Artery, Left"
+    ],
+    "Superior laryngeal nerve": [
+      "Vagus Nerve"
+    ],
+    "Superior longitudinal muscle": [
+      "Tongue, Palate, Pharynx Muscle"
+    ],
+    "Superior mesenteric ganglion": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Superior mesenteric lymph node": [
+      "Lymphatic, Mesenteric"
+    ],
+    "Superior mesenteric plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Superior oblique muscle": [
+      "Extraocular Muscle, Right",
+      "Extraocular Muscle, Left"
+    ],
+    "Superior olivary nucleus": [
+      "Pons"
+    ],
+    "Superior rectal artery": [
+      "Inferior Mesenteric Artery"
+    ],
+    "Superior rectal vein": [
+      "Inferior Mesenteric Vein"
+    ],
+    "Superior rectus muscle": [
+      "Extraocular Muscle, Right",
+      "Extraocular Muscle, Left"
+    ],
+    "Superior tarsal plate": [
+      "Upper Eyelid, Right",
+      "Upper Eyelid, Left"
+    ],
+    "Superior thoracic artery": [
+      "Axillary Artery, Right",
+      "Axillary Artery, Left"
+    ],
+    "Superior thyroid artery": [
+      "External Carotid Artery, Right",
+      "External Carotid Artery, Left",
+      "Thyroid Artery, Right",
+      "Thyroid Artery, Left"
+    ],
+    "Superior turbinate": [
+      "Nasal Turbinate"
+    ],
+    "Superior ulnar collateral artery": [
+      "Brachial Artery, Right",
+      "Brachial Artery, Left"
+    ],
+    "Superior vesical artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left"
+    ],
+    "Supraclavicular (Virchow's) lymph node": [
+      "Lymphatic, Right Neck",
+      "Lymphatic, Left Neck"
+    ],
+    "Supraclavicular nerve": [
+      "Cervical Plexus"
+    ],
+    "Suprahyoid lymph node": [
+      "Lymphatic, Head"
+    ],
+    "Suprahyoid muscle": [
+      "Neck Muscle, Right",
+      "Neck Muscle, Left"
+    ],
+    "Suprainguinal lymph node": [
+      "Lymphatic, Pelvis"
+    ],
+    "Supraorbital vein": [
+      "Face Vein, Right",
+      "Face Vein, Left"
+    ],
+    "Suprarenal gland": [
+      "Adrenal Gland, Left",
+      "Adrenal Gland, Right",
+      "Adrenal Glands, Bilateral",
+      "Adrenal Gland"
+    ],
+    "Suprarenal plexus": [
+      "Abdominal Sympathetic Nerve"
+    ],
+    "Suprascapular nerve": [
+      "Brachial Plexus"
+    ],
+    "Supraspinatus fascia": [
+      "Subcutaneous Tissue and Fascia, Right Upper Arm",
+      "Subcutaneous Tissue and Fascia, Left Upper Arm"
+    ],
+    "Supraspinatus muscle": [
+      "Shoulder Muscle, Right",
+      "Shoulder Muscle, Left"
+    ],
+    "Supraspinous ligament": [
+      "Upper Spine Bursa and Ligament",
+      "Lower Spine Bursa and Ligament"
+    ],
+    "Suprasternal notch": [
+      "Sternum"
+    ],
+    "Supratrochlear lymph node": [
+      "Lymphatic, Right Upper Extremity",
+      "Lymphatic, Left Upper Extremity"
+    ],
+    "Sural artery": [
+      "Popliteal Artery, Right",
+      "Popliteal Artery, Left"
+    ],
+    "Sweat gland": [
+      "Skin"
+    ],
+    "Talocalcaneal (subtalar) joint": [
+      "Tarsal Joint, Right",
+      "Tarsal Joint, Left"
+    ],
+    "Talocalcaneal ligament": [
+      "Foot Bursa and Ligament, Right",
+      "Foot Bursa and Ligament, Left"
+    ],
+    "Talocalcaneonavicular joint": [
+      "Tarsal Joint, Right",
+      "Tarsal Joint, Left"
+    ],
+    "Talocalcaneonavicular ligament": [
+      "Foot Bursa and Ligament, Right",
+      "Foot Bursa and Ligament, Left"
+    ],
+    "Talocrural joint": [
+      "Ankle Joint, Right",
+      "Ankle Joint, Left"
+    ],
+    "Talofibular ligament": [
+      "Ankle Bursa and Ligament, Right",
+      "Ankle Bursa and Ligament, Left"
+    ],
+    "Talus bone": [
+      "Tarsal, Right",
+      "Tarsal, Left"
+    ],
+    "Tarsometatarsal ligament": [
+      "Foot Bursa and Ligament, Right",
+      "Foot Bursa and Ligament, Left"
+    ],
+    "Temporal lobe": [
+      "Cerebral Hemisphere"
+    ],
+    "Temporalis muscle": [
+      "Head Muscle"
+    ],
+    "Temporoparietalis muscle": [
+      "Head Muscle"
+    ],
+    "Tensor fasciae latae muscle": [
+      "Hip Muscle, Right",
+      "Hip Muscle, Left"
+    ],
+    "Tensor veli palatini muscle": [
+      "Tongue, Palate, Pharynx Muscle"
+    ],
+    "Tenth cranial nerve": [
+      "Vagus Nerve"
+    ],
+    "Tentorium cerebelli": [
+      "Dura Mater"
+    ],
+    "Teres major muscle": [
+      "Shoulder Muscle, Right",
+      "Shoulder Muscle, Left"
+    ],
+    "Teres minor muscle": [
+      "Shoulder Muscle, Right",
+      "Shoulder Muscle, Left"
+    ],
+    "Testicular artery": [
+      "Abdominal Aorta"
+    ],
+    "Thenar muscle": [
+      "Hand Muscle, Right",
+      "Hand Muscle, Left"
+    ],
+    "Third cranial nerve": [
+      "Oculomotor Nerve"
+    ],
+    "Third occipital nerve": [
+      "Cervical Nerve"
+    ],
+    "Third ventricle": [
+      "Cerebral Ventricle"
+    ],
+    "Thoracic aortic plexus": [
+      "Thoracic Sympathetic Nerve"
+    ],
+    "Thoracic esophagus": [
+      "Esophagus, Middle"
+    ],
+    "Thoracic facet joint": [
+      "Thoracic Vertebral Joint"
+    ],
+    "Thoracic ganglion": [
+      "Thoracic Sympathetic Nerve"
+    ],
+    "Thoracoacromial artery": [
+      "Axillary Artery, Right",
+      "Axillary Artery, Left"
+    ],
+    "Thoracolumbar facet joint": [
+      "Thoracolumbar Vertebral Joint"
+    ],
+    "Thymus gland": [
+      "Thymus"
+    ],
+    "Thyroarytenoid muscle": [
+      "Neck Muscle, Right",
+      "Neck Muscle, Left"
+    ],
+    "Thyrocervical trunk": [
+      "Thyroid Artery, Right",
+      "Thyroid Artery, Left"
+    ],
+    "Thyroid cartilage": [
+      "Larynx"
+    ],
+    "Tibial sesamoid": [
+      "Metatarsal, Right",
+      "Metatarsal, Left"
+    ],
+    "Tibialis anterior muscle": [
+      "Lower Leg Muscle, Right",
+      "Lower Leg Muscle, Left"
+    ],
+    "Tibialis posterior muscle": [
+      "Lower Leg Muscle, Right",
+      "Lower Leg Muscle, Left"
+    ],
+    "Tibiofemoral joint": [
+      "Knee Joint, Right",
+      "Knee Joint, Left",
+      "Knee Joint, Tibial Surface, Right",
+      "Knee Joint, Tibial Surface, Left"
+    ],
+    "Tibioperoneal trunk": [
+      "Popliteal Artery, Right",
+      "Popliteal Artery, Left"
+    ],
+    "Tongue, base of": [
+      "Pharynx"
+    ],
+    "Tracheobronchial lymph node": [
+      "Lymphatic, Thorax"
+    ],
+    "Tragus": [
+      "External Ear, Right",
+      "External Ear, Left",
+      "External Ear, Bilateral"
+    ],
+    "Transversalis fascia": [
+      "Subcutaneous Tissue and Fascia, Trunk"
+    ],
+    "Transverse (cutaneous) cervical nerve": [
+      "Cervical Plexus"
+    ],
+    "Transverse acetabular ligament": [
+      "Hip Bursa and Ligament, Right",
+      "Hip Bursa and Ligament, Left"
+    ],
+    "Transverse facial artery": [
+      "Temporal Artery, Right",
+      "Temporal Artery, Left"
+    ],
+    "Transverse foramen": [
+      "Cervical Vertebra"
+    ],
+    "Transverse humeral ligament": [
+      "Shoulder Bursa and Ligament, Right",
+      "Shoulder Bursa and Ligament, Left"
+    ],
+    "Transverse ligament of atlas": [
+      "Head and Neck Bursa and Ligament"
+    ],
+    "Transverse process": [
+      "Cervical Vertebra",
+      "Thoracic Vertebra",
+      "Lumbar Vertebra"
+    ],
+    "Transverse scapular ligament": [
+      "Shoulder Bursa and Ligament, Right",
+      "Shoulder Bursa and Ligament, Left"
+    ],
+    "Transverse thoracis muscle": [
+      "Thorax Muscle, Right",
+      "Thorax Muscle, Left"
+    ],
+    "Transversospinalis muscle": [
+      "Trunk Muscle, Right",
+      "Trunk Muscle, Left"
+    ],
+    "Transversus abdominis muscle": [
+      "Abdomen Muscle, Right",
+      "Abdomen Muscle, Left"
+    ],
+    "Trapezium bone": [
+      "Carpal, Right",
+      "Carpal, Left"
+    ],
+    "Trapezius muscle": [
+      "Trunk Muscle, Right",
+      "Trunk Muscle, Left"
+    ],
+    "Trapezoid bone": [
+      "Carpal, Right",
+      "Carpal, Left"
+    ],
+    "Triceps brachii muscle": [
+      "Upper Arm Muscle, Right",
+      "Upper Arm Muscle, Left"
+    ],
+    "Tricuspid annulus": [
+      "Tricuspid Valve"
+    ],
+    "Trifacial nerve": [
+      "Trigeminal Nerve"
+    ],
+    "Trigone of bladder": [
+      "Bladder"
+    ],
+    "Triquetral bone": [
+      "Carpal, Right",
+      "Carpal, Left"
+    ],
+    "Trochanteric bursa": [
+      "Hip Bursa and Ligament, Right",
+      "Hip Bursa and Ligament, Left"
+    ],
+    "Twelfth cranial nerve": [
+      "Hypoglossal Nerve"
+    ],
+    "Tympanic cavity": [
+      "Middle Ear, Right",
+      "Middle Ear, Left"
+    ],
+    "Tympanic nerve": [
+      "Glossopharyngeal Nerve"
+    ],
+    "Tympanic part of temporal bone": [
+      "Temporal Bone, Right",
+      "Temporal Bone, Left"
+    ],
+    "Ulnar collateral carpal ligament": [
+      "Wrist Bursa and Ligament, Right",
+      "Wrist Bursa and Ligament, Left"
+    ],
+    "Ulnar collateral ligament": [
+      "Elbow Bursa and Ligament, Right",
+      "Elbow Bursa and Ligament, Left"
+    ],
+    "Ulnar notch": [
+      "Radius, Right",
+      "Radius, Left"
+    ],
+    "Ulnar vein": [
+      "Brachial Vein, Right",
+      "Brachial Vein, Left"
+    ],
+    "Umbilical artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left",
+      "Lower Artery"
+    ],
+    "Ureteral orifice": [
+      "Ureter, Right",
+      "Ureter, Left",
+      "Ureters, Bilateral",
+      "Ureter"
+    ],
+    "Ureteropelvic junction (UPJ)": [
+      "Kidney Pelvis, Right",
+      "Kidney Pelvis, Left"
+    ],
+    "Ureterovesical orifice": [
+      "Ureter, Right",
+      "Ureter, Left",
+      "Ureters, Bilateral",
+      "Ureter"
+    ],
+    "Uterine Artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left"
+    ],
+    "Uterine cornu": [
+      "Uterus"
+    ],
+    "Uterine tube": [
+      "Fallopian Tube, Right",
+      "Fallopian Tube, Left"
+    ],
+    "Uterine vein": [
+      "Hypogastric Vein, Right",
+      "Hypogastric Vein, Left"
+    ],
+    "Vaginal artery": [
+      "Internal Iliac Artery, Right",
+      "Internal Iliac Artery, Left"
+    ],
+    "Vaginal vein": [
+      "Hypogastric Vein, Right",
+      "Hypogastric Vein, Left"
+    ],
+    "Vastus intermedius muscle": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Vastus lateralis muscle": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Vastus medialis muscle": [
+      "Upper Leg Muscle, Right",
+      "Upper Leg Muscle, Left"
+    ],
+    "Ventricular fold": [
+      "Larynx"
+    ],
+    "Vermiform appendix": [
+      "Appendix"
+    ],
+    "Vermilion border": [
+      "Upper Lip",
+      "Lower Lip"
+    ],
+    "Vertebral arch": [
+      "Cervical Vertebra",
+      "Thoracic Vertebra",
+      "Lumbar Vertebra"
+    ],
+    "Vertebral artery, intracranial portion": [
+      "Intracranial Artery"
+    ],
+    "Vertebral body": [
+      "Cervical Vertebra",
+      "Thoracic Vertebra",
+      "Lumbar Vertebra"
+    ],
+    "Vertebral canal": [
+      "Spinal Canal"
+    ],
+    "Vertebral foramen": [
+      "Cervical Vertebra",
+      "Thoracic Vertebra",
+      "Lumbar Vertebra"
+    ],
+    "Vertebral lamina": [
+      "Cervical Vertebra",
+      "Thoracic Vertebra",
+      "Lumbar Vertebra"
+    ],
+    "Vertebral pedicle": [
+      "Cervical Vertebra",
+      "Thoracic Vertebra",
+      "Lumbar Vertebra"
+    ],
+    "Vesical vein": [
+      "Hypogastric Vein, Right",
+      "Hypogastric Vein, Left"
+    ],
+    "Vestibular (Scarpa's) ganglion": [
+      "Acoustic Nerve"
+    ],
+    "Vestibular nerve": [
+      "Acoustic Nerve"
+    ],
+    "Vestibulocochlear nerve": [
+      "Acoustic Nerve"
+    ],
+    "Virchow's (supraclavicular) lymph node": [
+      "Lymphatic, Right Neck",
+      "Lymphatic, Left Neck"
+    ],
+    "Vitreous body": [
+      "Vitreous, Right",
+      "Vitreous, Left"
+    ],
+    "Vocal fold": [
+      "Vocal Cord, Right",
+      "Vocal Cord, Left"
+    ],
+    "Volar (palmar) digital vein": [
+      "Hand Vein, Right",
+      "Hand Vein, Left"
+    ],
+    "Volar (palmar) metacarpal vein": [
+      "Hand Vein, Right",
+      "Hand Vein, Left"
+    ],
+    "Vomer bone": [
+      "Nasal Septum"
+    ],
+    "Vomer of nasal septum": [
+      "Nasal Bone"
+    ],
+    "Xiphoid process": [
+      "Sternum"
+    ],
+    "Zonule of Zinn": [
+      "Lens, Right",
+      "Lens, Left"
+    ],
+    "Zygomatic process of frontal bone": [
+      "Frontal Bone"
+    ],
+    "Zygomatic process of temporal bone": [
+      "Temporal Bone, Right",
+      "Temporal Bone, Left"
+    ],
+    "Zygomaticus muscle": [
+      "Facial Muscle"
+    ]
+  }
+}

@@ -1,0 +1,535 @@
+{
+  "name": "ICD-10-PCS Device Aggregation Table",
+  "version": "2025-08-09",
+  "source_file": "Device Aggregation Table.md",
+  "count_records": 60,
+  "records": [
+    {
+      "specific_device": "Autologous Arterial Tissue",
+      "operation": "All applicable",
+      "body_systems": [
+        "Heart and Great Vessels",
+        "Lower Arteries",
+        "Lower Veins",
+        "Upper Arteries",
+        "Upper Veins"
+      ],
+      "general_device": "Autologous Tissue Substitute"
+    },
+    {
+      "specific_device": "Autologous Venous Tissue",
+      "operation": "All applicable",
+      "body_systems": [
+        "Heart and Great Vessels",
+        "Lower Arteries",
+        "Lower Veins",
+        "Upper Arteries",
+        "Upper Veins"
+      ],
+      "general_device": "Autologous Tissue Substitute"
+    },
+    {
+      "specific_device": "Cardiac Lead, Defibrillator",
+      "operation": "Insertion",
+      "body_systems": [
+        "Heart and Great Vessels"
+      ],
+      "general_device": "Cardiac Lead"
+    },
+    {
+      "specific_device": "Cardiac Lead, Pacemaker",
+      "operation": "Insertion",
+      "body_systems": [
+        "Heart and Great Vessels"
+      ],
+      "general_device": "Cardiac Lead"
+    },
+    {
+      "specific_device": "Cardiac Resynchronization Defibrillator Pulse Generator",
+      "operation": "Insertion",
+      "body_systems": [
+        "Subcutaneous Tissue and Fascia"
+      ],
+      "general_device": "Cardiac Rhythm Related Device"
+    },
+    {
+      "specific_device": "Cardiac Resynchronization Pacemaker Pulse Generator",
+      "operation": "Insertion",
+      "body_systems": [
+        "Subcutaneous Tissue and Fascia"
+      ],
+      "general_device": "Cardiac Rhythm Related Device"
+    },
+    {
+      "specific_device": "Contractility Modulation Device",
+      "operation": "Insertion",
+      "body_systems": [
+        "Subcutaneous Tissue and Fascia"
+      ],
+      "general_device": "Cardiac Rhythm Related Device"
+    },
+    {
+      "specific_device": "Defibrillator Generator",
+      "operation": "Insertion",
+      "body_systems": [
+        "Subcutaneous Tissue and Fascia"
+      ],
+      "general_device": "Cardiac Rhythm Related Device"
+    },
+    {
+      "specific_device": "Epiretinal Visual Prosthesis",
+      "operation": "All applicable",
+      "body_systems": [
+        "Eye"
+      ],
+      "general_device": "Synthetic Substitute"
+    },
+    {
+      "specific_device": "External Fixation Device, Hybrid",
+      "operation": "Insertion",
+      "body_systems": [
+        "Lower Bones",
+        "Upper Bones"
+      ],
+      "general_device": "External Fixation Device"
+    },
+    {
+      "specific_device": "External Fixation Device, Hybrid",
+      "operation": "Reposition",
+      "body_systems": [
+        "Lower Bones",
+        "Upper Bones"
+      ],
+      "general_device": "External Fixation Device"
+    },
+    {
+      "specific_device": "External Fixation Device, Limb Lengthening",
+      "operation": "Insertion",
+      "body_systems": [
+        "Lower Bones",
+        "Upper Bones"
+      ],
+      "general_device": "External Fixation Device"
+    },
+    {
+      "specific_device": "External Fixation Device, Monoplanar",
+      "operation": "Insertion",
+      "body_systems": [
+        "Lower Bones",
+        "Upper Bones"
+      ],
+      "general_device": "External Fixation Device"
+    },
+    {
+      "specific_device": "External Fixation Device, Monoplanar",
+      "operation": "Reposition",
+      "body_systems": [
+        "Lower Bones",
+        "Upper Bones"
+      ],
+      "general_device": "External Fixation Device"
+    },
+    {
+      "specific_device": "External Fixation Device, Ring",
+      "operation": "Insertion",
+      "body_systems": [
+        "Lower Bones",
+        "Upper Bones"
+      ],
+      "general_device": "External Fixation Device"
+    },
+    {
+      "specific_device": "External Fixation Device, Ring",
+      "operation": "Reposition",
+      "body_systems": [
+        "Lower Bones",
+        "Upper Bones"
+      ],
+      "general_device": "External Fixation Device"
+    },
+    {
+      "specific_device": "Hearing Device, Bone Conduction",
+      "operation": "Insertion",
+      "body_systems": [
+        "Ear",
+        "Nose",
+        "Sinus"
+      ],
+      "general_device": "Hearing Device"
+    },
+    {
+      "specific_device": "Hearing Device, Multiple Channel Cochlear Prosthesis",
+      "operation": "Insertion",
+      "body_systems": [
+        "Ear",
+        "Nose",
+        "Sinus"
+      ],
+      "general_device": "Hearing Device"
+    },
+    {
+      "specific_device": "Hearing Device, Single Channel Cochlear Prosthesis",
+      "operation": "Insertion",
+      "body_systems": [
+        "Ear",
+        "Nose",
+        "Sinus"
+      ],
+      "general_device": "Hearing Device"
+    },
+    {
+      "specific_device": "Internal Fixation Device, Intramedullary",
+      "operation": "All applicable",
+      "body_systems": [
+        "Lower Bones",
+        "Upper Bones"
+      ],
+      "general_device": "Internal Fixation Device"
+    },
+    {
+      "specific_device": "Internal Fixation Device, Intramedullary Limb Lengthening",
+      "operation": "Insertion",
+      "body_systems": [
+        "Lower Bones",
+        "Upper Bones"
+      ],
+      "general_device": "Internal Fixation Device, Intramedullary"
+    },
+    {
+      "specific_device": "Internal Fixation Device, Rigid Plate",
+      "operation": "Insertion",
+      "body_systems": [
+        "Upper Bones"
+      ],
+      "general_device": "Internal Fixation Device"
+    },
+    {
+      "specific_device": "Internal Fixation Device, Rigid Plate",
+      "operation": "Reposition",
+      "body_systems": [
+        "Upper Bones"
+      ],
+      "general_device": "Internal Fixation Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Airway",
+      "operation": "All applicable",
+      "body_systems": [
+        "Ear",
+        "Nose",
+        "Sinus",
+        "Gastrointestinal System",
+        "Mouth and Throat"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Bioactive",
+      "operation": "All applicable",
+      "body_systems": [
+        "Upper Arteries"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Branched or Fenestrated, One or Two Arteries",
+      "operation": "Restriction",
+      "body_systems": [
+        "Heart and Great Vessels",
+        "Lower Arteries"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Branched or Fenestrated, Three or More Arteries",
+      "operation": "Restriction",
+      "body_systems": [
+        "Heart and Great Vessels",
+        "Lower Arteries"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Drug-eluting",
+      "operation": "All applicable",
+      "body_systems": [
+        "Heart and Great Vessels",
+        "Lower Arteries",
+        "Upper Arteries"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Drug-eluting, Four or More",
+      "operation": "All applicable",
+      "body_systems": [
+        "Heart and Great Vessels",
+        "Lower Arteries",
+        "Upper Arteries"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Drug-eluting, Three",
+      "operation": "All applicable",
+      "body_systems": [
+        "Heart and Great Vessels",
+        "Lower Arteries",
+        "Upper Arteries"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Drug-eluting, Two",
+      "operation": "All applicable",
+      "body_systems": [
+        "Heart and Great Vessels",
+        "Lower Arteries",
+        "Upper Arteries"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Endobronchial Valve",
+      "operation": "All applicable",
+      "body_systems": [
+        "Respiratory System"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Endotracheal Airway",
+      "operation": "All applicable",
+      "body_systems": [
+        "Respiratory System"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Flow Diverter",
+      "operation": "Restriction",
+      "body_systems": [
+        "Upper Arteries"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Four or More",
+      "operation": "All applicable",
+      "body_systems": [
+        "Heart and Great Vessels",
+        "Lower Arteries",
+        "Upper Arteries"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Pessary",
+      "operation": "All applicable",
+      "body_systems": [
+        "Female Reproductive System"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Radioactive",
+      "operation": "All applicable",
+      "body_systems": [
+        "Heart and Great Vessels"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Three",
+      "operation": "All applicable",
+      "body_systems": [
+        "Heart and Great Vessels",
+        "Lower Arteries",
+        "Upper Arteries"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Intraluminal Device, Two",
+      "operation": "All applicable",
+      "body_systems": [
+        "Heart and Great Vessels",
+        "Lower Arteries",
+        "Upper Arteries"
+      ],
+      "general_device": "Intraluminal Device"
+    },
+    {
+      "specific_device": "Monitoring Device, Hemodynamic",
+      "operation": "Insertion",
+      "body_systems": [
+        "Subcutaneous Tissue and Fascia"
+      ],
+      "general_device": "Monitoring Device"
+    },
+    {
+      "specific_device": "Monitoring Device, Pressure Sensor",
+      "operation": "Insertion",
+      "body_systems": [
+        "Heart and Great Vessels"
+      ],
+      "general_device": "Monitoring Device"
+    },
+    {
+      "specific_device": "Pacemaker, Dual Chamber",
+      "operation": "Insertion",
+      "body_systems": [
+        "Subcutaneous Tissue and Fascia"
+      ],
+      "general_device": "Cardiac Rhythm Related Device"
+    },
+    {
+      "specific_device": "Pacemaker, Single Chamber",
+      "operation": "Insertion",
+      "body_systems": [
+        "Subcutaneous Tissue and Fascia"
+      ],
+      "general_device": "Cardiac Rhythm Related Device"
+    },
+    {
+      "specific_device": "Pacemaker, Single Chamber Rate Responsive",
+      "operation": "Insertion",
+      "body_systems": [
+        "Subcutaneous Tissue and Fascia"
+      ],
+      "general_device": "Cardiac Rhythm Related Device"
+    },
+    {
+      "specific_device": "Spinal Stabilization Device, Facet Replacement",
+      "operation": "Insertion",
+      "body_systems": [
+        "Lower Joints",
+        "Upper Joints"
+      ],
+      "general_device": "Internal Fixation Device"
+    },
+    {
+      "specific_device": "Spinal Stabilization Device, Interspinous Process",
+      "operation": "Insertion",
+      "body_systems": [
+        "Lower Joints",
+        "Upper Joints"
+      ],
+      "general_device": "Internal Fixation Device"
+    },
+    {
+      "specific_device": "Spinal Stabilization Device, Pedicle-Based",
+      "operation": "Insertion",
+      "body_systems": [
+        "Lower Joints",
+        "Upper Joints"
+      ],
+      "general_device": "Internal Fixation Device"
+    },
+    {
+      "specific_device": "Spinal Stabilization Device, Vertebral Body Tether",
+      "operation": "Reposition",
+      "body_systems": [
+        "Lower Bones",
+        "Upper Bones"
+      ],
+      "general_device": "Internal Fixation Device"
+    },
+    {
+      "specific_device": "Stimulator Generator, Multiple Array",
+      "operation": "Insertion",
+      "body_systems": [
+        "Subcutaneous Tissue and Fascia"
+      ],
+      "general_device": "Stimulator Generator"
+    },
+    {
+      "specific_device": "Stimulator Generator, Multiple Array Rechargeable",
+      "operation": "Insertion",
+      "body_systems": [
+        "Subcutaneous Tissue and Fascia"
+      ],
+      "general_device": "Stimulator Generator"
+    },
+    {
+      "specific_device": "Stimulator Generator, Single Array",
+      "operation": "Insertion",
+      "body_systems": [
+        "Subcutaneous Tissue and Fascia"
+      ],
+      "general_device": "Stimulator Generator"
+    },
+    {
+      "specific_device": "Stimulator Generator, Single Array Rechargeable",
+      "operation": "Insertion",
+      "body_systems": [
+        "Subcutaneous Tissue and Fascia"
+      ],
+      "general_device": "Stimulator Generator"
+    },
+    {
+      "specific_device": "Synthetic Substitute, Ceramic",
+      "operation": "Replacement",
+      "body_systems": [
+        "Lower Joints"
+      ],
+      "general_device": "Synthetic Substitute"
+    },
+    {
+      "specific_device": "Synthetic Substitute, Ceramic on Polyethylene",
+      "operation": "Replacement",
+      "body_systems": [
+        "Lower Joints"
+      ],
+      "general_device": "Synthetic Substitute"
+    },
+    {
+      "specific_device": "Synthetic Substitute, Intraocular Telescope",
+      "operation": "Replacement",
+      "body_systems": [
+        "Eye"
+      ],
+      "general_device": "Synthetic Substitute"
+    },
+    {
+      "specific_device": "Synthetic Substitute, Metal",
+      "operation": "Replacement",
+      "body_systems": [
+        "Lower Joints"
+      ],
+      "general_device": "Synthetic Substitute"
+    },
+    {
+      "specific_device": "Synthetic Substitute, Metal on Polyethylene",
+      "operation": "Replacement",
+      "body_systems": [
+        "Lower Joints"
+      ],
+      "general_device": "Synthetic Substitute"
+    },
+    {
+      "specific_device": "Synthetic Substitute, Oxidized Zirconium on Polyethylene",
+      "operation": "Replacement",
+      "body_systems": [
+        "Lower Joints"
+      ],
+      "general_device": "Synthetic Substitute"
+    },
+    {
+      "specific_device": "Synthetic Substitute, Polyethylene",
+      "operation": "Replacement",
+      "body_systems": [
+        "Lower Joints"
+      ],
+      "general_device": "Synthetic Substitute"
+    },
+    {
+      "specific_device": "Synthetic Substitute, Reverse Ball and Socket",
+      "operation": "Replacement",
+      "body_systems": [
+        "Upper Joints"
+      ],
+      "general_device": "Synthetic Substitute"
+    }
+  ]
+}

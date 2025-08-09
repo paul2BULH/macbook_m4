@@ -1,0 +1,252 @@
+{
+  "aneurysm_repair_coding_reference": {
+    "general_query_triggers": {
+      "root_operation": "If the primary intent or objective of the procedure is unclear, leading to ambiguity between root operations (e.g., is it truly Replacement or just Repair without replacement? Is it Occlusion or Restriction?)",
+      "approach": "If the access method (e.g., open, percutaneous, percutaneous endoscopic) is not explicitly stated or clearly implied by the documented steps",
+      "device": "If the specific type of device used (e.g., synthetic graft type, specific stent, hybrid device, allograft, autograft) is not named or sufficiently described to assign the correct device character"
+    },
+    "procedures": {
+      "open_total_aortic_arch_aneurysm_repair": {
+        "root_operation": {
+          "primary": "Replacement",
+          "supporting_documentation": "Look for phrases indicating transection of the ascending aorta/aortic arch and its replacement with a graft, and reattachment of arch vessels",
+          "alternatives": ["Other (Requires re-evaluation)"]
+        },
+        "approach": {
+          "primary": "Open",
+          "supporting_documentation": "Look for phrases indicating median sternotomy, direct visualization, and extensive dissection",
+          "alternatives": ["Other (Requires re-evaluation)"]
+        },
+        "device": {
+          "options": [
+            {
+              "type": "Synthetic Substitute",
+              "example": "woven Dacron tube graft"
+            },
+            {
+              "type": "Autologous Tissue Substitute",
+              "example": "autograft"
+            },
+            {
+              "type": "Nonautologous Tissue Substitute",
+              "example": "allograft"
+            }
+          ],
+          "supporting_documentation": "Look for explicit mention of the graft material used for replacement",
+          "alternatives": ["Other (Requires re-evaluation)"]
+        },
+        "supporting_operative_details": [
+          "Median sternotomy or other open access to the aortic arch",
+          "Use of cardiopulmonary bypass (CPB) and circulatory arrest",
+          "Transection or resection of the aortic arch (and/or ascending aorta)",
+          "Placement of a graft (e.g., Dacron tube graft) to replace the resected segment",
+          "Reattachment of the arch vessels (e.g., innominate, common carotid arteries) to the new graft (e.g., as an island)"
+        ],
+        "query_triggers": [
+          "If total aortic arch replacement objectives (replacement, reattachment) are not explicitly confirmed",
+          "If cardiopulmonary bypass (CPB) and circulatory arrest are not clearly documented",
+          "If graft material, size, or specific anastomosis technique is not noted"
+        ]
+      },
+      "av_fistula_aneurysm_repair": {
+        "root_operations": [
+          {
+            "type": "Extirpation",
+            "condition": "Based on documentation of removal of solid matter (e.g., calcified pieces) from the aneurysm lumen (endovenectomy)",
+            "supporting_details": [
+              "Aneurysmal section of the fistula opened",
+              "Removal of calcified pieces from the aneurysm lumen (endovenectomizing)"
+            ]
+          },
+          {
+            "type": "Restriction",
+            "condition": "Based on documentation of reducing the size or narrowing the lumen/flow of the fistula",
+            "supporting_details": [
+              "Excision of excess vein wall",
+              "Plication with stitches to reduce size and flow of the fistula"
+            ]
+          }
+        ],
+        "approach": {
+          "primary": "Open",
+          "supporting_documentation": "Based on documentation of skin incision and direct exposure",
+          "alternatives": ["Other (Requires re-evaluation)"]
+        },
+        "device": {
+          "primary": "No Device",
+          "supporting_documentation": "Based on documentation that no device was left in place and the fistula is not a device",
+          "alternatives": ["Other (Requires re-evaluation)"]
+        },
+        "query_triggers": [
+          "If Confirmation of removal of solid matter (Extirpation) (e.g., 'endovenectomy,' 'removed calcified pieces') is absent",
+          "If Confirmation of reduction in size or narrowing of the lumen/flow (Restriction) (e.g., 'plication,' 'excision of vein wall to reduce size') is absent",
+          "If specific techniques/materials for removal or reduction are vague"
+        ]
+      },
+      "open_aortoiliac_aneurysm_repair": {
+        "root_operations": [
+          {
+            "type": "Replacement",
+            "condition": "Based on documentation of transection of the aorta/iliac artery and replacement with a graft",
+            "supporting_details": [
+              "Aneurysm opened",
+              "Dacron bifurcation graft sewn end-to-end to the infrarenal abdominal aorta",
+              "Transection of aorta/iliac artery implied by replacement with graft"
+            ]
+          },
+          {
+            "type": "Bypass",
+            "condition": "Based on documentation of creating an alternate route of passage with a graft",
+            "supporting_details": [
+              "Right limb of the Dacron graft tunneled anatomically (e.g., beneath both ureters) down to the right groin",
+              "Graft sewn end-to-side to an arteriotomy in the common femoral artery",
+              "Creation of an alternate route of passage documented (e.g., tunneling)"
+            ]
+          }
+        ],
+        "approach": {
+          "primary": "Open",
+          "supporting_documentation": "Based on documentation of open dissection and anastomosis",
+          "alternatives": ["Other (Requires re-evaluation)"]
+        },
+        "device": {
+          "options": [
+            {
+              "type": "Synthetic Substitute",
+              "example": "Dacron bifurcation graft"
+            },
+            {
+              "type": "Autologous Tissue Substitute",
+              "example": "autograft"
+            },
+            {
+              "type": "Nonautologous Tissue Substitute",
+              "example": "allograft"
+            }
+          ],
+          "alternatives": ["Other (Requires re-evaluation)"]
+        },
+        "query_triggers": [
+          "If Confirmation of transection/cutting of the aorta/iliac artery and replacement with a graft is absent",
+          "If Confirmation of creation of an alternate route of passage (e.g., 'tunneling' of a graft limb to a more distal artery) is absent",
+          "If graft type, size, or specific anastomosis method is not detailed"
+        ]
+      },
+      "intracranial_aneurysm_embolization": {
+        "objective_determination": {
+          "description": "What is the objective of the embolization procedure for aneurysm repair?",
+          "options": [
+            {
+              "objective": "completely close a vessel",
+              "root_operation": "Occlusion",
+              "scenario_documentation": ["Tumor embolization to cut off blood supply"],
+              "example_codes": ["Occlusion of vessel (e.g., for tumor embolization)"]
+            },
+            {
+              "objective": "narrow the lumen of a vessel (at the site of the aneurysm where it is abnormally wide)",
+              "root_operation": "Restriction",
+              "scenario_documentation": ["Embolization of a cerebral aneurysm, where the objective is not to close off the vessel entirely, but to narrow the lumen"],
+              "example_codes": ["Restriction of vessel (e.g., for cerebral aneurysm embolization)"]
+            }
+          ],
+          "reference": "ICD-10-PCS Guideline B3.12: 'If the objective of an embolization procedure is to completely close a vessel, the root operation Occlusion is coded. If the objective of an embolization procedure is to narrow the lumen of a vessel, the root operation Restriction is coded. Examples: Tumor embolization is coded to the root operation Occlusion, because the objective of the procedure is to cut off the blood supply to the vessel. Embolization of a cerebral aneurysm is coded to the root operation Restriction, because the objective of the procedure is not to close off the vessel entirely, but to narrow the lumen of the vessel at the site of the aneurysm where it is abnormally wide.'"
+        },
+        "approach": {
+          "primary": "Percutaneous",
+          "supporting_documentation": "Based on documentation of microcatheter deployment",
+          "alternatives": ["Other (Requires re-evaluation)"]
+        },
+        "device": {
+          "primary": "Intraluminal Device",
+          "examples": ["Pipeline shield device", "flow diverter"],
+          "alternatives": ["Other (Requires re-evaluation)"]
+        },
+        "body_part_identification": {
+          "question": "When embolizing a dissecting aneurysm in the intracranial segment (V4) of the vertebral artery, which body part is most appropriate?",
+          "options": [
+            "Intracranial artery",
+            "Left vertebral artery"
+          ],
+          "rationale": "'Intracranial artery' more accurately captures the intracranial nature of the surgery for the V4 segment of the vertebral artery, as per the ICD-10-PCS body part key"
+        },
+        "supporting_operative_details": [
+          "Microcatheter deployed into the vertebral artery",
+          "Pipeline shield devices (or other flow diverter) deployed",
+          "Follow-up angiogram showed adequate coverage and increased stasis within the lumen of the dissecting aneurysm"
+        ],
+        "query_triggers": [
+          "If Objective (narrow lumen vs. complete closure) not clearly documented",
+          "If Specific device type (e.g., flow diverter) not clearly named",
+          "If Post-procedure imaging confirming intended outcome (stasis/coverage) absent or unclear"
+        ]
+      },
+      "complex_thoracic_aorta_repair_hybrid_devices": {
+        "root_operations": [
+          {
+            "type": "Replacement",
+            "condition": "Based on documentation of the hybrid device replacing the ascending aorta/aortic arch",
+            "supporting_details": [
+              "Open aortic arch access obtained (implied by procedure description)",
+              "Thoraflex™ Hybrid Device deployed through the open aortic arch",
+              "Device collar sutured to the aorta",
+              "Graft anastomoses performed (e.g., multi-branch design, island technique reattachment)"
+            ]
+          },
+          {
+            "type": "Restriction",
+            "condition": "Based on documentation of the hybrid device stabilizing/repairing (restricting) the descending thoracic aorta",
+            "supporting_details": [
+              "Documentation confirms the device's dual purpose: replacement of ascending aorta/aortic arch AND stabilization/repair of descending thoracic aorta in a single procedure",
+              "Device includes a distal stent (as part of the hybrid device)"
+            ]
+          }
+        ],
+        "approach": {
+          "primary": "Open",
+          "supporting_documentation": "Based on documentation of open aortic arch access",
+          "alternatives": ["Other (Requires re-evaluation)"]
+        },
+        "device": {
+          "primary": "Branched Synthetic Substitute with Intraluminal Device",
+          "example": "Thoraflex™ Hybrid Device",
+          "alternatives": ["Other (Requires re-evaluation)"]
+        },
+        "query_triggers": [
+          "If Confirmation of hybrid device use for both replacement of the arch and restriction/stabilization of the descending aorta in a single stage is absent",
+          "If Specific device details (e.g., Thoraflex type, components like distal stent) are vague",
+          "If Explicit mention of both replacement and restriction/stabilization objectives is absent"
+        ]
+      },
+      "endoleak_repair_post_evar": {
+        "root_operation": {
+          "primary": "Revision",
+          "supporting_documentation": "Based on documentation of correcting a malfunctioning or displaced previously placed intraluminal device/graft",
+          "alternatives": ["Other (Requires re-evaluation)"]
+        },
+        "approach": {
+          "primary": "Percutaneous",
+          "supporting_documentation": "Based on documentation of femoral access and guidewire placement",
+          "alternatives": ["Other (Requires re-evaluation)"]
+        },
+        "device": {
+          "primary": "Intraluminal Device",
+          "examples": ["Gore® Viabahn® stent graft", "Medtronic stent graft"],
+          "alternatives": ["Other (Requires re-evaluation)"]
+        },
+        "supporting_operative_details": [
+          "Guided bilateral femoral access obtained",
+          "Placement of stent-graft extensions or new stent-grafts (e.g., Gore® Viabahn® stent graft, Medtronic stent graft) to treat the endoleak",
+          "Balloon inflation performed to deploy the graft",
+          "Imaging showed resolution of the endoleak",
+          "Documentation indicates patient presented with enlargement of aneurysmal sac due to endoleak (e.g., Type Ib, Type IV)"
+        ],
+        "query_triggers": [
+          "If Confirmation of endoleak as the reason for the procedure and intent to revise a prior device is absent",
+          "If Specific intervention/graft placement details (e.g., type/size of stent-graft, exact location/extension) are unclear",
+          "If Confirmation of endoleak resolution post-procedure is absent or unclear",
+          "If Specific type of endoleak (e.g., Type Ib, Type IV) is not clearly identified"
+        ]
+      }
+    }
+  }
+}
