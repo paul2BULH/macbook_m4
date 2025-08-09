@@ -1,7 +1,6 @@
 import os, sys, io, re, json
 import streamlit as st
 
-# Prefer secrets for API key, then env
 if "GEMINI_API_KEY" in st.secrets:
     os.environ["GEMINI_API_KEY"] = st.secrets["GEMINI_API_KEY"]
 
@@ -43,8 +42,7 @@ with st.sidebar:
         st.caption(p)
 
 def extract_text(file) -> str:
-    data = file.read()
-    name = file.name.lower()
+    data = file.read(); name = file.name.lower()
     if name.endswith((".txt",".md")):
         try: return data.decode("utf-8", errors="ignore")
         except Exception: return data.decode("latin-1", errors="ignore")
@@ -53,17 +51,20 @@ def extract_text(file) -> str:
             import PyPDF2
             reader = PyPDF2.PdfReader(io.BytesIO(data))
             return "\n".join([(p.extract_text() or "") for p in reader.pages])
-        except Exception as e:
+        except Exception:
             st.error("PDF extract failed. Try .txt/.md or ensure PyPDF2 is installed."); return ""
     try: return data.decode("utf-8", errors="ignore")
     except Exception: return ""
 
+
 def auto_facts(text: str) -> dict:
-    t = text.lower()
+    t = (text or "").lower()
     flags = []
     if "biopsy" in t: flags.append("biopsy")
     if "drain left in place" in t or "jp drain" in t: flags.append("drain left in place")
     if "removed at end" in t or "no device left" in t: flags.append("removed at end")
+
+    # Approach
     approach = None
     for rx, label in [
         (r"\bpercutaneous endoscopic\b", "Percutaneous Endoscopic"),
@@ -75,13 +76,43 @@ def auto_facts(text: str) -> dict:
         (r"\bexternal\b", "External"),
     ]:
         if re.search(rx, t): approach = label; break
-    device = "No Device" if ("no device left" in t or "removed at end" in t) else ( "Stent" if ("stent" in t or "implant" in t or "catheter" in t) else None )
+
+    # Device
+    device = None
+    if "no device left" in t or "removed at end" in t:
+        device = "No Device"
+    elif "stent" in t or "implant" in t or "catheter" in t:
+        device = "Stent"
+
+    # Strong terms
+    strong_terms = [
+        ("excisional debridement", "debridement"),
+        ("irrigation and debridement", "debridement"),
+        ("incision & drainage", "incision and drainage"),
+        ("incision and drainage", "incision and drainage"),
+        ("i & d", "incision and drainage"),
+        ("biopsy", "biopsy"),
+        ("excision", "excision"),
+        ("resection", "resection"),
+        ("debridement", "debridement"),
+    ]
     query = None
-    for org in ["liver","kidney","heart","lung","stomach","intestine","colon","brain","spinal cord","femur","radius","ulna","humerus","pancreas","gallbladder","toe","hallux"]:
-        if org in t: query = org; break
+    for needle, q in strong_terms:
+        if needle in t:
+            query = q; break
+
+    anatomy_terms = []
+    for organ in ["groin","thigh","skin","subcutaneous","soft tissue","arm","leg","hand","foot","abdomen","chest","back"]:
+        if organ in t: anatomy_terms.append(organ)
+
     if not query:
-        m = re.search(r"\b([a-z]{5,})\b", t); query = m.group(1) if m else "procedure"
-    return {"raw_text_flags": flags, "approach_name": approach, "device_name": device, "index_query": query}
+        m = re.search(r"\b([a-z]{5,})\b", t)
+        query = m.group(1) if m else "procedure"
+
+    return {"raw_text_flags": flags, "approach_name": approach, "device_name": device,
+            "index_query": query, "anatomy_terms": anatomy_terms}
+
+
 
 st.markdown("### Upload Procedure Note (.pdf, .md, .txt)")
 uploaded = st.file_uploader("Upload", type=["pdf","md","txt"])
@@ -89,9 +120,7 @@ uploaded = st.file_uploader("Upload", type=["pdf","md","txt"])
 st.markdown("### Checklist (Auto-Detect)")
 use_ai = st.checkbox("Auto-select checklist (AI)", value=True)
 
-facts = {}
-text_preview = ""
-constraints = {}
+facts = {}; text_preview = ""; constraints = {}
 
 if uploaded:
     text_preview = extract_text(uploaded)
@@ -100,8 +129,8 @@ if uploaded:
         with st.expander("Extracted Text (preview)"):
             st.text(text_preview[:4000])
         st.success(f"Auto facts: {facts}")
-
         selected_checklist = ""
+        from ai_checklist import detect_checklist, CHECKLISTS
         label, conf, dist = detect_checklist(text_preview) if use_ai else ("", 0.0, {})
         if use_ai and label:
             selected_checklist = label
@@ -112,8 +141,8 @@ if uploaded:
             titles = {k: CHECKLISTS[k]['title'] for k in options}
             pick = st.radio("Select checklist", options=options, format_func=lambda k: f"{titles[k]} ({dist[k]:.2f})")
             selected_checklist = pick
-
         if selected_checklist:
+            from checklist_loader import load_constraints
             constraints = load_constraints(selected_checklist)
             st.caption(f"Checklist constraints loaded: {selected_checklist}")
 
@@ -125,7 +154,13 @@ with c2:
     device_in = st.text_input("Device", value=(facts.get("device_name") or ""))
 with c3:
     flags_in = st.text_input("Flags", value=", ".join(facts.get("raw_text_flags", [])))
-query_in = st.text_input("Index Term", value=facts.get("index_query",""))
+query_default = facts.get("index_query","")
+# If AI picked a checklist and the query looks generic, steer to checklist title
+if constraints and (query_default in ("procedure","operative","operation","surgery")):
+    # Use a label that will resolve in index
+    if "debridement" in (constraints.get("root_op_priority") or []) or True:
+        query_default = "debridement"
+query_in = st.text_input("Index Term", value=query_default)
 
 if st.button("Analyze & Propose PCS Codes", type="primary"):
     if not text_preview:
@@ -142,7 +177,6 @@ if st.button("Analyze & Propose PCS Codes", type="primary"):
         }
         nav = st.session_state['nav']
         res = nav.propose_codes(query, full_facts, limit=50)
-
         st.caption(f"Prefixes considered: {', '.join(res.get('prefixes_considered', []))}")
         cands = res.get("candidates", [])
         if not cands:
@@ -159,7 +193,6 @@ if st.button("Analyze & Propose PCS Codes", type="primary"):
                 "Rationale": " | ".join(c["rationale"]),
             } for c in cands]
             st.dataframe(pd.DataFrame(rows), use_container_width=True)
-
         with st.expander("Guideline Effects"):
             st.json({"mutations": res.get("mutations", []), "actions": res.get("actions", [])})
 else:
