@@ -7,12 +7,14 @@ if "GEMINI_API_KEY" in st.secrets:
 APP_DIR = os.path.dirname(__file__)
 MOD_DIR = os.path.join(APP_DIR, "modules")
 DATA_DIR = os.path.join(os.path.dirname(APP_DIR), "data")
+BODY_SYS_JSON = os.path.join(DATA_DIR, "medical_surgical_body_systems_2025.json")
 if MOD_DIR not in sys.path:
     sys.path.append(MOD_DIR)
 
 from rules_registry import init as defs_init
 from rules_engine import RulesEngine
 from guided_navigator import GuidedNavigator
+from body_system_loader import load_body_systems_section0
 from ai_checklist import detect_checklist, CHECKLISTS
 from checklist_loader import load_constraints
 
