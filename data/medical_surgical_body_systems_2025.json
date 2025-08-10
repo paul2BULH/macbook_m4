@@ -1,0 +1,164 @@
+{
+  "section": "0",
+  "section_name": "Medical and Surgical",
+  "axis": "Body System (2nd character)",
+  "allowed_chars_in_section": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "B",
+    "C",
+    "D",
+    "F",
+    "G",
+    "H",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y"
+  ],
+  "body_system_map": {
+    "0": {
+      "code": "00",
+      "name": "Central Nervous System and Cranial Nerves"
+    },
+    "1": {
+      "code": "01",
+      "name": "Peripheral Nervous System"
+    },
+    "2": {
+      "code": "02",
+      "name": "Heart and Great Vessels"
+    },
+    "3": {
+      "code": "03",
+      "name": "Upper Arteries"
+    },
+    "4": {
+      "code": "04",
+      "name": "Lower Arteries"
+    },
+    "5": {
+      "code": "05",
+      "name": "Upper Veins"
+    },
+    "6": {
+      "code": "06",
+      "name": "Lower Veins"
+    },
+    "7": {
+      "code": "07",
+      "name": "Lymphatic and Hemic Systems"
+    },
+    "8": {
+      "code": "08",
+      "name": "Eye"
+    },
+    "9": {
+      "code": "09",
+      "name": "Ear, Nose, Sinus"
+    },
+    "B": {
+      "code": "0B",
+      "name": "Respiratory System"
+    },
+    "C": {
+      "code": "0C",
+      "name": "Mouth and Throat"
+    },
+    "D": {
+      "code": "0D",
+      "name": "Gastrointestinal System"
+    },
+    "F": {
+      "code": "0F",
+      "name": "Hepatobiliary System and Pancreas"
+    },
+    "G": {
+      "code": "0G",
+      "name": "Endocrine System"
+    },
+    "H": {
+      "code": "0H",
+      "name": "Skin and Breast"
+    },
+    "J": {
+      "code": "0J",
+      "name": "Subcutaneous Tissue and Fascia"
+    },
+    "K": {
+      "code": "0K",
+      "name": "Muscles"
+    },
+    "L": {
+      "code": "0L",
+      "name": "Tendons"
+    },
+    "M": {
+      "code": "0M",
+      "name": "Bursae and Ligaments"
+    },
+    "N": {
+      "code": "0N",
+      "name": "Head and Facial Bones"
+    },
+    "P": {
+      "code": "0P",
+      "name": "Upper Bones"
+    },
+    "Q": {
+      "code": "0Q",
+      "name": "Lower Bones"
+    },
+    "R": {
+      "code": "0R",
+      "name": "Upper Joints"
+    },
+    "S": {
+      "code": "0S",
+      "name": "Lower Joints"
+    },
+    "T": {
+      "code": "0T",
+      "name": "Urinary System"
+    },
+    "U": {
+      "code": "0U",
+      "name": "Female Reproductive System"
+    },
+    "V": {
+      "code": "0V",
+      "name": "Male Reproductive System"
+    },
+    "W": {
+      "code": "0W",
+      "name": "Anatomical Regions, General"
+    },
+    "X": {
+      "code": "0X",
+      "name": "Anatomical Regions, Upper Extremities"
+    },
+    "Y": {
+      "code": "0Y",
+      "name": "Anatomical Regions, Lower Extremities"
+    }
+  }
+}
